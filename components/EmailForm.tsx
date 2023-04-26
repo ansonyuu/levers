@@ -1,9 +1,7 @@
-import { ReactNode, useState } from "react";
-import SEO from "./SEO";
+import { useState } from "react";
+
 import FieldInput from "./FieldInput";
 import Image from "next/image";
-
-import Grid from "./Grid";
 
 const EmailForm = () => {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
@@ -20,11 +18,6 @@ const EmailForm = () => {
               Subscribe to our newsletter to stay in the loop.
             </p>
             <div className="flex flex-col lg:flex-row lg:items-end">
-              <h6 className="text-white  lg:w-1/2  uppercase mb-3 content-start">
-                <a href="https://parpa.substack.com">
-                  Subscribe to our newsletter
-                </a>
-              </h6>
               {/*
               {isSubmitted ? (
                 <p>Thanks for signing up!</p>

@@ -1,6 +1,3 @@
-import { ReactNode } from "react";
-import Image from "next/image";
-
 export default function Letter() {
   return (
     <div className="flex flex-row p-20 pl-80 border-t-4 w-full relative ">
