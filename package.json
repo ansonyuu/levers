@@ -1,0 +1,50 @@
+{
+  "name": "levers",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@headlessui/react": "^1.4.3",
+    "@material-tailwind/react": "^1.2.4",
+    "@next/font": "^13.0.2",
+    "date-fns": "^2.28.0",
+    "emailjs-com": "^3.2.0",
+    "gray-matter": "^4.0.3",
+    "install": "^0.13.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-image-caption": "^1.0.0",
+    "markdown-it-sidenote": "^4.1.0",
+    "markdown-it-table-of-contents": "^0.6.0",
+    "next": "13.2.0",
+    "next-seo": "^5.1.0",
+    "npm": "^9.5.1",
+    "patch-package": "^6.5.1",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-faq-component": "^1.3.4",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0",
+    "react-router-dom": "^6.10.0",
+    "sass": "^1.57.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
+    "@types/gtag.js": "^0.0.8",
+    "@types/node": "18.11.9",
+    "@types/react": "^17.0.38",
+    "autoprefixer": "^10.4.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^3.0.15"
+  }
+}
