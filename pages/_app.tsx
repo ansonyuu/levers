@@ -130,7 +130,7 @@ const Footer = () => (
 //                 ? "/logo-white.svg"
 //                 : "/logo.svg"
 //             }
-//             alt="Speculative Technologies logo"
+
 //             className="h-11 z-30 relative"
 //           />
 //         </Link>
@@ -182,7 +182,7 @@ const Footer = () => (
 //                 ? "/logo-white.svg"
 //                 : "/logo.svg"
 //             }
-//             alt="Speculative Technologies logo"
+
 //             className="h-10 z-30 relative"
 //           />
 //         </Link>

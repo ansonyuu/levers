@@ -11,15 +11,7 @@ export default function SEO({
   imgUrl?: string;
   noSuffix?: boolean;
 }) {
-  const fullTitle = `${title}${noSuffix ? "" : " | Speculative Technologies"}`;
+  const fullTitle = `${title}${noSuffix ? "" : " | Levers For Progress"}`;
 
-  return (
-    <NextSeo
-      title={fullTitle}
-      description={
-        description ||
-        "Speculative technologies is a nonprofit research organization that runs coordinated research programs to unlock big-if-true technologies that are too speculative to be a startup but are too coordination- or engineering-heavy for academia alone."
-      }
-    />
-  );
+  return <NextSeo title={fullTitle} description={description || "TODO"} />;
 }

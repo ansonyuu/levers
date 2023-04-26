@@ -28,9 +28,6 @@ export default function Home({ levers }: any) {
   const handleClick = (lever) => {
     setSelectedLever(lever);
   };
-  // console.log(md);
-
-  // console.log(typeof levers[0].content);
 
   return (
     <>
@@ -102,9 +99,6 @@ export async function getStaticProps() {
   files.map((file) => {
     const titlePost = fs.readFileSync(`levers/${file}`, "utf-8");
     const { data: postData, content } = matter(titlePost);
-    const href = file.replace(".md", "");
-
-    console.log(typeof content);
 
     levers.push({
       title: postData.title,
