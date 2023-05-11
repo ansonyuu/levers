@@ -5,7 +5,7 @@ import "../styles/globals.css";
 
 const Footer = () => (
   <div className="w-full">
-    <div className="py-4  px-10 flex flex-row text-xs justify-between">
+    <div className="h-[4vh] px-10 flex flex-row text-xs items-center justify-between">
       <div className="">© {new Date().getFullYear()} Levers for Progress</div>
       <div className="text-right">
         Created by <a href="https://ansonyu.me/">Anson Yu</a> and{" "}

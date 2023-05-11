@@ -114,6 +114,10 @@ html {
   min-width: 100vw;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -305,13 +309,6 @@ blockquote:after {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
-
-.table-of-contents {
-  background: #f3f3f3;
-  padding: 2rem;
-  border-radius: 3px;
-  left: 0;
 }
 
 @media (min-width: 768px) {

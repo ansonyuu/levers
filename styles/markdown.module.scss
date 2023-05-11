@@ -1,0 +1,112 @@
+.markdown {
+  * {
+    margin-top: 1rem;
+  }
+
+  & > * {
+    margin-bottom: 1rem;
+  }
+
+  & h2 {
+    font-family: "Untitled Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  & p,
+  & li {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    line-height: 160%;
+    color: #202020;
+    margin-bottom: 1rem;
+  }
+
+  & li {
+    position: static;
+  }
+
+  & strong {
+    font-weight: 700;
+  }
+
+  & blockquote p {
+    color: #685275;
+  }
+
+  & img {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  ul > li {
+    list-style: disc;
+    padding-left: 0rem;
+    margin-left: 1.5rem;
+  }
+
+  ol > li {
+    list-style: numbers;
+    padding-left: 0rem;
+    margin-left: 1.5rem;
+  }
+
+  ol > li:first-child {
+    margin-top: 0.75rem;
+  }
+
+  ol > li > ol > li {
+    list-style: upper-alpha;
+    padding-left: 0rem;
+    margin-left: 3rem;
+  }
+  ol > ol > li {
+    list-style: lower-alpha;
+    padding-left: 0rem;
+    margin-left: 3rem;
+  }
+
+  li:before {
+    content: "";
+  }
+
+  label a[href^="#"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  label p {
+    margin-bottom: 0;
+  }
+  aside a[href^="#"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  & aside {
+    font-size: 12px;
+    border-left: #685275 1px solid;
+    padding-left: 1rem;
+    display: inline-block;
+  }
+
+  @media (min-width: 1280px) {
+    .markdown {
+      & aside {
+        transform: translate(245%, -125%);
+        position: absolute;
+        width: 20%;
+        border-left: #685275 1px solid;
+        padding-left: 1rem;
+      }
+
+      & aside p {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

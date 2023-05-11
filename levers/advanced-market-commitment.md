@@ -1,10 +1,10 @@
 ---
 title: Advanced Market Commitments
-oneliner: "Binding contracts to purchase products at certain criteria"
+oneliner: "Binding contracts to purchase products"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Course correction, Catalytic]
+stage: [Correction, Catalytic]
 ---
 
 ## About the co-author

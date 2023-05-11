@@ -15,6 +15,7 @@
     "@next/font": "^13.0.2",
     "date-fns": "^2.28.0",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^10.12.9",
     "gray-matter": "^4.0.3",
     "install": "^0.13.0",
     "markdown-it": "^13.0.1",
@@ -36,6 +37,7 @@
     "react-markdown": "^8.0.0",
     "react-router-dom": "^6.10.0",
     "sass": "^1.57.1",
+    "scss": "^0.2.4",
     "typescript": "^4.5.5"
   },
   "devDependencies": {
