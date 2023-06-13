@@ -10,10 +10,10 @@ import markdown from "markdown-it";
 
 import Filter from "../components/Filter";
 import Tags from "../components/Tags";
-import { select } from "@material-tailwind/react";
 
 export default function Home({ levers }: any) {
   const [selectedLever, setSelectedLever] = useState(levers[0]);
+  const [selectedStage, setSelectedStage] = useState(levers[0]);
   const router = useRouter();
   const md = markdown({ html: true });
 
@@ -58,7 +58,7 @@ export default function Home({ levers }: any) {
                 return (
                   <div
                     key={i}
-                    className="border-b-[0.5px] border-b-black px-5 md:px-8 flex flex-col"
+                    className="border-b-[0.5px] border-b-black px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer"
                   >
                     <div
                       onClick={() => handleClick(lever)}

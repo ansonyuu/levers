@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const navList = [
   { name: "About", link: "/#about" },
-  { name: "Content", link: "/#content" },
-  { name: "Credits", link: "/#credits" },
+  { name: "Collection", link: "/collection" },
+  { name: "Credits", link: "/credits" },
   { name: "Contribute", link: "/#contribute" }
 ];
 

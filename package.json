@@ -15,6 +15,7 @@
     "@next/font": "^13.0.2",
     "date-fns": "^2.28.0",
     "emailjs-com": "^3.2.0",
+    "flexsearch": "^0.7.31",
     "framer-motion": "^10.12.9",
     "gray-matter": "^4.0.3",
     "install": "^0.13.0",
