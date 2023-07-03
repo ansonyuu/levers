@@ -198,109 +198,108 @@ export default function Letter() {
             <img src="https://lh3.googleusercontent.com/QTAf9K-C3ISrXteKUNaWcbR4iAD10rerzMg6A3gRdR346DqT0yV8z7AcLwOeO2R6j3I5iV8pWEiKPQQTXk_UmzEy73nSFnSbBZtYyY6Mqk0BvkA2S_iPx4L87s90R2Xky7mqSjXHlrApxPk2ynzr1MY" />
           </a>
         </figure>
-        <Text>
-          <p className="">
-            Cultural narratives about technology took a darker turn in the 1960s
-            and 70s. Left-wing humanists{" "}
-            <a href="https://www.bostonreview.net/articles/andrew-jewett-science-under-fire/#:~:text=increasingly%20argued%20that%20science%E2%80%99s%20cultural%20influence%20buttressed%20social%20inequalities%2C%20keeping%20favored%20groups%20in%20power%20and%20others%20down">
-              argued
-            </a>{" "}
-            that science’s “cultural influence buttressed social inequalities,
-            keeping favored groups in power and others down.” The emerging
-            Christian Right{" "}
-            <a href="https://www.bostonreview.net/articles/andrew-jewett-science-under-fire/#:~:text=Christian%20Right%20focused%20on%20the%201960s.%20Proponents%20of%20each%20narrative%20have%20discerned%20a%20pervasive%20sense%20of%20moral%20aimlessness%20that%20they%20often%20linked%20to%20the%20cultural%20influence%20of%20science.">
-              saw
-            </a>{" "}
-            technology threatening traditional virtues and ways of living. These
-            overlapping revolts gradually dismantled technological ambition from
-            politics, of science from the state.
-          </p>
-          <p className="">
-            The final nail in the coffin came with the end of the Cold War.
-            Without a geopolitical rival, R&amp;D was recast from a positive-sum
-            priority for external security to a zero-sum competition for
-            domestic appropriations. In response to the 1993{" "}
-            <a href="https://archive.is/NzbSU#selection-1719.0-1719.161">
-              termination
-            </a>{" "}
-            of the Superconducting Super Collider after Congress already
-            invested $2 billion, Nobel Laureate Steven Weinberg stated:
-          </p>
-          <p className="">
-            <em>
-              “Spending for the SSC had become a target for a new class of
-              Congressmen elected in 1992. They were eager to show that they
-              could cut what they saw as Texas pork, and they didn’t feel that
-              much was at stake. The Cold War was over, and discoveries at the
-              SSC were not going to produce anything of immediate practical
-              importance.
-            </em>
-          </p>
-          <p className="">
-            <em>
-              What motivates legislators is the immediate economic interests of
-              their constituents. Big laboratories bring jobs and money into
-              their neighborhood, so they attract the active support of
-              legislators from that state, and apathy or hostility from many
-              other members of Congress.
-            </em>
-          </p>
-          <p className="">
-            <em>
-              The Clinton administration decided that it could only support one
-              large technological project in Texas, and it chose the Space
-              Station. The Space Station had the great advantage that it cost
-              about ten times more than the SSC, so that NASA could spread
-              contracts for its development over many states.{" "}
-            </em>
-            <em>
-              <strong>
-                Perhaps if the SSC had cost more, it would not have been
-                canceled.
-              </strong>
-            </em>
-            <em>”</em>
-          </p>
-        </Text>
-        <div>
-          <figure className="image">
-            <a href="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8">
-              <img src="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8" />
-            </a>
-          </figure>
-        </div>
-        <Text>
-          <p className="">
-            <a href="https://particle.physics.ucdavis.edu/john/">
-              <em>Source</em>
-            </a>
-            <em>: The SSC tunnel one year before it was canceled</em>
-          </p>
-          <p className="">
-            Instead, the world’s flagship particle accelerator was built in
-            Europe. Research fell out of fashion as a federal priority.
-            Following Milton’s neoliberal doctrine, the government increasingly
-            ceded technological inventions (and their supply chains) to the
-            private sector and global markets. As a Bush I economics advisor
-            famously{" "}
-            <a href="https://americancompass.org/potato-chips-computer-chips-yes-there-is-a-difference/">
-              quipped
-            </a>
-            , &quot;computer chips, potato chips, what’s the difference?&quot;
-          </p>
-        </Text>
-        <div>
-          <figure className="image">
-            <a href="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA">
-              <img src="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA" />
-            </a>
-          </figure>
-          <figure className="image">
-            <a href="https://lh4.googleusercontent.com/W6d5hkYA6gIfay8cwdlkP8_ZNhB6VLJa7XaTVC3ALbIFwODcHqXCAI1qaMtl3gqbgcztwGflZqh602IGue2joE2DFEQjDF6owjjtlKrneZhCFTlZ3ECHx_hMpzrFzL30HcDbW9cPUREG2s5PLN6VtOs">
-              <img src="https://lh4.googleusercontent.com/W6d5hkYA6gIfay8cwdlkP8_ZNhB6VLJa7XaTVC3ALbIFwODcHqXCAI1qaMtl3gqbgcztwGflZqh602IGue2joE2DFEQjDF6owjjtlKrneZhCFTlZ3ECHx_hMpzrFzL30HcDbW9cPUREG2s5PLN6VtOs" />
-            </a>
-          </figure>
-        </div>
+      </div>
+      <Text>
+        <p className="">
+          Cultural narratives about technology took a darker turn in the 1960s
+          and 70s. Left-wing humanists{" "}
+          <a href="https://www.bostonreview.net/articles/andrew-jewett-science-under-fire/#:~:text=increasingly%20argued%20that%20science%E2%80%99s%20cultural%20influence%20buttressed%20social%20inequalities%2C%20keeping%20favored%20groups%20in%20power%20and%20others%20down">
+            argued
+          </a>{" "}
+          that science’s “cultural influence buttressed social inequalities,
+          keeping favored groups in power and others down.” The emerging
+          Christian Right{" "}
+          <a href="https://www.bostonreview.net/articles/andrew-jewett-science-under-fire/#:~:text=Christian%20Right%20focused%20on%20the%201960s.%20Proponents%20of%20each%20narrative%20have%20discerned%20a%20pervasive%20sense%20of%20moral%20aimlessness%20that%20they%20often%20linked%20to%20the%20cultural%20influence%20of%20science.">
+            saw
+          </a>{" "}
+          technology threatening traditional virtues and ways of living. These
+          overlapping revolts gradually dismantled technological ambition from
+          politics, of science from the state.
+        </p>
+        <p className="">
+          The final nail in the coffin came with the end of the Cold War.
+          Without a geopolitical rival, R&amp;D was recast from a positive-sum
+          priority for external security to a zero-sum competition for domestic
+          appropriations. In response to the 1993{" "}
+          <a href="https://archive.is/NzbSU#selection-1719.0-1719.161">
+            termination
+          </a>{" "}
+          of the Superconducting Super Collider after Congress already invested
+          $2 billion, Nobel Laureate Steven Weinberg stated:
+        </p>
+        <p className="">
+          <em>
+            “Spending for the SSC had become a target for a new class of
+            Congressmen elected in 1992. They were eager to show that they could
+            cut what they saw as Texas pork, and they didn’t feel that much was
+            at stake. The Cold War was over, and discoveries at the SSC were not
+            going to produce anything of immediate practical importance.
+          </em>
+        </p>
+        <p className="">
+          <em>
+            What motivates legislators is the immediate economic interests of
+            their constituents. Big laboratories bring jobs and money into their
+            neighborhood, so they attract the active support of legislators from
+            that state, and apathy or hostility from many other members of
+            Congress.
+          </em>
+        </p>
+        <p className="">
+          <em>
+            The Clinton administration decided that it could only support one
+            large technological project in Texas, and it chose the Space
+            Station. The Space Station had the great advantage that it cost
+            about ten times more than the SSC, so that NASA could spread
+            contracts for its development over many states.{" "}
+          </em>
+          <em>
+            <strong>
+              Perhaps if the SSC had cost more, it would not have been canceled.
+            </strong>
+          </em>
+          <em>”</em>
+        </p>
+      </Text>
+      <div>
+        <figure className="image">
+          <a href="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8">
+            <img src="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8" />
+          </a>
+        </figure>
+      </div>
+      <Text>
+        <p className="">
+          <a href="https://particle.physics.ucdavis.edu/john/">
+            <em>Source</em>
+          </a>
+          <em>: The SSC tunnel one year before it was canceled</em>
+        </p>
+        <p className="">
+          Instead, the world’s flagship particle accelerator was built in
+          Europe. Research fell out of fashion as a federal priority. Following
+          Milton’s neoliberal doctrine, the government increasingly ceded
+          technological inventions (and their supply chains) to the private
+          sector and global markets. As a Bush I economics advisor famously{" "}
+          <a href="https://americancompass.org/potato-chips-computer-chips-yes-there-is-a-difference/">
+            quipped
+          </a>
+          , &quot;computer chips, potato chips, what’s the difference?&quot;
+        </p>
+      </Text>
+      <div>
+        <figure className="image">
+          <a href="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA">
+            <img src="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA" />
+          </a>
+        </figure>
+        <figure className="image">
+          <a href="https://lh4.googleusercontent.com/W6d5hkYA6gIfay8cwdlkP8_ZNhB6VLJa7XaTVC3ALbIFwODcHqXCAI1qaMtl3gqbgcztwGflZqh602IGue2joE2DFEQjDF6owjjtlKrneZhCFTlZ3ECHx_hMpzrFzL30HcDbW9cPUREG2s5PLN6VtOs">
+            <img src="https://lh4.googleusercontent.com/W6d5hkYA6gIfay8cwdlkP8_ZNhB6VLJa7XaTVC3ALbIFwODcHqXCAI1qaMtl3gqbgcztwGflZqh602IGue2joE2DFEQjDF6owjjtlKrneZhCFTlZ3ECHx_hMpzrFzL30HcDbW9cPUREG2s5PLN6VtOs" />
+          </a>
+        </figure>
+      </div>
+      <Text>
         <h3 className="">
           <strong>The Roots of Revival</strong>
         </h3>
@@ -328,21 +327,23 @@ export default function Letter() {
           </a>{" "}
           investments.
         </p>
-        <figure className="image">
-          <a href="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8">
-            <img src="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8" />
-          </a>
-        </figure>
-        <figure className="image">
-          <a href="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo">
-            <img src="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo" />
-          </a>
-        </figure>
-        <figure className="image">
-          <a href="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw">
-            <img src="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw" />
-          </a>
-        </figure>
+      </Text>
+      <figure className="image">
+        <a href="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8">
+          <img src="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8" />
+        </a>
+      </figure>
+      <figure className="image">
+        <a href="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo">
+          <img src="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo" />
+        </a>
+      </figure>
+      <figure className="image">
+        <a href="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw">
+          <img src="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw" />
+        </a>
+      </figure>
+      <Text>
         <p className="">
           This ethos to build and innovate is present in economic philosophies
           emerging across the political spectrum. On the left,{" "}
@@ -446,15 +447,13 @@ export default function Letter() {
             leadership in dual-use technologies critical to safeguarding
             economic and national security interests
           </li>
-        </ul>
-        <ul className="bulleted-list">
+
           <li>
             <strong>Rising costs of core social goods </strong>such as
             healthcare, higher education, and housing are becoming prohibitive
             for middle and lower classes
           </li>
-        </ul>
-        <ul className="bulleted-list">
+
           <li>
             <strong>Decades of offshoring manufacturing </strong>have produced
             supply chain vulnerabilities, workforce dislocation, and loss of{" "}
@@ -462,8 +461,7 @@ export default function Letter() {
               know-how
             </a>
           </li>
-        </ul>
-        <ul className="bulleted-list">
+
           <li>
             <strong>Global challenges demanding R&amp;D at scale </strong>
             are becoming more prevalent. Covid highlighted the life-saving
@@ -477,11 +475,15 @@ export default function Letter() {
           </li>
         </ul>
         <p className=""></p>
+      </Text>
+      <div>
         <figure className="image">
           <a href="https://lh3.googleusercontent.com/1RXsdyvYPgOV1-sKsfde7f9UjZg_s0pi5OSFdJ7y3yeektJa4SonIPbSW-MFes5Zh_5eODz7WbEj-d28so6at8D88fNYaZjcwT8YflW47S7V1eIvP3SGlWlzfl6yT1ed_NCf8kkKTcIx9DnpEawC3v0">
             <img src="https://lh3.googleusercontent.com/1RXsdyvYPgOV1-sKsfde7f9UjZg_s0pi5OSFdJ7y3yeektJa4SonIPbSW-MFes5Zh_5eODz7WbEj-d28so6at8D88fNYaZjcwT8YflW47S7V1eIvP3SGlWlzfl6yT1ed_NCf8kkKTcIx9DnpEawC3v0" />
           </a>
         </figure>
+      </div>
+      <Text>
         <p className="">
           Of course, material innovation is not the best or only way to solve
           these problems. The easiest solution to reduce housing costs requires
@@ -551,15 +553,18 @@ export default function Letter() {
           <em>&quot;Where there is no vision, the people perish.&quot; —</em>{" "}
           Proverbs 29:18.
         </p>
+      </Text>
+      <div>
         <figure className="image">
           <a href="https://lh6.googleusercontent.com/luQg7aRqoW8GIHBjsFXypohADi0CqBcaOPdXMZNT2LX6ovLQXo0mcM1vBElFQbXv1gK91h7IVLtajSK5fTISsbb16RbWIEOAmhNY2oDIX3WOfvYTSDgBQSsmtCja4sxCSvAkcnBbG6VD4ayiGBoqUGc">
             <img src="https://lh6.googleusercontent.com/luQg7aRqoW8GIHBjsFXypohADi0CqBcaOPdXMZNT2LX6ovLQXo0mcM1vBElFQbXv1gK91h7IVLtajSK5fTISsbb16RbWIEOAmhNY2oDIX3WOfvYTSDgBQSsmtCja4sxCSvAkcnBbG6VD4ayiGBoqUGc" />
           </a>
         </figure>
-        <p className="">
-          <em>Wakanda from Black Panther 2</em>
-        </p>
       </div>
+
+      <p className="">
+        <em>Wakanda from Black Panther 2</em>
+      </p>
     </div>
   );
 }

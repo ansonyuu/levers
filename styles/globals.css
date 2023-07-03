@@ -220,18 +220,17 @@ li {
   margin-bottom: 0.5rem;
 }
 
-li > ul > li:first-child {
-  margin-top: 0.25rem;
+div > ul > li:first-child {
+  margin-top: 1rem;
 }
 
 li:before {
-  content: "—";
+  content: "⁍";
   position: absolute;
   left: -1rem;
   top: 0rem;
   width: 0.5rem;
   height: 0.5rem;
-  color: #24df6f;
   border-radius: 50%;
 }
 
@@ -262,6 +261,9 @@ blockquote:after {
   vertical-align: -0.4em;
 }
 
+figure > a > img {
+  max-height: 50vh;
+}
 .carousel__inner-slide {
   width: calc(100% - 20px) !important;
   margin-right: 20px;
