@@ -1,12 +1,14 @@
 import Image from "next/image";
 
 function Text({ children }) {
-  return <div className="w-full md:w-2/3 lg:w-1/2 py-10">{children}</div>;
+  return (
+    <div className="  px-20 w-full md:w-2/3 lg:w-1/2 py-10">{children}</div>
+  );
 }
 
 export default function Letter() {
   return (
-    <div className="w-full flex flex-col justify-center items-center p-20 ">
+    <div className="w-full flex flex-col justify-center items-center ">
       <Text>
         <p className="">
           <em>

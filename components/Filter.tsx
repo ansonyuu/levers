@@ -1,6 +1,14 @@
 import { ReactNode } from "react";
 
-export default function Filter({ className }: { className?: string }) {
+export default function Filter({
+  value,
+  onChange,
+  className
+}: {
+  value: any;
+  onChange: any;
+  className?: string;
+}) {
   return (
     <div className="w-1/5 overflow-hidden border-r-[1px] border-black p-8 flex flex-col gap-y-4">
       <div>
