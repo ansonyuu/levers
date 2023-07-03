@@ -12,9 +12,10 @@ import Filter from "../components/Filter";
 import Tags from "../components/Tags";
 
 export default function Home({ levers }: any) {
-  const [filteredLevers, setFilteredLevers] = useState(levers);
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
+  const [filteredLevers, setFilteredLevers] = useState(levers);
+
   const router = useRouter();
   const md = markdown({ html: true });
 
@@ -41,7 +42,6 @@ export default function Home({ levers }: any) {
 
   const filterResults = (option) => {
     if (!option) {
-      // No filtering, display all results
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
@@ -49,9 +49,9 @@ export default function Home({ levers }: any) {
         return result.stage && result.stage.includes(option);
       });
       setFilteredLevers(filteredResults);
-      console.log("this works");
     }
   };
+
   return (
     <div className="snap snap-mandatory snap-y">
       <SEO title="Home" />
@@ -89,7 +89,6 @@ export default function Home({ levers }: any) {
                 </select>
               </div>
             </div>
-
             <div className="flex flex-col overflow-y-scroll ">
               {filteredLevers.map((lever, i) => {
                 return (
