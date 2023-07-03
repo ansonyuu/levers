@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 function Text({ children }) {
-  return <div className="w-2/3 py-10">{children}</div>;
+  return <div className="w-full md:w-2/3 lg:w-1/2 py-10">{children}</div>;
 }
 
 export default function Letter() {
