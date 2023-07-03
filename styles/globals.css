@@ -142,8 +142,10 @@ h2 {
   font-size: 40px;
 }
 h3 {
+  font-family: "Tiempos", Cambria, Cochin, Georgia, Times, "Times New Roman";
   font-weight: 500;
   font-size: 20px;
+  margin: 1rem 0 1rem 0;
 }
 
 h4 {
@@ -326,7 +328,7 @@ blockquote:after {
     font-size: 15px;
   }
   p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -336,9 +338,11 @@ blockquote:after {
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  p {
     font-style: normal;
     line-height: 93%;
+    margin-top: 1rem;
   }
   h1 {
     font-size: 140px;
@@ -362,7 +366,7 @@ blockquote:after {
 
   p {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 150%;
     color: #000000;
   }

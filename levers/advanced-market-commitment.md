@@ -11,6 +11,8 @@ stage: [Correction, Catalytic]
 
 ## Key things to know
 
+x
+
 - Advanced market commitments (AMC) are binding contracts to purchase products once they are developed and meet certain criteria, such as quality and price.
 - What differentiates an AMC from other binding purchase agreements like [Advance purchase agreement](https://www.notion.so/Advance-purchase-agreement-6592eb0fcb9f403799eac614c1cfc8aa) is that it is an open bid that can be won by anyone.
 - By guaranteeing a market for the product once it’s successfully developed, AMCs derisk R&D for products that otherwise lack sufficient market demand.

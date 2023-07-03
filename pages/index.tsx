@@ -5,6 +5,13 @@ import Letter from "../components/Letter";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
+const navList = [
+  { name: "About", link: "/#about" },
+  { name: "Collection", link: "/collection" },
+  { name: "Credits", link: "/credits" },
+  { name: "Contribute", link: "/#contribute" }
+];
+
 export default function Home() {
   const { scrollY } = useScroll();
   const closer = useTransform(scrollY, [0, 800], [2000, 0]);
@@ -13,20 +20,11 @@ export default function Home() {
   const rotate = useTransform(scrollY, [0, 800], [0, 360]);
 
   return (
-    <div className="snap snap-mandatory snap-y">
+    <div className="">
       <SEO title="Home" />
 
-      <div className="border-b-4 flex h-[175vh] relative w-full relative p-20 snap-end ">
-        <div className="w-screen top-4 h-auto self-start sticky inline-block flex flex-row">
-          <h1 className="w-3/4 text-left text-black normal-case">
-            Levers for Progress
-          </h1>
-          <Nav />
-        </div>
-        <div className="absolute self-end m-auto bottom-0 left-0 right-0 inline-block  w-[80vw] h-[60vw]  z-10">
-          <Image src="/index-hero.png" fill alt="decorational photo" />
-        </div>
-        <motion.div
+      <div className="flex flex-col relative w-full ">
+        {/* <motion.div
           className="absolute z-10"
           style={{ y: far, x: 200, rotate: rotate }}
         >
@@ -40,12 +38,30 @@ export default function Home() {
         </motion.div>
         <motion.div className="z-10" style={{ y: closer, x: 800 }}>
           <Image alt="" src="/index-decor.png" width={600} height={600} />
-        </motion.div>
+        </motion.div> */}
+
+        <img
+          className="w-[100vw] inline-block"
+          src="/index-topbanner.png"
+          alt="decorational photo"
+        />
+
+        <div className="px-20 w-screen h-auto relative flex flex-col justify-left">
+          <div className="flex flex-row justify-end m-10 gap-x-4">
+            {navList.map((navItem) => {
+              return (
+                <a className="no-underline" href={navItem.link}>
+                  <p className="text-right text-black ">{navItem.name}</p>
+                </a>
+              );
+            })}
+          </div>
+          <h1 className=" text-center text-black normal-case">
+            Levers for Progress
+          </h1>
+        </div>
       </div>
       <Letter />
-      <a href="/collection">
-        <h2>Collections</h2>
-      </a>
     </div>
   );
 }

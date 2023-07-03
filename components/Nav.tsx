@@ -8,10 +8,10 @@ const navList = [
   { name: "Contribute", link: "/#contribute" }
 ];
 
-export default function Nav() {
+export default function Nav({ className }) {
   return (
-    <div className="relative w-1/4">
-      <div className="flex flex-col m-4">
+    <div className={`w-1/4 ${className}`}>
+      <div className="flex flex-row m-4 gap-x-4 ">
         {navList.map((navItem) => {
           return (
             <a className="no-underline" href={navItem.link}>
