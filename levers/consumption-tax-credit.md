@@ -1,13 +1,9 @@
 ---
-title: "Consumption Tax Credit"
+title: Consumption Tax Credit
 oneliner: "More usage, more tax benefits"
 authors:
-  - name: Kelvin Yu,
-    link: https://twitter.com/kelvinotcelsius
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en
-link: https://twitter.com/kelvinotcelsius
-
 stage: [Growth]
 ---
 

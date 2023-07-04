@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 function Text({ children }) {
   return (
     <div className="  px-20 w-full md:w-2/3 lg:w-1/2 py-10">{children}</div>
@@ -80,9 +78,7 @@ export default function Letter() {
       </Text>
       <div>
         <figure className="image">
-          <a href="https://lh5.googleusercontent.com/dFQSAgy_89cRlTVR_2XijhlEf1gIbjomsUxNjbA31Tp1YtxAYL9kq6E5b5tayv7aeCdAIt7I-wQptqSy7V1QNAw-o57Bmc1OXXuUAIW-SG5nGX7oHpTSG8Bc6w3gw63VCkLHdE233qwgrCT86ERX4A0">
-            <img src="https://lh5.googleusercontent.com/dFQSAgy_89cRlTVR_2XijhlEf1gIbjomsUxNjbA31Tp1YtxAYL9kq6E5b5tayv7aeCdAIt7I-wQptqSy7V1QNAw-o57Bmc1OXXuUAIW-SG5nGX7oHpTSG8Bc6w3gw63VCkLHdE233qwgrCT86ERX4A0" />
-          </a>
+          <img src="/letter-moon.png" />
         </figure>
       </div>
       <Text>

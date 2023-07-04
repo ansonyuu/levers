@@ -12,10 +12,9 @@ import Filter from "../components/Filter";
 import Tags from "../components/Tags";
 
 export default function Home({ levers }: any) {
+  const [filteredLevers, setFilteredLevers] = useState(levers);
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
-  const [filteredLevers, setFilteredLevers] = useState(levers);
-
   const router = useRouter();
   const md = markdown({ html: true });
 
@@ -70,8 +69,8 @@ export default function Home({ levers }: any) {
               <Image alt="" src="/icon-search.png" width={20} height={20} />
             </div>
           </div>
-          <div className="w-full flex flex-row">
-            <div className="w-1/5 overflow-hidden border-r-[1px] border-black p-8 flex flex-col gap-y-4">
+          <div className="w-full h-full flex flex-row bg-green">
+            <div className="w-[20vw] h-full overflow-hidden border-r-[1px] border-black p-8 flex flex-col gap-y-4 ">
               <div>
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
@@ -100,7 +99,9 @@ export default function Home({ levers }: any) {
                       onClick={() => handleClick(lever)}
                       className="flex flex-row mt-10 mb-2"
                     >
-                      <h2 className="text-[30px] min-w-[50%]">{lever.title}</h2>
+                      <h2 className="text-[30px] min-w-[50%]">
+                        {lever?.title}
+                      </h2>
 
                       <p className=" text-[12px] min-w-[25%] max-w-[25%] ">
                         {lever.oneliner}
@@ -148,13 +149,13 @@ export async function getStaticProps() {
   files.map((file) => {
     const titlePost = fs.readFileSync(`levers/${file}`, "utf-8");
     const { data: postData, content } = matter(titlePost);
-
+    console.log(levers);
     levers.push({
       title: postData.title,
       oneliner: postData.oneliner,
       authors: postData.authors,
       stage: postData.stage,
-      link: `/?${postData.title.replace(/ /g, "%20")}`,
+      link: postData.title ? `/?${postData.title.replace(/ /g, "%20")}` : "",
       content: content
     });
   });
