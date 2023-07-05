@@ -36,10 +36,13 @@ export default function Letter() {
         </p>
         <p className="">
           <em>By Anson Yu and Kelvin Yu</em>
+
           <Sidenote right={true}>(not siblings and not married)</Sidenote>
-          <h3 className="">
-            <strong>Motivation</strong>
-          </h3>
+        </p>
+        <h3 className="">
+          <strong>Motivation</strong>
+        </h3>
+        <p className="">
           Levers for Progress is an open-source collection of{" "}
           <strong>policies, tactics, and reforms</strong> used by modern
           institutions to accelerate innovation in the US.
@@ -307,7 +310,7 @@ export default function Letter() {
           , &quot;computer chips, potato chips, what’s the difference?&quot;
         </p>
       </Text>
-      <div>
+      <div className="flex flex-row gap-x-3">
         <figure className="image">
           <a href="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA">
             <img src="https://lh6.googleusercontent.com/AU2j0PEiBS4Sii7tiZ_0L889P0Yjb3ezg3XEHwBArgcofA3l8rOJg6tvMChI37pUGNwUej62dlHDrT863_eki3WPOw8PDGOXHCjv5NlXyPNcxVb2GvNR0muC-WKxmwWMeD7N-FFEttZoCClDStUjLIA" />
@@ -348,21 +351,23 @@ export default function Letter() {
           investments.
         </p>
       </Text>
-      <figure className="image">
-        <a href="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8">
-          <img src="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8" />
-        </a>
-      </figure>
-      <figure className="image">
-        <a href="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo">
-          <img src="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo" />
-        </a>
-      </figure>
-      <figure className="image">
-        <a href="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw">
-          <img src="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw" />
-        </a>
-      </figure>
+      <div className="flex flex-row gap-x-3">
+        <figure className="image">
+          <a href="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8">
+            <img src="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8" />
+          </a>
+        </figure>
+        <figure className="image">
+          <a href="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo">
+            <img src="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo" />
+          </a>
+        </figure>
+        <figure className="image">
+          <a href="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw">
+            <img src="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw" />
+          </a>
+        </figure>
+      </div>
       <Text>
         <p className="">
           This ethos to build and innovate is present in economic philosophies
