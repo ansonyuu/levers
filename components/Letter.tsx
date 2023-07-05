@@ -1,6 +1,27 @@
 function Text({ children }) {
   return (
-    <div className="  px-20 w-full md:w-2/3 lg:w-1/2 py-10">{children}</div>
+    <div className="  px-20 w-full md:w-2/3 lg:w-1/2 py-10 flex flex-col gap-4">
+      {children}
+    </div>
+  );
+}
+
+function Sidenote({ children, right }) {
+  return (
+    <>
+      <label
+        htmlFor="sn-extensive-use-of-sidenotes"
+        className="margin-toggle sidenote-number"
+      ></label>
+      <input
+        type="checkbox"
+        id="sn-extensive-use-of-sidenotes"
+        className="margin-toggle"
+      />
+      <span className={right ? "sidenote-right" : "sidenote-left"}>
+        {children}
+      </span>
+    </>
   );
 }
 
@@ -15,23 +36,25 @@ export default function Letter() {
         </p>
         <p className="">
           <em>By Anson Yu and Kelvin Yu</em>
-        </p>
-        <h3 className="">
-          <strong>Motivation</strong>
-        </h3>
-        <p className="">
+          <Sidenote right={true}>(not siblings and not married)</Sidenote>
+          <h3 className="">
+            <strong>Motivation</strong>
+          </h3>
           Levers for Progress is an open-source collection of{" "}
           <strong>policies, tactics, and reforms</strong> used by modern
           institutions to accelerate innovation in the US.
-        </p>
-        <p className="">
+          <Sidenote right={false}>
+            All views presented here are personal and do not represent the views
+            of the House Science Committee.
+          </Sidenote>
+          <br />
+          <br />
           For each lever, we explain how it works, its significance, potential
           pitfalls, and provide case studies. Our goal is to provide an overview
           of ways for governments, companies, philanthropies, universities,
           foundations, and other institutions to increase their scientific and
           technological output.
-        </p>
-        <p className="">
+          <br /> <br />
           We acknowledge the project’s title is a bit of a misnomer. If progress
           is{" "}
           <a href="https://jamesclear.com/book-summaries/lessons-of-history#:~:text=If%20progress%20is%20real%2C%20it,larger%20portion%20of%20human%20heritage.">
@@ -41,8 +64,7 @@ export default function Letter() {
           factories. Carving a holistic political, philosophical, and cultural
           definition for civilizational progress is a grand challenge. We leave
           that undertaking to braver souls.
-        </p>
-        <p className="">
+          <br /> <br />
           We chose to focus on science and technology because, despite their
           measurable, material, and scalable improvements on quality of life, we
           as a culture do not properly appreciate or support their role in
@@ -62,8 +84,7 @@ export default function Letter() {
           </a>{" "}
           that research from universities and national labs underpin much of
           society.
-        </p>
-        <p className="">
+          <br /> <br />
           This was not always the case. We started the Manhattan Project less
           than a century ago, the Apollo missions sixty years ago, and even
           dared declare war on cancer fifty years ago. We inexplicably lost this
@@ -154,6 +175,7 @@ export default function Letter() {
           </a>{" "}
           the way science was evolving:
         </p>
+
         <p className="">
           <em>
             “The investigator is staggered by the findings and conclusions of
@@ -500,19 +522,19 @@ export default function Letter() {
           </a>{" "}
           the drug patent system.
         </p>
-        <p className="">
+        <blockquote className="">
           <em>
-            “Science can be effective in the national welfare only as a member
-            of a team, whether the conditions be peace or war. But without
+            Science can be effective in the national welfare only as a member of
+            a team, whether the conditions be peace or war. But without
             scientific progress no amount of achievement in other directions can
             insure our health, prosperity, and security as a nation in the
-            modern world.&quot;
+            modern world.
           </em>{" "}
           —{" "}
           <a href="https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm#:~:text=Science%20can%20be%20effective%20in,nation%20in%20the%20modern%20world.">
             Vannevar Bush
           </a>
-        </p>
+        </blockquote>
         <h3 className="">
           <strong>A Timely Collection</strong>
         </h3>
@@ -547,10 +569,10 @@ export default function Letter() {
           companies—take inspiration and replicate them faster.
         </p>
         <p className="">Welcome to Levers for Progress.</p>
-        <p className="">
+        <blockquote className="">
           <em>&quot;Where there is no vision, the people perish.&quot; —</em>{" "}
           Proverbs 29:18.
-        </p>
+        </blockquote>
       </Text>
       <div>
         <figure className="image">

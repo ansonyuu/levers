@@ -245,6 +245,8 @@ blockquote p {
 
 blockquote:before {
   color: #685275;
+  font-family: "Tiempos", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
   content: "“";
   font-size: 4em;
   line-height: 0.1em;
@@ -254,6 +256,8 @@ blockquote:before {
 
 blockquote:after {
   color: #685275;
+  font-family: "Tiempos", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
   content: "”";
   font-size: 4em;
   line-height: 0.1em;
@@ -264,31 +268,146 @@ blockquote:after {
 figure > a > img {
   max-height: 50vh;
 }
-.carousel__inner-slide {
-  width: calc(100% - 20px) !important;
-  margin-right: 20px;
+
+.sidenote-right,
+.marginnote-right {
+  float: right;
+  clear: right;
+  margin-right: -35%;
+  width: 30%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  line-height: 0.9;
+  padding: 0.5rem;
+  vertical-align: baseline;
+  position: relative;
+  border-top: 1px solid black;
 }
 
-.carousel__dot {
-  @apply bg-gray-400;
+.sidenote-left,
+.marginnote-left {
+  float: left;
+  clear: left;
+  margin-left: -35%;
+  width: 30%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  line-height: 0.9;
+  padding: 0.5rem;
+  vertical-align: baseline;
+  position: relative;
+  border-top: 1px solid black;
 }
 
-.carousel__dot--selected {
-  @apply bg-black;
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after,
+.sidenote-left:before,
+.sidenote-right:before {
+  position: relative;
+  vertical-align: baseline;
+}
+
+.sidenote-number:after {
+  content: counter(sidenote-counter);
+  font-size: 0.6rem;
+  top: -0.5rem;
+  left: 0.1rem;
+  right: 0.2rem;
+}
+
+.sidenote-left:before,
+.sidenote-right:before {
+  content: counter(sidenote-counter) " ";
+  font-size: 0.6rem;
+  top: -0.5rem;
+  right: 0.2rem;
+}
+
+blockquote .sidenote-left,
+blockquote .sidenote-right,
+blockquote .marginnote-left,
+blockquote .marginnote-right {
+  margin-right: -82%;
+  min-width: 59%;
+  text-align: left;
+}
+
+div.fullwidth,
+table.fullwidth {
+  width: 100%;
+}
+
+div.table-wrapper {
+  overflow-x: auto;
+  font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.sans {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+code,
+pre > code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1rem;
+  line-height: 1.42;
+  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
+}
+
+.sans > code {
+  font-size: 1.2rem;
+}
+
+h1 > code,
+h2 > code,
+h3 > code {
+  font-size: 0.8em;
+}
+
+.marginnote > code,
+.sidenote > code {
+  font-size: 1rem;
+}
+
+pre > code {
+  font-size: 0.9rem;
+  width: 52.5%;
+  margin-left: 2.5%;
+  overflow-x: auto;
+  display: block;
+}
+
+pre.fullwidth > code {
+  width: 90%;
 }
 
 .fullwidth {
-  min-width: 60vw;
-  /*
-  Got rid of background color because 
-  it was creating a weird grey border
-  --@Ben_Reinhardt
-  TODO
-  background: #f3f3f3;
-  */
-  padding: 2rem;
-  border-radius: 3px;
-  left: 0;
+  max-width: 90%;
+  clear: both;
+}
+
+span.newthought {
+  font-variant: small-caps;
+  font-size: 1.2em;
+}
+
+input.margin-toggle {
+  display: none;
+}
+
+label.sidenote-number {
+  display: inline-block;
+  max-height: 2rem; /* should be less than or equal to paragraph line-height */
+}
+
+label.margin-toggle:not(.sidenote-number) {
+  display: none;
 }
 
 .button-2 {
@@ -383,5 +502,37 @@ figure > a > img {
 
   aside p {
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 760px) {
+  label.margin-toggle:not(.sidenote-number) {
+    display: inline;
+  }
+
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  div.table-wrapper,
+  table {
+    width: 85%;
   }
 }
