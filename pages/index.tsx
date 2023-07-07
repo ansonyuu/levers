@@ -41,7 +41,7 @@ export default function Home() {
         </motion.div> */}
 
         <img
-          className="w-[100vw] inline-block"
+          className="w-[100vw] mt-[-30px] inline-block"
           src="/index-topbanner.png"
           alt="decorational photo"
         />
@@ -57,7 +57,8 @@ export default function Home() {
             })}
           </div>
           <h1 className=" text-center text-black normal-case">
-            Levers for Progress
+            Levers for <br />
+            Progress
           </h1>
         </div>
       </div>

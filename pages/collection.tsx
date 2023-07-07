@@ -65,11 +65,11 @@ export default function Home({ levers }: any) {
                 className="p-3 ml-4  h-10 w-auto"
               />
             </Link>
-            <div className="flex justify-end border border-black w-1/4 m-2 mr-8 p-1">
+            {/* <div className="flex justify-end border border-black w-1/4 m-2 mr-8 p-1">
               <Image alt="" src="/icon-search.png" width={20} height={20} />
-            </div>
+            </div> */}
           </div>
-          <div className="w-full h-full flex flex-row bg-green">
+          <div className="w-full h-full flex flex-row">
             <div className="w-[20vw] h-full overflow-hidden border-r-[1px] border-black p-8 flex flex-col gap-y-4 ">
               <div>
                 <p className="text-base">Stage</p>
