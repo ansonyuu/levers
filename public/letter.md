@@ -143,7 +143,7 @@ _Wakanda from Black Panther 2_
 ## Notes
 
 [^1]: _(not siblings and not married)_
-[^2]: All views presented here are personal to Kelvin and Anson and do not represent the views of the House Science Committee, Congress, or the Federal government.
+[^2]: All views presented here are personal to Kelvin and Anson and do not represent the views of their employers.
 [^3]: Snakes infiltrated one of their buildings after it was flooded.
 [^4]: Left: [Apollo 16](https://www.nasa.gov/centers/marshall/history/images/this-week-in-nasa-history-apollo-17-lands-on-lunar-surface-dec-11-1972.html) Right: [Apollo 17](https://www.nasa.gov/centers/marshall/history/this-week-in-nasa-history-apollo-16-launches-april-16-1972-1.html), the final two times humans went to the moon
 [^5]: _[Graphic](https://freaktakes.substack.com/p/what-should-new-age-research-organizations): Rise and Fall of American Growth | Data: Lebergott (1976), pp. 260-88._
