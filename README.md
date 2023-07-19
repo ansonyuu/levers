@@ -28,3 +28,12 @@ Set up how you would a normal Node/React/NextJS project. After cloning the repo:
 Other data should be self-explanatory if you look at the page code.
 
 #
+
+## Website to-dos
+Ensure pics in lever pages and their captions show up on website
+Animations
+Letter image styling
+Remaining levers outreach
+Bolded text on letter looks kinda blurry?
+Foonote issue
+Typeform + add it and caveat about how inclusion of a lever isn't an endorsement/devil's in the detail to left-hand bar on https://www.leversforprogress.com/collection
