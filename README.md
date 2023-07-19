@@ -29,11 +29,18 @@ Other data should be self-explanatory if you look at the page code.
 
 #
 
-## Website to-dos
+## Website to-dos: Anson
 Ensure pics in lever pages and their captions show up on website
 Animations
 Letter image styling
 Remaining levers outreach
 Bolded text on letter looks kinda blurry?
 Foonote issue
-Typeform + add it and caveat about how inclusion of a lever isn't an endorsement/devil's in the detail to left-hand bar on https://www.leversforprogress.com/collection
+Update CTA to make you can go to collection right away
+Custom images for levers
+Intra-website link styling (e.g. going from AMCs to FROs lever)
+
+## Kelvin to-dos
+Credits page
+Typeform + add it and caveat about how inclusion of a lever isn't an endorsement/devil's in the detail + doesn't reflect work of our contributors to left-hand bar on https://www.leversforprogress.com/collection
+
