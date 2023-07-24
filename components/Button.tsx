@@ -1,4 +1,4 @@
-export default function Button({ className }) {
+export default function Button({ className }: { className?: string }) {
   return (
     <a href="/collection">
       <button
