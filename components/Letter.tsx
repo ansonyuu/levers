@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 function Text({ children }) {
   return (
     <div className=" px-5 md:px-10 lg:px-20 w-full md:w-2/3 lg:w-1/2 py-10 flex flex-col gap-4">
@@ -573,23 +574,12 @@ export default function Letter() {
           governments, universities, funding agencies, philanthropies, and
           companies—take inspiration and replicate them faster.
         </p>
-        <p className="">Welcome to Levers for Progress.</p>
         <blockquote className="">
           <em>&quot;Where there is no vision, the people perish.&quot; —</em>{" "}
           Proverbs 29:18.
         </blockquote>
       </Text>
-      <div>
-        <figure className="image">
-          <a href="https://lh6.googleusercontent.com/luQg7aRqoW8GIHBjsFXypohADi0CqBcaOPdXMZNT2LX6ovLQXo0mcM1vBElFQbXv1gK91h7IVLtajSK5fTISsbb16RbWIEOAmhNY2oDIX3WOfvYTSDgBQSsmtCja4sxCSvAkcnBbG6VD4ayiGBoqUGc">
-            <img src="https://lh6.googleusercontent.com/luQg7aRqoW8GIHBjsFXypohADi0CqBcaOPdXMZNT2LX6ovLQXo0mcM1vBElFQbXv1gK91h7IVLtajSK5fTISsbb16RbWIEOAmhNY2oDIX3WOfvYTSDgBQSsmtCja4sxCSvAkcnBbG6VD4ayiGBoqUGc" />
-          </a>
-        </figure>
-      </div>
-
-      <p className="">
-        <em>Wakanda from Black Panther 2</em>
-      </p>
+      <Button className="mt-0 mb-40" />
     </div>
   );
 }

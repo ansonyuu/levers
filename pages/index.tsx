@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SEO from "../components/SEO";
-import Nav from "../components/Nav";
+import Button from "../components/Button";
 import Letter from "../components/Letter";
 
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -11,31 +11,6 @@ const navList = [
   { name: "Credits", link: "/credits" },
   { name: "Contribute", link: "/#contribute" }
 ];
-
-function Button() {
-  return (
-    <a href="/collection">
-      <button
-        className="relative rounded btn4 mt-20 px-10 pt-3 pb-5 overflow-hidden bg-black"
-        type="button"
-      >
-        <div className="flex flex-row gap-x-1 text-white">
-          <span className="absolute inset-x-0 h-full bottom-0 bg-[#B8ADCB]"></span>
-          <h3 className="z-10">Collection</h3>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="white"
-            width="24"
-            height="24"
-            className="z-10 top-0 right-0"
-          >
-            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
-          </svg>
-        </div>
-      </button>
-    </a>
-  );
-}
 
 export default function Home() {
   const { scrollY } = useScroll();
