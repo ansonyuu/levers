@@ -4,11 +4,29 @@ import { useRouter } from "next/router";
 
 const Footer = () => (
   <div className="w-full">
-    <div className="h-[4vh] px-10 flex flex-row text-xs items-center justify-between">
+    <div className=" px-10 flex flex-col md:flex-row text-xs md:items-center justify-between my-2">
       <div className="">© {new Date().getFullYear()} Levers for Progress</div>
-      <div className="text-right">
-        Created by <a href="https://ansonyu.me/">Anson Yu</a> and{" "}
-        <a href="https://kelv.me/">Kelvin Yu</a>.
+      <div className="md:text-right md:w-3/4">
+        <p className="text-xs" id="credits">
+          Levers of Progress was co-created by{" "}
+          <a href="https://www.ansonyu.me/">Anson Yu</a> and{" "}
+          <a href="https://www.kelv.me/">Kelvin Yu</a>. We would like to
+          especially thank our early contributors, who solo-authored many
+          entries, provided invaluable feedback, and shared many inspiring
+          stories. They are:{" "}
+          <a href="https://www.elidourado.com/">Eli Dourado</a>,{" "}
+          <a href="https://www.elidourado.com/">Ben Reinhardt</a>,{" "}
+          <a href="https://www.linkedin.com/in/charlesxjyang/">Charles Yang</a>,{" "}
+          <a href="https://www.linkedin.com/in/joelburke1/">Joel Burke, </a>
+          <a href="https://www.linkedin.com/in/alice-q-wu/">Alice Wu, </a>
+          <a href="https://corinwagen.github.io/public/main/index.html">
+            Corin Wagen
+          </a>
+          , <a href="https://maxlangenkamp.me/">Max Langenkamp, </a>
+          <a href="https://www.ajkourabi.com/">AJ Kourabi</a>, and a number of
+          unnamed individuals, anonymized at their request.
+        </p>
+        <p>&nbsp;</p>
       </div>
     </div>
   </div>

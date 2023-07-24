@@ -2,7 +2,7 @@ export default function Button({ className }: { className?: string }) {
   return (
     <a href="/collection">
       <button
-        className={`relative rounded btn4 mt-20 px-10 pt-3 pb-5 overflow-hidden bg-black ${className}`}
+        className={`relative rounded btn4 px-10 pt-3 pb-5 overflow-hidden bg-black ${className}`}
         type="button"
       >
         <div className="flex flex-row gap-x-1 text-white">

@@ -579,7 +579,7 @@ export default function Letter() {
           Proverbs 29:18.
         </blockquote>
       </Text>
-      <Button className="mt-0 mb-40" />
+      <Button className=" mb-32" />
     </div>
   );
 }

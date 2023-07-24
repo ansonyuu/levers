@@ -6,10 +6,10 @@ import Letter from "../components/Letter";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const navList = [
-  { name: "About", link: "/#about" },
+  { name: "Credits", link: "#credits" },
   { name: "Collection", link: "/collection" },
-  { name: "Credits", link: "/credits" },
-  { name: "Contribute", link: "/#contribute" }
+  { name: "Contribute", link: "/collection" },
+  { name: "Github", link: "https://github.com/ansonyuu/levers" }
 ];
 
 export default function Home() {
@@ -61,7 +61,7 @@ export default function Home() {
               Levers for <br />
               Progress
             </h1>
-            <Button />
+            <Button className="mt-10 md:mt-20" />
           </div>
         </div>
       </div>
