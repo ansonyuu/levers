@@ -12,6 +12,31 @@ const navList = [
   { name: "Contribute", link: "/#contribute" }
 ];
 
+function Button() {
+  return (
+    <a href="/collection">
+      <button
+        className="relative rounded btn4 mt-20 px-10 pt-3 pb-5 overflow-hidden bg-black"
+        type="button"
+      >
+        <div className="flex flex-row gap-x-1 text-white">
+          <span className="absolute inset-x-0 h-full bottom-0 bg-[#B8ADCB]"></span>
+          <h3 className="z-10">Collection</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="white"
+            width="24"
+            height="24"
+            className="z-10 top-0 right-0"
+          >
+            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+          </svg>
+        </div>
+      </button>
+    </a>
+  );
+}
+
 export default function Home() {
   const { scrollY } = useScroll();
   const closer = useTransform(scrollY, [0, 800], [2000, 0]);
@@ -46,7 +71,7 @@ export default function Home() {
           alt="decorational photo"
         />
 
-        <div className="px-20 w-screen h-auto relative flex flex-col justify-left">
+        <div className="md:px-10 lg:px-20 w-full h-auto relative flex flex-col ">
           <div className="flex flex-row justify-end m-10 gap-x-4">
             {navList.map((navItem) => {
               return (
@@ -56,10 +81,13 @@ export default function Home() {
               );
             })}
           </div>
-          <h1 className=" text-center text-black normal-case">
-            Levers for <br />
-            Progress
-          </h1>
+          <div className="flex flex-col justify-center items-center m-10 gap-x-4">
+            <h1 className="text-center text-black normal-case">
+              Levers for <br />
+              Progress
+            </h1>
+            <Button />
+          </div>
         </div>
       </div>
       <Letter />
