@@ -67,7 +67,9 @@ export default function Home({ levers }: any) {
   };
 
   const filterResults = (option) => {
-    if (!option) {
+    if (option == "Select") {
+      setFilteredLevers(levers);
+    } else if (!option) {
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
@@ -115,7 +117,7 @@ export default function Home({ levers }: any) {
                 </select>
               </div>
             </div>
-            <div className="flex flex-col overflow-y-scroll ">
+            <div className="flex flex-col md:w-[50vw] overflow-y-scroll ">
               {filteredLevers.map((lever, i) => {
                 return (
                   <div
