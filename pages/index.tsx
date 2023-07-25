@@ -1,15 +1,15 @@
 import Image from "next/image";
 import SEO from "../components/SEO";
-import Nav from "../components/Nav";
+import Button from "../components/Button";
 import Letter from "../components/Letter";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const navList = [
-  { name: "About", link: "/#about" },
+  { name: "Credits", link: "#credits" },
   { name: "Collection", link: "/collection" },
-  { name: "Credits", link: "/credits" },
-  { name: "Contribute", link: "/#contribute" }
+  { name: "Contribute", link: "/collection" },
+  { name: "Github", link: "https://github.com/ansonyuu/levers" }
 ];
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
           alt="decorational photo"
         />
 
-        <div className="px-20 w-screen h-auto relative flex flex-col justify-left">
+        <div className="md:px-10 lg:px-20 w-full h-auto relative flex flex-col ">
           <div className="flex flex-row justify-end m-10 gap-x-4">
             {navList.map((navItem) => {
               return (
@@ -56,10 +56,13 @@ export default function Home() {
               );
             })}
           </div>
-          <h1 className=" text-center text-black normal-case">
-            Levers for <br />
-            Progress
-          </h1>
+          <div className="flex flex-col justify-center items-center m-10 gap-x-4">
+            <h1 className="text-center text-black normal-case">
+              Levers for <br />
+              Progress
+            </h1>
+            <Button className="mt-10 md:mt-20" />
+          </div>
         </div>
       </div>
       <Letter />

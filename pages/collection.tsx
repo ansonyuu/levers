@@ -1,17 +1,43 @@
 import { useState, useEffect, useRef } from 'react';
 import fs from 'fs';
 import matter from 'gray-matter';
-import Image from 'next/image';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import { useRouter } from 'next/router';
 import styles from '../styles/markdown.module.scss';
 import markdown from 'markdown-it';
-
-import Filter from '../components/Filter';
+import Modal from 'react-modal';
 import Tags from '../components/Tags';
 
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
+
+Modal.setAppElement('#modals');
+// Modal.setAppElement(document.getElementById("root"));
+
 export default function Home({ levers }: any) {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   const [filteredLevers, setFilteredLevers] = useState(levers);
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
@@ -40,7 +66,9 @@ export default function Home({ levers }: any) {
   };
 
   const filterResults = (option) => {
-    if (!option) {
+    if (option == 'Select') {
+      setFilteredLevers(levers);
+    } else if (!option) {
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
@@ -54,7 +82,6 @@ export default function Home({ levers }: any) {
   return (
     <div className='snap snap-mandatory snap-y'>
       <SEO title='Home' />
-
       <div className='flex flex-row border-b-[1px] border-black max-h-[96vh]'>
         <div className='overflow-y-scroll border-r-[1px] border-black'>
           <div className='w-full flex justify-between border-b-[1px] border-b-black'>
@@ -114,16 +141,16 @@ export default function Home({ levers }: any) {
                 </p>
               </div>
             </div>
-            <div className='flex flex-col overflow-y-scroll '>
+            <div className='flex flex-col md:w-[50vw] overflow-y-scroll '>
               {filteredLevers.map((lever, i) => {
                 return (
                   <div
                     key={i}
-                    className='border-b-[0.5px] border-b-black px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer'
+                    className='grid items-start border-b-[0.5px]  border-b-black py-4 px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer'
                   >
                     <div
                       onClick={() => handleClick(lever)}
-                      className='flex flex-row mt-10 mb-2'
+                      className='flex flex-row mb-2'
                     >
                       <h2 className='text-[30px] min-w-[50%]'>
                         {lever?.title}
@@ -133,8 +160,10 @@ export default function Home({ levers }: any) {
                         {lever.oneliner}
                       </p>
 
-                      <div className='flex flex-row justify-end gap-2 min-w-[25%] max-w-[25%] '>
-                        <Tags lever={lever} />
+                      <div className='flex flex-row justify-end content-start items-start min-w-[25%] max-w-[25%] '>
+                        <div className='block justify-end'>
+                          <Tags lever={lever} />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -143,8 +172,7 @@ export default function Home({ levers }: any) {
             </div>
           </div>
         </div>
-
-        <div className='w-5/12  overflow-y-scroll'>
+        <div className='w-5/12 hidden md:inline-block overflow-y-scroll'>
           <img alt='' src='/cover-market.png' className='' />
           <div className='p-8'>
             <h2 className='mt-3 my-3'>{selectedLever?.title} </h2>
@@ -163,6 +191,36 @@ export default function Home({ levers }: any) {
             />
           </div>
         </div>
+      </div>
+      <div id='modals' className='md:hidden'>
+        <button onClick={openModal}>Open Modal</button>
+        <Modal
+          isOpen={modalIsOpen}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel='Example Modal'
+        >
+          <div className='w-5/12 hidden md:inline-block overflow-y-scroll'>
+            <img alt='' src='/cover-market.png' className='' />
+            <div className='p-8'>
+              <h2 className='mt-3 my-3'>{selectedLever?.title} </h2>
+
+              <div className='flex flex-row mm-3 gap-2'>
+                <Tags lever={selectedLever} />
+              </div>
+
+              <div
+                className={styles.markdown}
+                dangerouslySetInnerHTML={{
+                  __html: md.render(
+                    selectedLever.content ? selectedLever.content : ''
+                  ),
+                }}
+              />
+            </div>
+          </div>
+        </Modal>
       </div>
     </div>
   );
