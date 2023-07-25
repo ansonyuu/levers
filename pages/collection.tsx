@@ -138,6 +138,9 @@ export default function Home({ levers }: any) {
                 <p className='text-gray-500 my-10 text-xs'>
                   *The inclusion of a lever does not necessarily constitute an
                   endorsement of it or reflect the work of our contributors.
+                  None of the content on this site is meant to be an
+                  authoritative source on these topics, rather, they serve as an
+                  introduction to each concept.
                 </p>
               </div>
             </div>
