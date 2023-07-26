@@ -88,6 +88,13 @@
 
 @font-face {
   font-family: 'Untitled Sans';
+  src: url('../fonts/untitled-sans-bold-italic.woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
   src: url('../fonts/untitled-sans-medium.woff2');
   font-weight: 500;
 }
