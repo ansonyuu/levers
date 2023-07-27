@@ -127,9 +127,9 @@ html {
   min-width: 100vw;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   display: none;
-}
+} */
 
 h1,
 h2,
@@ -171,6 +171,7 @@ h5 {
   font-weight: 550;
   font-size: 25px;
 }
+
 h6 {
   font-weight: 600;
   font-size: 20px;
@@ -181,9 +182,11 @@ p {
   font-size: 15px;
   line-height: 150%;
 }
+
 a {
   text-decoration: underline;
-  text-decoration-thickness: from-font;
+  text-decoration-thickness: 0.1em;
+  text-decoration-color: #916bc9;
 }
 
 .animate-underline-white,
