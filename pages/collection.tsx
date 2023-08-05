@@ -97,8 +97,8 @@ export default function Home({ levers }: any) {
             </Link>
           </div>
           <div className="w-full h-full flex flex-col md:flex-row ">
-            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col gap-y-4  gap-x-4 ">
-              <div className="w-full text-gray-500 md:my-10 text-sm">
+            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 grid content-between">
+              <div className="w-full text-gray-500 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
                 <select
@@ -136,7 +136,7 @@ export default function Home({ levers }: any) {
                   .
                 </p>
 
-                <p className="text-gray-500 md:my-10 text-xs">
+                <p className="text-gray-500 md:mt-6 text-xs">
                   *The inclusion of a lever does not necessarily constitute an
                   endorsement of it or reflect the work of our contributors.
                   None of the content on this site is meant to be an
