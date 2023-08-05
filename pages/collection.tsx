@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import styles from "../styles/markdown.module.scss";
 import markdown from "markdown-it";
 import Modal from "react-modal";
+import { useWindowSize } from "@uidotdev/usehooks";
 import Tags from "../components/Tags";
 
 const customStyles = {
@@ -23,14 +24,16 @@ const customStyles = {
 };
 
 Modal.setAppElement("#modals");
-// Modal.setAppElement(document.getElementById("root"));
 
 export default function Home({ levers }: any) {
-  const [modalIsOpen, setIsOpen] = useState(false);
+  const [filteredLevers, setFilteredLevers] = useState(levers);
+  const [selectedLever, setSelectedLever] = useState(levers[0]);
+  const [selectedStage, setSelectedStage] = useState(levers[0]);
+  const router = useRouter();
+  const size = useWindowSize();
+  const md = markdown({ html: true });
 
-  function openModal() {
-    setIsOpen(true);
-  }
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
@@ -39,12 +42,6 @@ export default function Home({ levers }: any) {
   function closeModal() {
     setIsOpen(false);
   }
-
-  const [filteredLevers, setFilteredLevers] = useState(levers);
-  const [selectedLever, setSelectedLever] = useState(levers[0]);
-  const [selectedStage, setSelectedStage] = useState(levers[0]);
-  const router = useRouter();
-  const md = markdown({ html: true });
 
   useEffect(() => {
     router.push(
@@ -59,12 +56,16 @@ export default function Home({ levers }: any) {
 
   const handleClick = (lever) => {
     setSelectedLever(lever);
+    if (size.width < 768) {
+      setIsOpen(true);
+    }
   };
 
   const handleChange = (event) => {
     const option = event.target.value;
     setSelectedStage(option);
     filterResults(option);
+    setIsOpen(false);
   };
 
   const filterResults = (option) => {
@@ -94,13 +95,10 @@ export default function Home({ levers }: any) {
                 className="p-3 ml-4  h-10 w-auto"
               />
             </Link>
-            {/* <div className="flex justify-end border border-black w-1/4 m-2 mr-8 p-1">
-              <Image alt="" src="/icon-search.png" width={20} height={20} />
-            </div> */}
           </div>
-          <div className="w-full h-full flex flex-row">
-            <div className="w-[20vw] h-full overflow-hidden border-r-[1px] border-black p-8 flex flex-col gap-y-4 ">
-              <div>
+          <div className="w-full h-full flex flex-col md:flex-row ">
+            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col gap-y-4  gap-x-4 ">
+              <div className="w-full text-gray-500 md:my-10 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
                 <select
@@ -115,7 +113,9 @@ export default function Home({ levers }: any) {
                   <option value="Catalytic">Catalytic</option>
                   <option value="Procurement">Procurement</option>
                 </select>
-                <p className="text-gray-500 my-10 text-sm">
+              </div>
+              <div className="max-w-[50vw] md:max-w-[30vw] md:my-10">
+                <p className="text-gray-500 text-sm">
                   Anyone can submit suggestions for new levers* or edits to
                   existing ones through our public{" "}
                   <a
@@ -135,9 +135,8 @@ export default function Home({ levers }: any) {
                   </a>
                   .
                 </p>
-              </div>
-              <div className="mt-auto">
-                <p className="text-gray-500 my-10 text-xs">
+
+                <p className="text-gray-500 md:my-10 text-xs">
                   *The inclusion of a lever does not necessarily constitute an
                   endorsement of it or reflect the work of our contributors.
                   None of the content on this site is meant to be an
@@ -198,7 +197,6 @@ export default function Home({ levers }: any) {
         </div>
       </div>
       <div id="modals" className="md:hidden">
-        <button onClick={openModal}>Open Modal</button>
         <Modal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
