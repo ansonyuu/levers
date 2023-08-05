@@ -97,7 +97,7 @@ export default function Home({ levers }: any) {
             </Link>
           </div>
           <div className="w-full h-full flex flex-col md:flex-row ">
-            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 grid content-between">
+            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
               <div className="w-full text-gray-500 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
@@ -115,7 +115,7 @@ export default function Home({ levers }: any) {
                 </select>
               </div>
               <div className="max-w-[50vw] md:max-w-[30vw] md:my-10">
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-500 text-sm hidden">
                   Anyone can submit suggestions for new levers* or edits to
                   existing ones through our public{" "}
                   <a
