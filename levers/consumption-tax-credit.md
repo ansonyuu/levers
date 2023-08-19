@@ -4,24 +4,30 @@ oneliner: "More usage, more tax benefits"
 authors:
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+type: [Funding]
+domain: [Government, Industry, Policy]
 stage: [Growth]
 ---
 
-## About the co-author
+## Contributors
 
 [Charles Yang](https://www.linkedin.com/in/charlesxjyang/) is an Energy Supply Chain Fellow at the Department of Energy (through ORISE). He was previously a machine learning engineer at an AI hardware startup, worked on ARPA-E’s commercialization team, and has spent considerable time exploring the intersection of climate policy and technology adoption. All views presented here are personal and do not represent the views of the Department of Energy or the Federal government.
+
+[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
 - Tax credits can be given to buyers of technologies that the government wants to accelerate adoption for, such as electric vehicles.
 - Evaluating counterfactual impact is key to determining whether to implement such demand-side policies. In other words, how many buyers would not have purchased the technology if the tax credit did not exist?
-- Related: [Investment Tax Credit](https://www.notion.so/Investment-Tax-Credit-a418333113254f84ac8aa7eae2cc60ca?pvs=21) [R&D Tax Credit](https://www.notion.so/R-D-Tax-Credit-73fa63dfb85940dab106393744e60bbd?pvs=21) [Production Tax Credit](https://www.notion.so/Production-Tax-Credit-a5ace75613374b84b0c635ad3db741a7?pvs=21)
+- Related: [Investment Tax Credit](Investment%20Tax%20Credit%207c0c5c9fcbff4a7d8981e1b94e1feb2b.md) [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md) [Production Tax Credit](Production%20Tax%20Credit%2056312236373c409b9620a3759a1ce134.md)
 
 ## How to use
 
 To ensure effectiveness, consumer tax credits should be reserved for technologies with low technical risk that are ready to be commercialized. In addition, a high qualifying bar should be set to incentivize the adoption of first-rate technologies while ensuring that the requirements are realistic. However, to encourage adoption and maximize efficacy, the tax credit should be easy to comprehend; otherwise, it can create [unnecessary psychological burdens](https://www.nytimes.com/2023/04/20/business/electric-vehicle-tax-credits-consumers.html) for consumers to take the leap.
 
-It is important to note that tax credits for consumers also tend to benefit those who have the discretionary capital to finance a purchase up-front and receive a tax credit a year later, e.g. [EV tax credits disproportionately go to wealthy citizens](https://www.nber.org/system/files/working_papers/w21437/w21437.pdf). Despite that, consumer-oriented tax credits are an expedient tool to build political buy-in for new technologies compared to other types of [market-shaping levers](https://www.notion.so/Consumption-Tax-Credit-10656289002341d394b11bd12271bbe0?pvs=21).
+It is important to note that tax credits for consumers also tend to benefit those who have the discretionary capital to finance a purchase up-front and receive a tax credit a year later, e.g. [EV tax credits disproportionately go to wealthy citizens](https://www.nber.org/system/files/working_papers/w21437/w21437.pdf). Despite that, consumer-oriented tax credits are an expedient tool to build political buy-in for new technologies compared to other types of [market-shaping levers](Consumption%20Tax%20Credit%20c82c9f15cf754987ae63325f40be3566.md).
 
 ## Case study
 
