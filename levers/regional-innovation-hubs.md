@@ -1,12 +1,13 @@
-# Regional Innovation Hubs
-
-Stage: Catalytic, Growth
-Assigned to: Kelvin Yu
-Domain: Academia, Industry, Philanthropy, Policy
-Oneliner: Local foci of technological creativity
-Outreach owner: Kelvin Yu
-Status: Done
-Type: Capacity building, Execution, Funding
+---
+title: Regional Innovation Hubs
+oneliner: "Local foci of technological creativity"
+authors:
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Catalytic, Growth]
+domain: [Academia, Industry, Philanthropy, Policy]
+type: [Capacity building, Execution, Funding]
+---
 
 ## Contributors
 
@@ -17,10 +18,10 @@ We thank an unnamed individual who works on regional entrepreneurship policy at 
 ## Key things to know
 
 - Regional innovation hubs are clusters of businesses, universities, governments, philanthropies, and other institutions that foster science and technology development in a specific region
-    - “Region” has a broad definition here — it could be a city or a network of cities within close proximity
-    - Lowell, Massachusetts is the proto-typical American cluster with its historical textile industry
-    - Detroit, Michigan is recognized around the world as the motor city for its tightly clustered automobile industry
-    - The Research Triangle in North Carolina is a hub for biotechnology and high technology
+  - “Region” has a broad definition here — it could be a city or a network of cities within close proximity
+  - Lowell, Massachusetts is the proto-typical American cluster with its historical textile industry
+  - Detroit, Michigan is recognized around the world as the motor city for its tightly clustered automobile industry
+  - The Research Triangle in North Carolina is a hub for biotechnology and high technology
 - Hubs can grow organically, or be intentionally designed as part of a national economic and technological development strategy and then implemented at the local level
 - Successful hubs establish a unique advantage relative to other hubs (e.g. Silicon Valley in software) by becoming a hotspot for talent and capital in particular industries or technologies
 - The successful growth of hubs can differ greatly depending on the degree of government involvement, geographic scope (e.g. city-focused on region-focused), global economy, funding, etc.
@@ -34,16 +35,16 @@ At the national level, having geographically diverse hubs spreads the wealth cre
 Regional innovation hubs have been a strong economic priority for the Biden administration. The following programs are very new so it’s hard to judge how successful each cluster will be, but there are high expectations for the growth opportunities they will bring.
 
 - The United States’s Economic Development Administration (EDA), as part of the American Rescue Plan, funded the [$1B Build Back Better Regional Challenge](https://www.eda.gov/funding/programs/american-rescue-plan/build-back-better) which provided locales with funding to develop nascent industry hubs. These awards funded everything from biotechnology to advanced aerospace manufacturing to clean energy.
-    - One project is successfully diversifying the economy of Osceola County (famous for farmland and Disneyland) by cultivating a [semiconductor manufacturing industry](https://fas.org/publication/packaging-semiconductors-at-the-doorstep-to-disney/).
+  - One project is successfully diversifying the economy of Osceola County (famous for farmland and Disneyland) by cultivating a [semiconductor manufacturing industry](https://fas.org/publication/packaging-semiconductors-at-the-doorstep-to-disney/).
 - As part of the CHIPS and Science Act, the EDA and the National Science Foundation (NSF) were authorized to launch similar but meaningfully different hub programs.
-    - The EDA was authorized to spend $10B (of which $500M has been appropriated) to develop [regional technology hubs](https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs) across the country.
-    - The NSF launched a [Regional Innovation Engines program](https://new.nsf.gov/funding/initiatives/regional-innovation-engines) which awards locales up to $160M over 10 years to seed and grow innovation ecosystems in a range of critical technologies.
+  - The EDA was authorized to spend $10B (of which $500M has been appropriated) to develop [regional technology hubs](https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs) across the country.
+  - The NSF launched a [Regional Innovation Engines program](https://new.nsf.gov/funding/initiatives/regional-innovation-engines) which awards locales up to $160M over 10 years to seed and grow innovation ecosystems in a range of critical technologies.
 
 ## Case study
 
 Regional innovation hubs are a key component of China’s industrial policy to accelerate its AI industry. China’s Ministry of Science and Technology (MOST) has directed at least seventeen cities and counties to create ‘[AI pilot zones](https://cset.georgetown.edu/publication/guidelines-for-national-new-generation-artificial-intelligence-innovation-and-development-pilot-zone-construction-work/)’ to advance AI R&D and commercialization.
 
-Each zone focuses on AI applications tailored to that region’s particular needs or advantages. For example, Deqing, a county that had a burgeoning agtech and autonomous vehicle ecosystem, was directed to [focus](https://web.archive.org/web/20230419032142/https://subsites.chinadaily.com.cn/huzhou/2019-11/08/c_423374.htm) on AI applications in agtech and transportation. 
+Each zone focuses on AI applications tailored to that region’s particular needs or advantages. For example, Deqing, a county that had a burgeoning agtech and autonomous vehicle ecosystem, was directed to [focus](https://web.archive.org/web/20230419032142/https://subsites.chinadaily.com.cn/huzhou/2019-11/08/c_423374.htm) on AI applications in agtech and transportation.
 
 Provincial and city governments generally have high autonomy in deciding which policy levers to pull. The most common levers include (1) capital — mobilizing public and private funds to invest in local initiatives (2) institutions — e.g. establishing new research labs, supporting existing ones, public-private partnerships and (3) workforce development.
 
@@ -55,7 +56,7 @@ It is currently difficult to evaluate whether China’s AI pilot zones are succe
 
 Efforts to create a “Silicon X” across the world
 
-Numerous countries and locales have sought to capitalize on the success and brand name recognition of Silicon Valley by trying to promote local tech development (particularly software) through a variety of different incentives and strategies. These Silicon X’s have a mixed track record. 
+Numerous countries and locales have sought to capitalize on the success and brand name recognition of Silicon Valley by trying to promote local tech development (particularly software) through a variety of different incentives and strategies. These Silicon X’s have a mixed track record.
 
 For example, ‘Silicon Wadi’ is a term used to describe the cluster of globally successful technology companies around Tel Aviv, Isrel. This cluster features an extremely high number of both startups and established global technology companies that conduct R&D in Tel Aviv. The success of the startup ecosystem is due in part to a successful government program to grow a nascent venture capital landscape in the 1990s called the [Yozma Program](https://link.springer.com/article/10.1007/s11187-010-9298-z) (modeled after the United States’ Small Business Investment Company Program). Other factors include a robust higher education system and programs to incentivize the immigration of high-skilled workers.
 

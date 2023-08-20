@@ -7,7 +7,7 @@ authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
 type: [Funding]
-domain: [Government, Industry, Policy]
+domain: [Industry, Policy]
 stage: [Growth]
 ---
 

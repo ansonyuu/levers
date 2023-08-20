@@ -1,17 +1,19 @@
-# Better Scientific Feedback
-
-Stage: Course correction
-Assigned to: Kelvin Yu
-Oneliner: Scientists need better feedback on their own work
-Outreach owner: Kelvin Yu
-Status: Not started
-Type: Execution
+---
+title: Better Scientific Feedback
+oneliner: "Giving scientists better feedback on subitted work"
+authors:
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Correction]
+domain: [Academia]
+type: [Execution]
+---
 
 ## About the co-author
 
 ## Key things to know
 
-*Definition and Significance*
+_Definition and Significance_
 
 - Scientists rarely receive certain forms of high-quality criticism on their work.
 - Most feedback comes internally from one’s own research group, which is well-equipped to dispute experimental details or question individual experiments but is much less prone to challenge large-scale scientific assumptions, owing to selection bias. (Researchers usually join a group because they agree with one or more key axiomatic assumptions—for instance, a graduate student who joins a lab focusing on using water as a greener solvent for chemical synthesis is unlikely to hear pushback against this point.)
@@ -24,13 +26,13 @@ Type: Execution
 
 ## Case study
 
-***********************************************************Description, lessons, pitfalls, limitations, etc.***********************************************************
+\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Description, lessons, pitfalls, limitations, etc.\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
-[Seeds of Science](https://www.theseedsofscience.org/) is an organization built around the idea of working papers, which receive community attention from an early stage to help prune and strengthen them. There aren’t really obvious bottom-up incentives for adoption by individual scientists, though, that I’m aware of, and its use still seems rare (although it’s a young project). 
+[Seeds of Science](https://www.theseedsofscience.org/) is an organization built around the idea of working papers, which receive community attention from an early stage to help prune and strengthen them. There aren’t really obvious bottom-up incentives for adoption by individual scientists, though, that I’m aware of, and its use still seems rare (although it’s a young project).
 
 This perhaps points to a larger challenge, which is that academics are deeply incentivized to publish as much as possible, and ongoing peer review would likely lead to fewer, better papers, which might not benefit researchers in the short term.
 
 ## Further readings
 
-- 
+-
 -

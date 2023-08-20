@@ -1,3 +1,14 @@
+---
+title: Investment Tax Credit
+oneliner: "More investments, more tax benefits"
+authors:
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Growth]
+domain: [Industry, Philanthropy, Policy]
+type: [Procurement]
+---
+
 # Investment Tax Credit
 
 Stage: Growth
@@ -17,7 +28,7 @@ Type: Funding
 - Investment tax credits reduce an organization or individual’s tax liability if they invest in investment funds, companies, or technologies that meet certain criteria
 - They are typically structured as Venture Capital Tax Credits or Angel Investor Tax Credits. These tax benefits are given to venture capital firms or individual angel investors in exchange for investing in qualifying entities, such as companies belonging to a particular industry. In rare cases, states will offer tax credits for investors in investment firms (called “limited partners”) to incentivize the establishment of more formal investment funds.
 - Thirty-three American states have implemented investment incentive tax credits at some point. Twenty-two have active programs, with the majority being corporate tax credits or angel investor credits for direct investments in qualified companies. Only Iowa, Kentucky, and North Dakota give tax credits to individual investors in funds (”limited partners”). (see [page 13](https://tax.iowa.gov/sites/default/files/2022-12/2022InnovationFundTaxCreditStudy.pdf))
-- Related: [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md), [Consumption Tax Credit](Consumption%20Tax%20Credit%20c82c9f15cf754987ae63325f40be3566.md),  [Production Tax Credit](Production%20Tax%20Credit%2056312236373c409b9620a3759a1ce134.md), [Public Venture Capital Funds](Public%20Venture%20Capital%20Funds%206fc42cbaa07247f5ac475a769be75195.md)
+- Related: [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md), [Consumption Tax Credit](Consumption%20Tax%20Credit%20c82c9f15cf754987ae63325f40be3566.md), [Production Tax Credit](Production%20Tax%20Credit%2056312236373c409b9620a3759a1ce134.md), [Public Venture Capital Funds](Public%20Venture%20Capital%20Funds%206fc42cbaa07247f5ac475a769be75195.md)
 
 ## When to use
 

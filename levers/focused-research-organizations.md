@@ -1,3 +1,14 @@
+---
+title: Focused Research Organizations
+oneliner: "Upfront commitment to underwrite a market"
+authors:
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Catalytic]
+domain: [Academia, Philanthropy, Policy]
+type: [Capacity building, Execution]
+---
+
 # Focused Research Organizations
 
 Stage: Catalytic
@@ -35,18 +46,17 @@ The largest effort to create new FROs is led by [Convergent Research](https://ww
 A recent [memo](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/) from the Federation of American Scientists summarizes Convergent’s progress:
 
 > Convergent Research FROs are now:
-> 
+>
 > - developing tools to map all of the neural circuits in the brain and advance neuroscience,
 > - identifying the unintended/unknown molecular targets of every approved pharmaceutical drug to improve drug development and repurposing,
 > - developing technologies to scale protein analysis by 100x and accelerate proteome biology research,
 > - and creating open source tools for life scientists to conduct synthetic biology research on a more diverse set of microorganisms.
-> 
+>
 > While Convergent Research has so far only funded FROs working in the life sciences, this research model can be applied to bottleneck research problems in any field.
-> 
+>
 > Convergent is also not the only organization experimenting with this model though: the UK government’s new Advanced Research and Invention Agency (ARIA), inspired by [Advanced Research Projects Agencies (ARPAs)](https://fas.org/publication/how-to-unlock-the-potential-of-the-advanced-research-projects-agency-model/) in the U.S., plans to fund FROs as part of its strategy. ARIA will be the first governmental program to fund FROs, and hopefully not the last. Philanthropic funding simply cannot compare with the scale of government funding for scientific research. As the largest science funder in the world, the U.S. federal government provides enormous potential to expand the number of FROs that get launched over the next decade to accelerate scientific progress.
-> 
+>
 > To help agencies conceptualize the types of scientific and engineering problems that FROs can address, FAS and Convergent Research have come together to create [a database of vetted FRO proposals](https://fas.org/initiative/focused-research-organizations/) from researchers across the sciences. These proposals tackle a range of problems from [developing neuromorphic AI hardware using superconducting optoelectronic networks](https://fas.org/publication/a-focused-research-organization-for-superconducting-optoelectronic-intelligence/) to [building open-source computational infrastructure for the monitoring, reporting, and verification of ocean-based carbon removal](https://fas.org/publication/a-focused-research-organization-to-quantify-ocean-carbon/). Curious agencies can look to our database for inspiration on how FROs can fit into their particular research priorities. If any agency finds a proposal particularly compelling, we welcome them to reach out to FAS or to the proposal authors for more details.
-> 
 
 ## Further readings
 

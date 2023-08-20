@@ -1,12 +1,13 @@
-# State Economic Development Agencies
-
-Stage: Growth, Resilience
-Assigned to: Kelvin Yu
-Domain: Policy
-Oneliner: State-level agencies for advancing regional innovation 
-Outreach owner: Kelvin Yu
-Status: Done
-Type: Capacity building
+---
+title: State Economic Development Agencies
+oneliner: "State-level agencies for advancing regional innovation"
+authors:
+  - name: Charles Yang,
+    link: https://twitter.com/charlesxjyang?lang=en
+stage: [Growth, Resilience]
+domain: [Policy]
+type: [Capacity building]
+---
 
 ## Contributors
 
@@ -21,9 +22,9 @@ Type: Capacity building
 
 ## Case study
 
-The Maryland Clean Energy Center (MCEC) is a corporate instrumentality of the state of Maryland, created by the Maryland state assembly in 2008 to provide financing for clean energy. Its main activity is serving as a green bank, specifically to finance Property Assessed Clean Energy loans for commercial buildings, which provides the majority of its revenue. Under the MCEC is also the Maryland Clean Energy Capital Program (MCECP) which provides project financing for clean energy projects. Finally, the MCEC also spun out the Maryland Energy Innovation Accelerator (MEIA) which serves as an incubator for University of Maryland-affiliated scientists and inventors, connecting them with executives-in-residence. 
+The Maryland Clean Energy Center (MCEC) is a corporate instrumentality of the state of Maryland, created by the Maryland state assembly in 2008 to provide financing for clean energy. Its main activity is serving as a green bank, specifically to finance Property Assessed Clean Energy loans for commercial buildings, which provides the majority of its revenue. Under the MCEC is also the Maryland Clean Energy Capital Program (MCECP) which provides project financing for clean energy projects. Finally, the MCEC also spun out the Maryland Energy Innovation Accelerator (MEIA) which serves as an incubator for University of Maryland-affiliated scientists and inventors, connecting them with executives-in-residence.
 
-While the MCEC has a long history of providing mature financing options for clean energy properties, the MEIA is a good example of a state entity connecting university researchers to private capital. While it is still too early to tell how successful startups that come out of MEIA are, it is a good example of state entities providing coordination work earlier along the economic development pipeline. It should be noted that MCEC is a separate financing arm from the Maryland Economic Development Commission, which does more traditional economic development. 
+While the MCEC has a long history of providing mature financing options for clean energy properties, the MEIA is a good example of a state entity connecting university researchers to private capital. While it is still too early to tell how successful startups that come out of MEIA are, it is a good example of state entities providing coordination work earlier along the economic development pipeline. It should be noted that MCEC is a separate financing arm from the Maryland Economic Development Commission, which does more traditional economic development.
 
 While this example focused on Maryland, other states like New York, California, and Massachusetts have equally robust economic development pipelines. In the climate space, [New York’s Innovation@NYSERDA](https://www.nyserda.ny.gov/All-Programs), [California Energy Commission’s CalSEED program](https://calseed.fund/), and [Massachusetts Clean Energy Center’s IncubateMass](https://www.masscec.com/program/incubatemass) are examples of state energy agencies that have offices to incubate startups. These state energy agencies are also robust examples of state-level industrial policy: distributing rebates, grants, tax incentives; supporting workforce development; and crafting policies to aid the deployment of new energy technologies.
 

@@ -1,24 +1,12 @@
-# Cooperative Agreements
-
-Stage: Course correction, Growth, Resilience
-Assigned to: Kelvin Yu
-Domain: Policy
-Oneliner: Funding mechanism involving extensive federal staff resources
-Status: Done
-Type: Execution, Funding
-
 ---
-
 title: Cooperative Agreements
-oneliner: "Upfront commitment to underwrite a market"
+oneliner: "Funding mechanism involving extensive federal staff resources"
 authors:
-
-- name: Kelvin Yu,
-  link: https://twitter.com/kelvinotcelsius
-  stage: [Correction, Growth, Resilience]
-  domain: [Industry, Philanthropy, Policy]
-  type: [Procurement]
-
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Correction, Growth, Resilience]
+domain: [Policy]
+type: ["Execution", "Funding"]
 ---
 
 ## Contributors
@@ -58,8 +46,8 @@ The report goes on to dissect issues that three CDC cooperative agreements faced
 
 - **Increasing layers of complexity:** “Interviewees acknowledged the necessity of requirements and how they may arise from each different funding source but that the intertwining of funding strings adds complexity; so much so that one interviewee noted the perception that there is: “more complexity” in public health than in their previous employment sector in the banking system.”
 - **Work duplication:** “An additional challenge with the IMM-VFC program is duplicative data entry into different systems for client health records, immunization registry, surveillance systems, and other program-specific systems as required by the state. To make matters worse for the agency, at the time of interview, the respondent noted that they had become aware of an additional state-sponsored tracking system for entering electronic disease surveillance information that may be relevant for COVID-19, described as: “another system as yet to be rolled out…to be trained on…so, it literally is double-entry…”
-- **************\*\*\*\***************Micromanagement:**************\*\*\*\*************** “Micromanagement of fund activities was held as a primary factor to impeding achievement of cooperative agreement goals or objectives. Further complication ensued when funding was bundled from multiple State administrative units which contained different managers with their own, and often competing, priorities.”
-- **************\*\***************Onerous reporting requirements:**************\*\*************** “Interviewees reported obligations that were overly onerous or impeding to the objectives of subawards passed through the State. Elevated reporting burdens and human resource allocations were frequently cited as a key barrier to achievement — a common theme across case studies. A key example is in double entry of data, either being requested by separate administrative units at the State or required to be entered into separate State-stewarded information systems.”
+- **\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***Micromanagement:**\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\*** “Micromanagement of fund activities was held as a primary factor to impeding achievement of cooperative agreement goals or objectives. Further complication ensued when funding was bundled from multiple State administrative units which contained different managers with their own, and often competing, priorities.”
+- **\*\***\*\***\*\***\*\***\*\***\*\***\*\***Onerous reporting requirements:**\*\***\*\***\*\***\*\***\*\***\*\***\*\*** “Interviewees reported obligations that were overly onerous or impeding to the objectives of subawards passed through the State. Elevated reporting burdens and human resource allocations were frequently cited as a key barrier to achievement — a common theme across case studies. A key example is in double entry of data, either being requested by separate administrative units at the State or required to be entered into separate State-stewarded information systems.”
 
 ## Further readings
 

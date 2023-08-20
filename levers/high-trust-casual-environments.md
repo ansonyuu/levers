@@ -1,10 +1,13 @@
-# High-Trust Casual Environments
-
-Stage: Resilience
-Assigned to: Kelvin Yu
-Domain: Academia, Industry, Philanthropy, Policy
-Status: In progress
-Type: Capacity building
+---
+title: High-Trust Casual Environments
+oneliner: ""
+authors:
+  - name: Kelvin Yu,
+    link: https://twitter.com/kelvinotcelsius
+stage: [Resilience]
+domain: [Academia, Industry, Philanthropy, Policy]
+type: [Capacity building]
+---
 
 ## Contributors
 
@@ -24,7 +27,7 @@ Type: Capacity building
 
 ## Success case study
 
-***********************Description and lessons***********************
+\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***Description and lessons\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***
 
 - [https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1](https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1)
 - [https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open](https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open)
@@ -33,7 +36,7 @@ Type: Capacity building
 
 ## Potential pitfalls
 
-***********************************************************Theoretical pitfalls, limitations, and concrete failure cases, if any exist***********************************************************
+\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Theoretical pitfalls, limitations, and concrete failure cases, if any exist\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
 ## Further readings
 

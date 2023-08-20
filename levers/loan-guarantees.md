@@ -1,10 +1,12 @@
 ---
 title: Loan Guarantees
-oneliner: "Being first purchaser of new technologies"
+oneliner: ""
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Procurement]
+stage: [Catalytic]
+domain: [Industry, Policy]
+type: [Procurement]
 ---
 
 ## Definition

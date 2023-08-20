@@ -1,10 +1,12 @@
 ---
 title: Incubators
-oneliner: "Being first purchaser of new technologies"
+oneliner: ""
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
 stage: [Procurement]
+domain: [Industry, Philanthropy, Policy]
+type: [Procurement]
 ---
 
 ## Definition
