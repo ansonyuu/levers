@@ -75,7 +75,6 @@ export default function Home({ levers }: any) {
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
-        console.log(result.stage);
         return result.stage && result.stage.includes(option);
       });
       setFilteredLevers(filteredResults);
@@ -97,7 +96,7 @@ export default function Home({ levers }: any) {
             </Link>
           </div>
           <div className="w-full h-full flex flex-col md:flex-row ">
-            <div className="w-full md:w-[20vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
+            <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
               <div className="w-full text-gray-500 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
@@ -236,12 +235,14 @@ export async function getStaticProps() {
   files.map((file) => {
     const titlePost = fs.readFileSync(`levers/${file}`, "utf-8");
     const { data: postData, content } = matter(titlePost);
-    console.log(levers);
+
     levers.push({
       title: postData.title,
       oneliner: postData.oneliner,
       authors: postData.authors,
       stage: postData.stage,
+      domain: postData.domain,
+      type: postData.type,
       link: postData.title ? `/?${postData.title.replace(/ /g, "%20")}` : "",
       content: content
     });

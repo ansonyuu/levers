@@ -1,6 +1,6 @@
 ---
 title: Beware Consultants
-oneliner: "Or anyone else without skin in the game"
+oneliner: "Avoiding people without skin in the game"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

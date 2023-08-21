@@ -5,6 +5,8 @@ authors:
   - name: Joel Burke,
     link: https://atlasunshrugged.medium.com/
 stage: [Growth]
+domain: [Policy]
+type: [Capacity building]
 ---
 
 ## About the co-author

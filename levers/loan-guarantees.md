@@ -1,6 +1,6 @@
 ---
 title: Loan Guarantees
-oneliner: ""
+oneliner: "PLACEHOLDER"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

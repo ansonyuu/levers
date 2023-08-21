@@ -1,6 +1,6 @@
 ---
 title: High-Trust Casual Environments
-oneliner: ""
+oneliner: "PLACEHOLDER"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

@@ -4,7 +4,7 @@ oneliner: "Upfront commitment to underwrite a market"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Catalytic, Course correction, Resilience]
+stage: [Catalytic, Correction, Resilience]
 domain: [Industry, Philanthropy, Policy]
 type: [Capacity building, Execution]
 ---

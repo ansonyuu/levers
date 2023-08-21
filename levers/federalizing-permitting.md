@@ -1,19 +1,13 @@
 ---
 title: Federalizing Permitting Authority
-oneliner: "Upfront commitment to underwrite a market"
+oneliner: "Changing domain of jurisdiction"
 authors:
   - name: Anson Yu,
     link: https://twitter.com/ansonyuu
 stage: [Catalytic]
 domain: [Policy]
-type: []
+type: [Execution]
 ---
-
-# Federalizing Permitting Authority
-
-Assigned to: Anson Yu
-Notes: Grain Belt Express project, New England Clean Energy Connect
-Status: In progress
 
 ## About the co-author
 

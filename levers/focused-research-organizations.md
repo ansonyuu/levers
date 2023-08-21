@@ -1,6 +1,6 @@
 ---
 title: Focused Research Organizations
-oneliner: "Upfront commitment to underwrite a market"
+oneliner: "PLACEHOLDER"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -8,16 +8,6 @@ stage: [Catalytic]
 domain: [Academia, Philanthropy, Policy]
 type: [Capacity building, Execution]
 ---
-
-# Focused Research Organizations
-
-Stage: Catalytic
-Assigned to: Kelvin Yu
-Domain: Academia, Philanthropy, Policy
-Oneliner: Non-profit startup research organizations
-Outreach owner: Anson Yu
-Status: Done
-Type: Capacity building, Execution
 
 ## Contributors
 
