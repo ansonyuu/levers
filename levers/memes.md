@@ -26,8 +26,6 @@ _Definition and Significance_
 
 ## Success case study
 
-\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***Description and lessons\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***
-
 ## Potential pitfalls
 
 \***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Theoretical pitfalls, limitations, and concrete failure cases, if any exist\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***

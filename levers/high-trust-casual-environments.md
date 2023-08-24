@@ -27,8 +27,6 @@ type: [Capacity building]
 
 ## Success case study
 
-\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***Description and lessons\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***
-
 - [https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1](https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1)
 - [https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open](https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open)
 - [https://www.nytimes.com/2011/06/13/sports/golf/when-the-rounds-were-ammo-at-congressional-country-club.html](https://www.nytimes.com/2011/06/13/sports/golf/when-the-rounds-were-ammo-at-congressional-country-club.html)

@@ -40,8 +40,6 @@ _Success case study_
 
 Measuring mouse brain activity at a specified rate in a specified volume ([example](Scientific%20Roadmapping%206a2b9c340a9445fdb50ac3d6a20ff125.md)).
 
-\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***Description and lessons\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***
-
 After specifying the key rates of recording, and within what volume, t[his paper](https://www.frontiersin.org/articles/10.3389/fncom.2013.00137/full) takes the approach of working backwards through outlining principles in physics (e.g optical measurement, electrical, magnetic resonance, and molecular modalities). In going through this process and understanding the physical principles at the limit allows for insight into novel solutions – essentially asking the question – what is stopping us from reaching these current limits?
 
 There are other accompanying questions that such a roadmap may uncover?
