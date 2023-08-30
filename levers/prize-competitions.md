@@ -1,6 +1,7 @@
 ---
 title: Prize Competitions
 oneliner: "Build stuff to win awards"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

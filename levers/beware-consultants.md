@@ -1,6 +1,7 @@
 ---
 title: Beware Consultants
-oneliner: "Avoiding people without skin in the game"
+oneliner: ""
+image: "cover-camp.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

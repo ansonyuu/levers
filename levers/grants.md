@@ -1,6 +1,7 @@
 ---
 title: Grants
 oneliner: "'Free' money"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

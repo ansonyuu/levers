@@ -1,6 +1,7 @@
 ---
 title: Incubators
 oneliner: "PLACEHOLDER"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

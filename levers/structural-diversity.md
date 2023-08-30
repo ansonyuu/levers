@@ -1,6 +1,7 @@
 ---
 title: Structural Diversity
 oneliner: "Upfront commitment to underwrite a market"
+image: "cover-market.png"
 authors:
   - name: Corin Wagen,
     link: https://corinwagen.github.io/public/main/index.html

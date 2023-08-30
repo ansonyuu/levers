@@ -1,6 +1,7 @@
 ---
 title: Entrepreneur Visas
 oneliner: "Upfront commitment to underwrite a market"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

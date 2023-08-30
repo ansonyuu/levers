@@ -1,6 +1,7 @@
 ---
 title: Moonshot Institutions
 oneliner: "Go big or go home"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

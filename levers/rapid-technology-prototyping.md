@@ -1,6 +1,7 @@
 ---
 title: Rapid Technology Prototyping
 oneliner: "A competition for prototypes"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

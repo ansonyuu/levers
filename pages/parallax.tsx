@@ -67,7 +67,8 @@ export async function getStaticProps() {
     levers.push({
       title: postData.title,
       oneliner: postData.oneliner,
-      authors: postData.authors,
+      image: "cover-market.png"
+authors: postData.authors,
       stage: postData.stage,
       link: `/?${postData.title.replace(/ /g, "%20")}`,
       content: content

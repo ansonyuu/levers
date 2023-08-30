@@ -1,6 +1,7 @@
 ---
 title: Federalizing Permitting Authority
 oneliner: "Changing domain of jurisdiction"
+image: "cover-market.png"
 authors:
   - name: Anson Yu,
     link: https://twitter.com/ansonyuu

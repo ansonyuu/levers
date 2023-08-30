@@ -1,6 +1,7 @@
 ---
 title: Staged Contracts
 oneliner: "A competition for concept papers"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

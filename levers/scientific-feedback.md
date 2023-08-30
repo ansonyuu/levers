@@ -1,6 +1,7 @@
 ---
 title: Better Scientific Feedback
 oneliner: "Giving scientists better feedback on subitted work"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

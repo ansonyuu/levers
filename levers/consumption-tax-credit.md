@@ -1,6 +1,7 @@
 ---
 title: Consumption Tax Credit
 oneliner: "More usage, more tax benefits"
+image: "cover-market.png"
 authors:
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en

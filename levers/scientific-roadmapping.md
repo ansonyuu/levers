@@ -1,6 +1,7 @@
 ---
 title: Scientific Roadmapping
 oneliner: "Mapping scientific fields"
+image: "cover-market.png"
 authors:
   - name: AJ Kourabi,
     link:

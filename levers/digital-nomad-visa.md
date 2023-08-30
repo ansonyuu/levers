@@ -1,6 +1,7 @@
 ---
 title: Digital Nomad Visa
 oneliner: "Relocate remote talent to you"
+image: "cover-market.png"
 authors:
   - name: Joel Burke,
     link: https://atlasunshrugged.medium.com/

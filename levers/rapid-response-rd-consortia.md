@@ -1,6 +1,7 @@
 ---
 title: Rapid Response R&D Consortia
 oneliner: "R&D partnerships to respond to emergency"
+image: "cover-market.png"
 authors:
   - name: Alice Wu,
     link: https://www.linkedin.com/in/alice-q-wu/

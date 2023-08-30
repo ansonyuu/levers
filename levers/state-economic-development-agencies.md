@@ -1,6 +1,7 @@
 ---
 title: State Economic Development Agencies
 oneliner: "State-level agencies for advancing regional innovation"
+image: "cover-market.png"
 authors:
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en

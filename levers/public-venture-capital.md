@@ -1,6 +1,7 @@
 ---
 title: Public Venture Capital Funds
 oneliner: "Public funding for companies of national interest"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

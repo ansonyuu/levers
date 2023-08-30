@@ -1,6 +1,7 @@
 ---
 title: Cooperative Agreements
 oneliner: "Funding mechanism involving extensive federal staff resources"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

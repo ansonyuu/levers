@@ -1,6 +1,7 @@
 ---
 title: Pre-Competitive R&D Consortia
 oneliner: "Collaborative R&D partnerships"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

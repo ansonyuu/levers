@@ -1,6 +1,7 @@
 ---
 title: Buyer of First Resort
 oneliner: "Be the guaranteed first purchaser"
+image: "cover-floor.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

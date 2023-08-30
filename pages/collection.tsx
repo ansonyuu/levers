@@ -171,7 +171,7 @@ export default function Home({ levers }: any) {
           </div>
         </div>
         <div className="w-5/12 hidden md:inline-block overflow-y-scroll">
-          <img alt="" src="/cover-market.png" className="" />
+          <img alt="" src={`/${selectedLever?.image}`} className="" />
           <div className="p-8">
             <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
@@ -199,7 +199,7 @@ export default function Home({ levers }: any) {
           contentLabel="Lever Modal"
         >
           <div className="overflow-y-scroll">
-            <img alt="" src="/cover-market.png" className="" />
+            <img alt="" src={`/${selectedLever?.image}`} className="" />
             <div className="p-8">
               <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
@@ -234,6 +234,7 @@ export async function getStaticProps() {
     levers.push({
       title: postData.title,
       oneliner: postData.oneliner,
+      image: postData.image,
       authors: postData.authors,
       stage: postData.stage,
       domain: postData.domain,

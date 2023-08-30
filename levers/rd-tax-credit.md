@@ -1,6 +1,7 @@
 ---
 title: R&D Tax Credit
 oneliner: "More research and development, more tax benefits"
+image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
