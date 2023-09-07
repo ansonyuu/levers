@@ -9,7 +9,7 @@ export default function Filter({
   className?: string;
 }) {
   const [selectedStage, setSelectedStage] = useState(levers[0]);
-  const [filteredLevers, setFilteredLevers] = useState(levers);
+  const [filteredStage, setFilteredStage] = useState(levers);
 
   const handleChange = (event) => {
     const option = event.target.value;
@@ -19,13 +19,13 @@ export default function Filter({
 
   const filterResults = (option) => {
     if (!option) {
-      setFilteredLevers(levers);
+      setFilteredStage(levers);
     } else {
       const filteredResults = levers.filter((result) => {
         console.log(result.stage);
         return result.stage && result.stage.includes(option);
       });
-      setFilteredLevers(filteredResults);
+      setFilteredStage(filteredResults);
     }
   };
   return (

@@ -19,7 +19,9 @@ const customStyles = {
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    transform: "translate(-50%, -50%)"
+    transform: "translate(-50%, -50%)",
+    padding: "0",
+    border: "solid black 0.5px"
   }
 };
 
@@ -153,15 +155,20 @@ export default function Home({ levers }: any) {
                   >
                     <div
                       onClick={() => handleClick(lever)}
-                      className="flex flex-col md:flex-row mb-2"
+                      className="flex flex-col justify-between md:flex-row mb-2"
                     >
-                      <div className=" min-w-[75%]">
-                        <h2 className="text-[30px] ">{lever?.title}</h2>
-                        <p className=" text-[12px] ">{lever.oneliner}</p>
-                      </div>
-
-                      <div className="flex flex-row justify-start md:justify-end content-start items-start min-w-[25%] w-full gap-2 ">
-                        <Tags lever={lever} />
+                      <div className="flex flex-row justify-between md:justify-between content-start items-start w-full gap-2 ">
+                        <div className="max-w-3/4 md:max-w-[70%] overflow-auto">
+                          <h2 className="text-[30px] whitespace-normal">
+                            {lever?.title}
+                          </h2>
+                          <p className=" text-[12px] whitespace-normal pt-2 md:pt-0">
+                            {lever.oneliner}
+                          </p>
+                        </div>
+                        <div className="w-1/4 flex flex-row space-x-2 justify-end">
+                          <Tags lever={lever} />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -198,12 +205,12 @@ export default function Home({ levers }: any) {
           style={customStyles}
           contentLabel="Lever Modal"
         >
-          <div className="overflow-y-scroll">
+          <div className="overflow-y-scroll ">
             <img alt="" src={`/${selectedLever?.image}`} className="" />
             <div className="p-8">
               <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
-              <div className="flex flex-row m-3 gap-2">
+              <div className="flex flex-row gap-2">
                 <Tags lever={selectedLever} />
               </div>
 

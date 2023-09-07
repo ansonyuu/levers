@@ -5,7 +5,7 @@ image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Correction, Catalytic, Growth]
+stage: [Catalytic, Growth]
 domain: [Industry, Philanthropy, Policy]
 type: [Funding, Procurement]
 ---

@@ -10,16 +10,6 @@ domain: [Industry, Philanthropy, Policy]
 type: [Procurement]
 ---
 
-# Investment Tax Credit
-
-Stage: Growth
-Assigned to: Kelvin Yu
-Domain: Policy
-Oneliner: More investments, more tax benefits
-Outreach owner: Kelvin Yu
-Status: Done
-Type: Funding
-
 ## Contributors
 
 [Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.

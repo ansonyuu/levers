@@ -5,7 +5,7 @@ image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Correction, Growth, Resilience]
+stage: [Correction, Resilience]
 domain: [Policy]
 type: ["Execution", "Funding"]
 ---
