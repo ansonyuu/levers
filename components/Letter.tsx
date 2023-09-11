@@ -46,7 +46,7 @@ export default function Letter() {
         <p className=''>
           Levers for Progress is an open-source collection of{' '}
           <strong>policies, tactics, and reforms</strong> used by modern
-          institutions to accelerate innovation in the US.
+          institutions to accelerate innovation in the United States.
           <Sidenote right={false}>
             All views presented here are personal to Kelvin and Anson and do not
             represent the views of their employers.
@@ -84,7 +84,7 @@ export default function Letter() {
           >
             underfunded
           </a>{' '}
-          government scientists work out of{' '}
+          government scientists are forced to work out of{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -119,7 +119,7 @@ export default function Letter() {
           audacity to declare war on cancer in the 1970s. We inexplicably lost
           this ethos—and only began rekindling it in the last few years. The
           rest of this letter explains this history, but if you’d like to skip
-          to the levers that are being used today to restore this spirit, you
+          to the levers that are being used today to reanimate this spirit, you
           can head{' '}
           <a
             target='_blank'
@@ -670,9 +670,48 @@ export default function Letter() {
             Advanced Research + Invention Agency
           </a>{' '}
           aim to unshackle innovation from traditional bureaucracies. Schmidt
-          Futures, Stripe, Open Philanthropy, Arnold Ventures, and other funders
-          are experimenting with new ways of doing science, incubating and
-          backing projects like{' '}
+          Futures,{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://arcinstitute.org/'
+          >
+            Arc Institute
+          </a>
+          , Open Philanthropy,{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://archive.li/uOW7y'
+          >
+            Yosemite
+          </a>
+          ,{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://newscience.org/'
+          >
+            New Science
+          </a>
+          ,{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://goodscienceproject.org/'
+          >
+            Good Science Project
+          </a>
+          , Arnold Ventures, and other funders are experimenting with new ways
+          of doing science, incubating and backing{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://12ft.io/proxy?q=https%3A%2F%2Fwww.theatlantic.com%2Fideas%2Farchive%2F2022%2F01%2Fscientific-funding-is-broken-can-silicon-valley-fix-it%2F621295%2F'
+          >
+            projects
+          </a>{' '}
+          like{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -703,6 +742,14 @@ export default function Letter() {
             href='https://marketshaping.uchicago.edu/'
           >
             Market Shaping Accelerator
+          </a>
+          ,{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.arcadiascience.com/'
+          >
+            Arcadia Science
           </a>
           , and{' '}
           <a
@@ -741,14 +788,14 @@ export default function Letter() {
           <a target='_blank' rel='noopener noreferrer' href='https://fas.org/'>
             Federal of American Scientists
           </a>{' '}
-          and the
+          and the{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
             href='https://progress.institute/'
           >
             Institute for Progress
-          </a>
+          </a>{' '}
           translate ideas into policies, resulting in the creation of{' '}
           <a
             target='_blank'
