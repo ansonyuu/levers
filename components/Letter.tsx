@@ -421,9 +421,12 @@ export default function Letter() {
       </Text>
       <div>
         <figure className="image">
-          <a href="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8">
-            <img src="https://lh3.googleusercontent.com/7JxkbdnuMFfRZejWavLfATZu_F7Qdw-kY0R4fp_sDHE5pqdmmUABusJ8xHqVl-67WF0y0siTc7CJnT12M_Ruwn-UB787OFg1Zo9NncOQVAv1-Gjf2Po6CCY5-BV5YzQMtll67i_auMIVxaMW40jx4C8" />
-          </a>
+          <img className="hidden md:inline-block" src="/letter-ssc.png" />
+
+          <img
+            className="md:hidden inline-block px-5"
+            src="letter-ssc-sm.png"
+          />
         </figure>
       </div>
       <Text>
@@ -460,14 +463,16 @@ export default function Letter() {
             by the US Census Bureau.
           </Sidenote>
         </p>
-
+      </Text>
+      <div className="flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-4 lg:flex-row">
         <figure className="image">
           <img src="/letter-randd.png" />
         </figure>
         <figure className="image">
           <img src="/letter-spending.png" />
         </figure>
-
+      </div>
+      <Text>
         <h3 className="">
           <strong>The Roots of Revival</strong>
         </h3>
@@ -514,33 +519,17 @@ export default function Letter() {
           investments.
         </p>
       </Text>
-      <div className="flex flex-row gap-x-3">
+      <div className="flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-8 lg:flex-row">
+        <div className="flex  gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-8 flex-row">
+          <figure className="image">
+            <img src="letter-climate.png" />
+          </figure>
+          <figure className="image">
+            <img src="letter-climate2.png" />
+          </figure>
+        </div>
         <figure className="image">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8"
-          >
-            <img src="https://lh5.googleusercontent.com/jnQwD1XQ981w7ZTY4xVAKvYx01t54QUYPKEQxlJPoJxO9hvXfxAXUTWtLeovX2SgRS8wEagXwyIBXWtESyg5khckVP8aKE7imQp3qqVcf7wlhiRQN2kAufFF87r43JzG0_h-l2tGqyTePrCBCFFoUz8" />
-          </a>
-        </figure>
-        <figure className="image">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo"
-          >
-            <img src="https://lh5.googleusercontent.com/K7OkaWmloAuG-o5L0VbpoaxDXIm9GY2sLN_UlyHmZt7yqPj9hHI-BE8PzVW_cbvaBg7FQg5DDyBo1abckHZvghaSH6xchwaFgmPlciS3hZV6QkyFLPmEZYrD_sz5UhczfFe02_n6utRuSx2eLcXZYKo" />
-          </a>
-        </figure>
-        <figure className="image">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw"
-          >
-            <img src="https://lh5.googleusercontent.com/qq_wE7g0KK8WTnm-lWyCCLr_do911MWlcYJremasVPuVswfXSLjxdfN3t4vk5zRtr6eGaCzH_FZIQuXPTgLbkas2d2HRM-Z8GvK78s5vQMOOVVTHsmc97Odpn3s5lbHOmeIelakFTkLGA_2eANFieUw" />
-          </a>
+          <img src="letter-construction.png" />
         </figure>
       </div>
       <Text>
