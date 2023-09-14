@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 function Footer() {
   const path = useRouter().route;
-  console.log(path, "this is the path");
+
   return (
     <div className="w-full">
       <div className="px-10 flex flex-col md:flex-col text-xs md:items-left justify-between my-2">

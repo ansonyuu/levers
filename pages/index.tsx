@@ -24,22 +24,6 @@ export default function Home() {
       <SEO title="Home" />
 
       <div className="flex flex-col relative w-full ">
-        {/* <motion.div
-          className="absolute z-10"
-          style={{ y: far, x: 200, rotate: rotate }}
-        >
-          <Image alt="" src="/index-decor.png" width={100} height={100} />
-        </motion.div>
-        <motion.div
-          className="absolute z-10"
-          style={{ y: normal, x: 500, rotate: rotate }}
-        >
-          <Image alt="" src="/index-decor.png" width={200} height={200} />
-        </motion.div>
-        <motion.div className="z-10" style={{ y: closer, x: 800 }}>
-          <Image alt="" src="/index-decor.png" width={600} height={600} />
-        </motion.div> */}
-
         <img
           className="w-[100vw] mt-[-30px] inline-block"
           src="/index-topbanner.png"

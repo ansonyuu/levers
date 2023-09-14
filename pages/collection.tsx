@@ -31,6 +31,7 @@ export default function Home({ levers }: any) {
   const [filteredLevers, setFilteredLevers] = useState(levers);
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
+  const [selectedDomain, setSelectedDomain] = useState(levers[0]);
   const router = useRouter();
   const size = useWindowSize();
   const md = markdown({ html: true });
@@ -63,9 +64,16 @@ export default function Home({ levers }: any) {
     }
   };
 
-  const handleChange = (event) => {
+  const handleStageChange = (event) => {
     const option = event.target.value;
     setSelectedStage(option);
+    filterResults(option);
+    setIsOpen(false);
+  };
+
+  const handleDomainChange = (event) => {
+    const option = event.target.value;
+    setSelectedDomain(option);
     filterResults(option);
     setIsOpen(false);
   };
@@ -77,6 +85,9 @@ export default function Home({ levers }: any) {
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
+        const initialFilter = result.stage && result.stage.includes(option);
+        console.log(initialFilter);
+
         return result.stage && result.stage.includes(option);
       });
       setFilteredLevers(filteredResults);
@@ -104,7 +115,7 @@ export default function Home({ levers }: any) {
                 <label className="sr-only">Underline select</label>
                 <select
                   value={selectedStage}
-                  onChange={handleChange}
+                  onChange={handleStageChange}
                   id="underline_select"
                   className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
                 >
@@ -112,9 +123,29 @@ export default function Home({ levers }: any) {
                   <option value="Correction">Correction</option>
                   <option value="Funding">Funding</option>
                   <option value="Catalytic">Catalytic</option>
+                  <option value="Growth">Growth</option>
                   <option value="Procurement">Procurement</option>
                 </select>
+                <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
+                  <div className="w-full text-gray-500 text-sm">
+                    <p className="text-base">Domain</p>
+                    <label className="sr-only">Underline select</label>
+                    <select
+                      value={selectedDomain}
+                      onChange={handleDomainChange}
+                      id="underline_select"
+                      className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+                    >
+                      <option selected>Select</option>
+                      <option value="Industry">Industry</option>
+                      <option value="Philanthropy">Philanthropy</option>
+                      <option value="Policy">Policy</option>
+                      <option value="Academia">Academia</option>
+                    </select>
+                  </div>
+                </div>
               </div>
+
               <div className="max-w-[50vw] md:max-w-[30vw] md:my-10">
                 <p className="text-gray-500 text-sm hidden">
                   Anyone can submit suggestions for new levers* or edits to
