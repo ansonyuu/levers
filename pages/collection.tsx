@@ -67,28 +67,25 @@ export default function Home({ levers }: any) {
   const handleStageChange = (event) => {
     const option = event.target.value;
     setSelectedStage(option);
-    filterResults(option);
+    filterResults(option, "stage");
     setIsOpen(false);
   };
 
   const handleDomainChange = (event) => {
     const option = event.target.value;
     setSelectedDomain(option);
-    filterResults(option);
+    filterResults(option, "domain");
     setIsOpen(false);
   };
 
-  const filterResults = (option) => {
+  const filterResults = (option, property) => {
     if (option == "Select") {
       setFilteredLevers(levers);
     } else if (!option) {
       setFilteredLevers(levers);
     } else {
       const filteredResults = levers.filter((result) => {
-        const initialFilter = result.stage && result.stage.includes(option);
-        console.log(initialFilter);
-
-        return result.stage && result.stage.includes(option);
+        return result[property] && result[property].includes(option);
       });
       setFilteredLevers(filteredResults);
     }
@@ -104,12 +101,12 @@ export default function Home({ levers }: any) {
               <img
                 alt=""
                 src="/icon-logo.png"
-                className="p-3 ml-4  h-10 w-auto"
+                className="p-3 ml-4 h-10 w-auto"
               />
             </Link>
           </div>
           <div className="w-full h-full flex flex-col md:flex-row ">
-            <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
+            <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px] border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
               <div className="w-full text-gray-500 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
@@ -126,27 +123,26 @@ export default function Home({ levers }: any) {
                   <option value="Growth">Growth</option>
                   <option value="Procurement">Procurement</option>
                 </select>
-                <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px]  border-black flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
-                  <div className="w-full text-gray-500 text-sm">
-                    <p className="text-base">Domain</p>
-                    <label className="sr-only">Underline select</label>
-                    <select
-                      value={selectedDomain}
-                      onChange={handleDomainChange}
-                      id="underline_select"
-                      className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
-                    >
-                      <option selected>Select</option>
-                      <option value="Industry">Industry</option>
-                      <option value="Philanthropy">Philanthropy</option>
-                      <option value="Policy">Policy</option>
-                      <option value="Academia">Academia</option>
-                    </select>
-                  </div>
+
+                <div className="w-full text-gray-500 text-sm">
+                  <p className="text-base">Domain</p>
+                  <label className="sr-only">Underline select</label>
+                  <select
+                    value={selectedDomain}
+                    onChange={handleDomainChange}
+                    id="underline_select"
+                    className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+                  >
+                    <option selected>Select</option>
+                    <option value="Industry">Industry</option>
+                    <option value="Philanthropy">Philanthropy</option>
+                    <option value="Policy">Policy</option>
+                    <option value="Academia">Academia</option>
+                  </select>
                 </div>
               </div>
 
-              <div className="max-w-[50vw] md:max-w-[30vw] md:my-10">
+              <div className="">
                 <p className="text-gray-500 text-sm hidden">
                   Anyone can submit suggestions for new levers* or edits to
                   existing ones through our public{" "}
