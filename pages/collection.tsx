@@ -32,6 +32,7 @@ export default function Home({ levers }: any) {
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
   const [selectedDomain, setSelectedDomain] = useState(levers[0]);
+  const [searchTerm, setSearchTerm] = useState("");
   const router = useRouter();
   const size = useWindowSize();
   const md = markdown({ html: true });
@@ -104,6 +105,20 @@ export default function Home({ levers }: any) {
                 className="p-3 ml-4 h-10 w-auto"
               />
             </Link>
+            <div className="relative h-full m-2 p-1 px-3 border-black border">
+              <input
+                type="text"
+                placeholder="Search..."
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                }}
+                className="h-full outline-none"
+              />
+              <span className="absolute right-3 top-0 h-full w-5 flex justify-center items-center">
+                <img src="/icon-search.png" alt="search icon" />
+              </span>
+            </div>
           </div>
           <div className="w-full h-full flex flex-col md:flex-row ">
             <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px] border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
@@ -174,33 +189,44 @@ export default function Home({ levers }: any) {
               </div>
             </div>
             <div className="flex flex-col md:w-[50vw] overflow-y-scroll ">
-              {filteredLevers.map((lever, i) => {
-                return (
-                  <div
-                    key={i}
-                    className="grid items-start border-b-[0.5px]  border-b-black py-4 px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer"
-                  >
+              {filteredLevers
+                .filter((lever) => {
+                  return (
+                    lever.title
+                      .toLowerCase()
+                      .includes(searchTerm.toLowerCase()) ||
+                    lever.content
+                      .toLowerCase()
+                      .includes(searchTerm.toLowerCase())
+                  );
+                })
+                .map((lever, i) => {
+                  return (
                     <div
-                      onClick={() => handleClick(lever)}
-                      className="flex flex-col justify-between md:flex-row mb-2"
+                      key={i}
+                      className="grid items-start border-b-[0.5px]  border-b-black py-4 px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer"
                     >
-                      <div className="flex flex-row justify-between md:justify-between content-start items-start w-full gap-2 ">
-                        <div className="max-w-3/4 md:max-w-[70%] overflow-auto">
-                          <h2 className="text-[30px] whitespace-normal">
-                            {lever?.title}
-                          </h2>
-                          <p className=" text-[12px] whitespace-normal pt-2 md:pt-0">
-                            {lever.oneliner}
-                          </p>
-                        </div>
-                        <div className="w-1/4 flex flex-row space-x-2 justify-end">
-                          <Tags lever={lever} />
+                      <div
+                        onClick={() => handleClick(lever)}
+                        className="flex flex-col justify-between md:flex-row mb-2"
+                      >
+                        <div className="flex flex-row justify-between md:justify-between content-start items-start w-full gap-2 ">
+                          <div className="max-w-3/4 md:max-w-[70%] overflow-auto">
+                            <h2 className="text-[30px] whitespace-normal">
+                              {lever?.title}
+                            </h2>
+                            <p className=" text-[12px] whitespace-normal pt-2 md:pt-0">
+                              {lever.oneliner}
+                            </p>
+                          </div>
+                          <div className="w-1/4 flex flex-row space-x-2 justify-end">
+                            <Tags lever={lever} />
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
             </div>
           </div>
         </div>
