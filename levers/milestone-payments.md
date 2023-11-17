@@ -51,8 +51,6 @@ Potential pitfalls of implementing milestone payments include overemphasizing sh
 
 ## Further readings
 
-[Milestone Payments: Understanding a Powerful Technique | Strategic Institute](https://strategicinstitute.org/other-transactions/milestone-payments/)
-
-[A 2006 NASA program shows how government can move at the speed of startups | Center for Growth and Opportunity](https://www.thecgo.org/benchmark/a-2006-nasa-program-shows-how-government-can-move-at-the-speed-of-startups/)
-
-[Title 48 - Federal Acquisition Regulations System](https://www.govinfo.gov/content/pkg/CFR-1996-title48-vol6/xml/CFR-1996-title48-vol6-part1832-subpart1832-70.xml)
+- [Milestone Payments: Understanding a Powerful Technique | Strategic Institute](https://strategicinstitute.org/other-transactions/milestone-payments/)
+- [A 2006 NASA program shows how government can move at the speed of startups | Center for Growth and Opportunity](https://www.thecgo.org/benchmark/a-2006-nasa-program-shows-how-government-can-move-at-the-speed-of-startups/)
+- [Title 48 - Federal Acquisition Regulations System](https://www.govinfo.gov/content/pkg/CFR-1996-title48-vol6/xml/CFR-1996-title48-vol6-part1832-subpart1832-70.xml)

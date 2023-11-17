@@ -1,7 +1,7 @@
 ---
 title: Regional Innovation Hubs
-oneliner: "Local foci of technological creativity"
-image: "cover-market.png"
+oneliner: 'Local foci of technological creativity'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius

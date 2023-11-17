@@ -1,7 +1,7 @@
 ---
 title: Focused Research Organizations
-oneliner: "PLACEHOLDER"
-image: "cover-market.png"
+oneliner: 'Non-profit startup research organizations'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -20,11 +20,11 @@ type: [Capacity building, Execution]
 
 - A Focused Research Organization (FRO) is a specialized non-profit research entity that seeks to advance a specific scientific topic or technology that cannot be efficiently addressed by standard organizational structures in academia or industry
 - “[Academic incentives disfavor medium- to large-scale teamwork across disciplines](https://www.nature.com/articles/d41586-021-01581-z) and projects with a low possibility of publishable results, while commercial profit motive precludes the production of public goods, so projects that fall in between academic and commercial incentives often go untouched.” — [Alice Wu, Federation of American Scientists](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/)
-- Related: [Structural Diversity](Structural%20Diversity%201060e162c12b4f1da7a49641ea382aaa.md)
+- Related: [Structural Diversity](https://www.notion.so/Structural-Diversity-1060e162c12b4f1da7a49641ea382aaa?pvs=21)
 
 ## When to use
 
-FROs are used to tackle science and technological problems that (1) require levels of coordinated engineering or system-building inaccessible to academia, and (2) benefit society broadly in ways that industry cannot rapidly monetize. These problems require a startup-like structure with tightly coordinated, medium-sized teams that can engineer and scale solutions in a manner un-suited for university labs.
+FROs are used to tackle science and technological problems that (1) require levels of coordinated engineering or system-building inaccessible to academia, and (2) benefit society broadly in ways that industry cannot rapidly monetize. These problems require a startup-like structure with tightly coordinated, medium-sized teams that can engineer and scale solutions in a manner unsuited for university labs.
 
 ![Untitled](Focused%20Research%20Organizations%20a52df79084774014a5c3199068c2e3c1/Untitled.png)
 
@@ -51,10 +51,7 @@ A recent [memo](https://fas.org/publication/focused-research-organizations-a-new
 
 ## Further readings
 
-[Three learnings about Focused Research Organizations | Samuel Rodriques](https://calvinball.substack.com/p/three-learnings-about-focused-research)
-
-[What is an FRO | AJ Kourabi](https://www.ajkourabi.com/writings/what-is-and-is-not-an-fro)
-
-[Focused Research Organizations | Astera](https://astera.org/fros)
-
-[Unblock research bottlenecks with non-profit start-ups | Nature](https://www.nature.com/articles/d41586-022-00018-5)
+- [Three learnings about Focused Research Organizations | Samuel Rodriques](https://calvinball.substack.com/p/three-learnings-about-focused-research)
+- [What is an FRO | AJ Kourabi](https://www.ajkourabi.com/writings/what-is-and-is-not-an-fro)
+- [Focused Research Organizations | Astera](https://astera.org/fros)
+- [Unblock research bottlenecks with non-profit start-ups | Nature](https://www.nature.com/articles/d41586-022-00018-5)

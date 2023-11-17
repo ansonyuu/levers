@@ -1,7 +1,7 @@
 ---
 title: Structural Diversity
-oneliner: "Upfront commitment to underwrite a market"
-image: "cover-market.png"
+oneliner: 'Upfront commitment to underwrite a market'
+image: 'cover-market.png'
 authors:
   - name: Corin Wagen,
     link: https://corinwagen.github.io/public/main/index.html
@@ -12,7 +12,7 @@ type: [Capacity building, Execution]
 
 ## Contributors
 
-[Corin Wagen](https://corinwagen.github.io/public/main/index.html) is a computational/organic chemist who recently completed a PhD from Harvard University, where he studied the development and mechanism of selective catalytic reactions. He is now co-founding a startup in computational chemistry. He writes about scientific institutions, progress, and governance [here](https://cwagen.substack.com/). This page is a summary of his [post on Structural Diversity](https://cwagen.substack.com/p/20221026_structural_diversityhtml).
+[Dr. Corin Wagen](https://corinwagen.github.io/public/main/index.html) is a computational/organic chemist who is co-founding a startup in computational chemistry. He recently completed a PhD from Harvard University, where he studied the development and mechanism of selective catalytic reactions. He writes about scientific institutions, progress, and governance [here](https://cwagen.substack.com/). This page is a summary of his [post on Structural Diversity](https://cwagen.substack.com/p/20221026_structural_diversityhtml).
 
 ## Key things to know
 
@@ -23,7 +23,7 @@ type: [Capacity building, Execution]
   - Allowing for greater flexibility in the structure of labs (i.e. multiple professors within the same lab).
   - [Giving department heads more power](https://www.freaktakes.com/p/how-karl-compton-believed-a-research), thus making departments more like a single, large-scale organization working towards a single goal.
   - [Focused research organizations](https://www.convergentresearch.org/about-fros) and similar large-scale undertakings.
-- Related: [Focused Research Organizations](Focused%20Research%20Organizations%20a52df79084774014a5c3199068c2e3c1.md)
+- Related: [Focused Research Organizations](https://www.notion.so/Focused-Research-Organizations-a52df79084774014a5c3199068c2e3c1?pvs=21)
 
 ## Case study
 

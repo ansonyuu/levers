@@ -1,7 +1,7 @@
 ---
 title: Moonshot Institutions
-oneliner: "Go big or go home"
-image: "cover-market.png"
+oneliner: 'Go big or go home'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -20,7 +20,7 @@ Thank you to [Ben Reinhardt](https://www.elidourado.com/), founder of [Speculati
 
 - There are a few institutions whose mandate is to achieve outsized scientific and technological; breakthroughs. Some are standalone organizations whose mandate is to push the technological frontier for particular domains, such as [Actuate/Prime Coalition](https://www.primecoalition.org/library/actuate-climate-joins-forces-with-prime-coalition) [](https://actuateinnovation.org/)(climate/energy), [Wellcome Leap](https://wellcome.org/what-we-do/our-work/wellcome-leap) (health), [Ink & Switch](https://www.inkandswitch.com/) (software), NobelReach ([emerging tech](https://noblereachfoundation.org/)). Others are part of a parent organization and seek to increase innovation in areas within their parent organization’s domain. These are often called “moonshot” or “innovation” departments, and some examples include Apple’s Exploratory Design Group, GoogleX, DARPA (although some might argue DARPA’s unique autonomy effectively renders it a separate organization outside the Department of Defense), or historically, Bell Labs, XeroxPARC, and [Skunk Works](https://www.acquired.fm/episodes/lockheed-martin).
 - [Historical themes](https://progress.institute/how-do-we-make-an-entrepreneurial-state/#:~:text=certain%20themes%20that%20repeat%20across%20case%20studies) from government institutions with outsized innovative output such as ARPA/DARPA, MITI, and Vinnovaad include the importance of attracting elite talent into public service, a consistent and large funding stream, lack of red tape, and tolerance for risk and failure.
-- We used the term “institution” instead of “department” for this lever to highlight that regardless of whether the organization is independent or part of a larger bureaucracy, it needs to be **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***functionally independent**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\*** and should not be thought of as ‘just another department**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***.’**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\*** The more rules, norms, and existing ways of thinking that are implanted in the moonshot institution, the less able people on the team can think boldly and differently.
+- We used the term “institution” instead of “department” for this lever to highlight that regardless of whether the organization is independent or part of a larger bureaucracy, it needs to be **functionally independent** and should not be thought of as ‘just another department.' The more rules, norms, and existing ways of thinking that are implanted in the moonshot institution, the less able people on the team can think boldly and differently.
 - The fundamental challenge for any bureaucracy—corporate, government, or otherwise—is achieving [agile stability](https://www.ucl.ac.uk/bartlett/public-purpose/publications/2019/dec/innovation-bureaucracies-how-agile-stability-creates-entrepreneurial-state): maintaining what works while growing the flexibility to evolve. This is notoriously difficult, for as organizations grow, entrenched hierarchies and risk aversion inhibit organizations from taking risky bets. Innovation departments can be the organizational antidote to combating cultural stagnation.
 
 ## Success case study
@@ -42,24 +42,36 @@ I encourage you to read Ben’s post for his full analysis, but here are some in
 Another successful example of an innovation institution that lived within a larger parent organization is Netflix. The Institute for Progress [wrote](https://progress.institute/how-do-we-make-an-entrepreneurial-state/) about the reasons for its success:
 
 > For the first decade of its existence, Netflix was essentially a DVD-by-mail company. Not content with this business model, and intrigued by the early success of YouTube, leadership at the company started investigating the possibility of streaming video directly over the internet, and launched a streaming product in 2007. To do this, they set up a new division that was somewhat isolated from the traditional processes and metrics used to govern the rest of the firm. According to one history of the company, the DVD executives were even [kicked out](https://thestrategystory.com/2020/09/13/netflix-pivoting-business-model/) of certain management meetings to make sure the streaming division had room to grow.
-
-This separate streaming division eventually grew to become the modern Netflix. Netflix competed with itself internally across product verticals rather than let an outside competitor beat it to the new market. **But for this new team to have success, they needed to be able to pull from a different talent pool, be judged by a different set of metrics, and productively interface with the rest of the company without kickstarting a turf war. In other words, they needed a high degree of institutional autonomy.**
-
->
+> This separate streaming division eventually grew to become the modern Netflix. Netflix competed with itself internally across product verticals rather than let an outside competitor beat it to the new market. **But for this new team to have success, they needed to be able to pull from a different talent pool, be judged by a different set of metrics, and productively interface with the rest of the company without kickstarting a turf war. In other words, they needed a high degree of institutional autonomy.**
 
 ## Potential pitfalls
 
 Corporations like Google have attempted moonshot labs with mixed results. In his mini-essay “_Most DARPA clones start too big or with heavy process_,” Ben Reinhardt explains:
 
 > DARPA started off small and informal. For years it was less than ten people.
-
-Starting too big often *causes* heavy process. People always spend money for a purpose, so the more money there is up front, the more expectations there are attached to it. One failure mode is that funding entity doesn’t trust a low-track record organization and requires heavy process to create assurance that the money will be well-spent.
-
-Starting large makes opacity hard, and [opacity is important to DARPA’s outlier success](https://benjaminreinhardt.com/wddw#opacity_is_important_to_darpa%E2%80%99s_outlier_success). Starting large with large expectations and scrutiny makes it tough to execute on things that seem stupid. A spotlight also encourages organizations to work on things that seem sexy which makes it hard to generate true outlier output. Remember: if you know it’s easy to shut something down it’s easier to start and the opposite is true as well.
-
-Culture and trust takes time to build. A large organization either needs culture and trust or process to keep everybody aligned so if you start big *without* heavy process it will just lead to a shitshow. As far as I can tell, this point and the previous one is roughly what happened with [Google ATAP](https://atap.google.com/).
-
 >
+> Starting too big often *causes* heavy process. People always spend money for a purpose, so the more money there is up front, the more expectations there are attached to it. One failure mode is that funding entity doesn’t trust a low-track record organization and requires heavy process to create assurance that the money will be well-spent.
+>
+> Starting large makes opacity hard, and [opacity is important to DARPA’s outlier success](https://benjaminreinhardt.com/wddw#opacity_is_important_to_darpa%E2%80%99s_outlier_success). Starting large with large expectations and scrutiny makes it tough to execute on things that seem stupid. A spotlight also encourages organizations to work on things that seem sexy which makes it hard to generate true outlier output. Remember: if you know it’s easy to shut something down it’s easier to start and the opposite is true as well.
+>
+> Culture and trust takes time to build. A large organization either needs culture and trust or process to keep everybody aligned so if you start big *without* heavy process it will just lead to a shitshow. As far as I can tell, this point and the previous one is roughly what happened with [Google’s Advanced Technology and Projects (ATAP)](https://atap.google.com/) group.
+
+Regina Dugan, the founding director of Google ATAP, was also DARPA director during President Obama’s first term. After four years of building ATAP, she was recruited by Mark Zuckerberg in 2016 to lead Building 8, Facebook’s secretive hardware moonshot arm. According to [former Facebook employees](https://www.cnbc.com/2019/08/02/facebooks-flop-in-hardware-the-untold-story-of-building-8.html), Zuck created Building 8 out of frustration with Facebook’s limited expansion in hardware (except the acquisition of Oculus two years earlier) and Amazon’s success with its Echo speakers.
+
+Under Dugan, Building 8 worked on a variety of prototypes, from brain-computer interfaces to [AR glasses](https://techcrunch.com/2018/10/24/facebook-ar-headset/). The project that received the most attention was Little Foot, a device that aimed to create a more intimate video-calling experience—which formed the basis for Facebook’s now-discontinued [Portal](meta.com/portal/).
+
+![Facebook’s Portal — [New York Times]](Moonshot%20Institutions/Untitled.png)
+Facebook’s Portal — [New York Times](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2018%2F11%2F08%2Ftechnology%2Fpersonaltech%2Ffacebook-portal-review.html&psig=AOvVaw3k2hOvpXkPbCuaLtKW3xY8&ust=1692885746462000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCJigt_748oADFQAAAAAdAAAAABAI)
+
+The only detailed breakdown of Building 8 we found online was a [2019 report](https://www.cnbc.com/2019/08/02/facebooks-flop-in-hardware-the-untold-story-of-building-8.html) from CNBC, which interviewed a dozen former employees. The report highlighted numerous challenges that Building 8’s faced:
+
+- **Misaligned production timelines:** Facebook expected Building 8 to ship its first product within a year, but Dugan and other employees from hardware thought this was unrealistic and operated on two-year timelines.
+  - In Aug 2017, a little over a year after Dugan joined, Facebook announced that Andrew Bosworth, the VP for ads and business, would start managing consumer hardware, including Oculus and Building 8. Two months later, Dugan announced her departure.
+- **External pressures causing deprioritization:** One of the classic challenges faced by moonshot groups that that they need time and autonomy to bear the fruits of their work. For Building 8, neither were possible following the Cambridge Analytica and 2016 election misinformation scandal. Within days of the damning CA reports coming out, Bosworth told his team that Facebook had hit a low in terms of user trust and said it wasn’t the right time for Portal. According to former employees, the final rollout was delayed numerous times.
+- **Internal resentment**: Some staffers resented Building 8′s exclusivity. The group spent over $100 million a year on vendors, consultants, and show-off events, according to two former executives, while requiring an escort for any non-Building 8 person to enter the space.
+- **Privacy issues:** The CA scandal slashed Facebook’s stock and led Zuck to focus on creating a “privacy-focused social platform,” but Portal immediately hit privacy snags nonetheless. A week after telling [Recode](https://www.vox.com/2018/10/8/17937366/facebook-portal-video-screen-launch-privacy-alexa) that no data collected by Portal would be used to for Facebook ad targeting, the company [walked back](https://www.vox.com/2018/10/16/17966102/facebook-portal-ad-targeting-data-collection) the statement and said that because Portal’s software was built on Facebook’s Messenger infrastructure, it collected the same type of type of data and could potentially be used to inform ads.
+
+A month after Portal’s release, Building 8 was shut down and renamed Portal. In early 2018, the remaining research projects were moved to Oculus Research, which has since been rebranded as Meta Reality Labs. In June 2022, Meta announced it was preparing to phase out Portal as a consumer product and instead focus on the enterprise market. Five months later, it announced it would scrap the entire team—discontinuing both its Portal and two remaining unreleased smartwatches.
 
 ## Further readings
 

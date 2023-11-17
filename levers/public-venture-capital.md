@@ -1,7 +1,7 @@
 ---
 title: Public Venture Capital Funds
-oneliner: "Public funding for companies of national interest"
-image: "cover-market.png"
+oneliner: 'State funding for companies of national interest'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -23,7 +23,7 @@ type: [Funding]
   - Funding private technologies relevant to national interests to ensure that technology within government is at least competitive with private industry. Examples include [In-Q-Tel](https://www.iqt.org/) or China’s [guidance funds](https://cset.georgetown.edu/publication/understanding-chinese-government-guidance-funds/).
   - Address market failures by providing “patient capital,” such as China’s guidance funds or the DoD’s new [Office of Strategic Capital](https://www.cto.mil/osc/#:~:text=aims%20to%20offer%20%E2%80%9C-,patient%20capital,-%E2%80%9D%20to%20investors%20and)
   - Catalyze regional innovation where private capital is scarce, such as the [Arkansas Venture Capital Development Fund](https://adfa.arkansas.gov/program/arkansas-risk-capital-matching-fund), which provides 1:1 matching for private investments in Arkansas startups up to $1 million
-- Related: [Grants](Grants%20637d2126a6274b66bfda1a57e8c2119e.md), [Investment Tax Credit](Investment%20Tax%20Credit%207c0c5c9fcbff4a7d8981e1b94e1feb2b.md)
+- Related: [Grants](https://www.notion.so/Grants-637d2126a6274b66bfda1a57e8c2119e?pvs=21), [Investment Tax Credit](https://www.notion.so/Investment-Tax-Credit-7c0c5c9fcbff4a7d8981e1b94e1feb2b?pvs=21)
 
 ## Success case study
 

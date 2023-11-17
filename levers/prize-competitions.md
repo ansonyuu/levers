@@ -1,7 +1,7 @@
 ---
 title: Prize Competitions
-oneliner: "Build stuff to win awards"
-image: "cover-market.png"
+oneliner: 'Build stuff to win awards'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -10,7 +10,7 @@ domain: [Industry, Philanthropy, Policy]
 type: [Funding, Procurement]
 ---
 
-## About the co-author
+## Contributors
 
 [Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
@@ -28,7 +28,7 @@ type: [Funding, Procurement]
 
 ## Case studies
 
-**\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***Case #1: DARPA’s Grand Challenge**\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***
+**Case #1: DARPA’s Grand Challenge**
 
 The [DARPA Grand Challenge](https://www.darpa.mil/about-us/timeline/-grand-challenge-for-autonomous-vehicles) was a series of three prize competitions from 2004-2007 that catalyzed the entire field of autonomous vehicles (AVs). In 2004, DARPA utilized its prize competition authority for the first time in the agency’s history, putting on a race with a $1 million prize for whoever could build a self-driving car that drove 142 miles through the Mojave Desert the fastest.
 
@@ -45,10 +45,9 @@ This competition saw DARPA create three prize tiers that it would later use in i
 This trio of challenges was arguably the highest-returning prize competition ever. Not only was immense technical progress made between competitions, but more importantly, they created a community with previously weak ties that could now conduct research or found companies together. Many current AV and deep learning leaders and technologies across defense and commercial applications resulted from the Grand Challenges, [including](https://www.herox.com/blog/159-the-drive-for-autonomous-vehicles-the-darpa-grand#:~:text=ten%20years%20later%2C-,DARPA%20points%20to,-the%20proliferation%20of) those at Waymo, GM, Hyundai, Oshkosh Defense, and TORC Robotics.
 
 ![[Where the 2007 DARPA Grand Challenge finalists are today — Michael Dempsey](https://medium.com/@mhdempsey/2007-darpa-grand-challenge-roster-e1d05fccf428)](Prize%20Competitions%20491ffdfeda694c20aacd128d74a52296/Untitled%201.png)
-
 [Where the 2007 DARPA Grand Challenge finalists are today — Michael Dempsey](https://medium.com/@mhdempsey/2007-darpa-grand-challenge-roster-e1d05fccf428)
 
-**\*\*\*\***\*\*\*\***\*\*\*\***\*\***\*\*\*\***\*\*\*\***\*\*\*\***Case #2: DARPA’s Robotics Challenge**\*\*\*\***\*\*\*\***\*\*\*\***\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+**Case #2: DARPA’s Robotics Challenge**
 
 The [DARPA Robotics Challenge](https://www.darpa.mil//about-us/timeline/darpa-robotics-challenge) (DRC) was a $3.5 million prize competition that aimed to develop semi-autonomous ground robots [for performing](https://web.archive.org/web/20130120060850/http://www.darpa.mil/Our_Work/TTO/Programs/DARPA_Robotics_Challenge.aspx) "complex tasks in dangerous, degraded, human-engineered environments.” The program was motivated by disasters such as the Fukushima Daiichi hydrogen explosion and the Deepwater Horizon underwater oil spill. It lasted from 2012-2015 and encompassed three competitions: a Virtual Robotics Challenge (VRC) in June 2013 that focused on software; and two live hardware challenges, the DRC Trials in December 2013 and the DRC Finals in June 2015.
 

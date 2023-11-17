@@ -281,6 +281,24 @@ blockquote:after {
   bottom: -0.7em;
 }
 
+li > blockquote {
+  padding: 0em 2em;
+  position: relative;
+}
+
+li > blockquote:before {
+  top: 0.1em;
+}
+
+li > blockquote:after {
+  bottom: -0.4em;
+  right: 0.1em;
+}
+
+blockquote > ul > li {
+  color: #685275 !important;
+}
+
 figure > a > img {
   max-height: 50vh;
 }

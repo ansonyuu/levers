@@ -1,7 +1,7 @@
 ---
 title: Grants
 oneliner: "'Free' money"
-image: "cover-market.png"
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -14,28 +14,30 @@ type: [Funding]
 
 [Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
+[AJ Kourabi](https://www.ajkourabi.com/) is an engineering physics student at McMaster University, interested in scientific public goods, metascience, and philanthropy. He has previously interned at Convergent Research, started a micro-grants program for engineering students, and wrote a paper for the Canadian Government on building a Canadian ARPA-H. He most recently interned at Schmidt Futures, the philanthropic venture of Eric and Wendy Schmidt.
+
 ## Key things to know
 
 - Many government agencies, philanthropies, and other institutions have dedicated grant programs for funding third-party R&D proposals
 - These programs typically target social impact technologies that private markets aren’t incentivized to fund
 - Grants are the dominant method for funding research by the United States government. [72%](https://www.nsf.gov/about/budget/fy2023/pdf/01_fy2023.pdf) of NSF projects in 2021 were funded through grants.
-- Related: [Prize Competitions](Prize%20Competitions%20491ffdfeda694c20aacd128d74a52296.md), [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md), [Advanced Market Commitment](Advanced%20Market%20Commitment%20011ce695e1e745fa806920a1e4545b77.md), [Buyer of First Resort](Buyer%20of%20First%20Resort%20465e4b4e5c4844208d883e04cd586e4a.md)
+- Related: [Prize Competitions](https://www.notion.so/Prize-Competitions-491ffdfeda694c20aacd128d74a52296?pvs=21), [R&D Tax Credit](https://www.notion.so/R-D-Tax-Credit-7ec54a05f43e4f09b153ae662cf14cd3?pvs=21), [Advanced Market Commitments](https://www.notion.so/Advanced-Market-Commitments-011ce695e1e745fa806920a1e4545b77?pvs=21), [Buyer of First Resort](https://www.notion.so/Buyer-of-First-Resort-465e4b4e5c4844208d883e04cd586e4a?pvs=21), [Cooperative Agreements](https://www.notion.so/Cooperative-Agreements-f4b29ee9c90e45aa8ca99adac1d4d5c1?pvs=21)
 
 ## When to use
 
-In the world of R&D funding, grants can either be awarded through **\***push**\*** mechanisms (e.g. subsidize research input by giving money to researchers) or _pull_ mechanisms that reward research output. Grants fall under the push category because they typically do not come with obligations to deliver a particular outcome. In contrast, pull mechanisms like [Prize Competitions](Prize%20Competitions%20491ffdfeda694c20aacd128d74a52296.md) or [Advanced Market Commitment](Advanced%20Market%20Commitment%20011ce695e1e745fa806920a1e4545b77.md) only disperses funding upon achieving specific criteria. Grants—and push mechanisms generally—work better for R&D projects without short-term deliverables, such as basic research. Pull mechanisms work better for technologies with lower technical risk and a relatively shorter time-to-market.
+R&D funding can either be awarded through **push** mechanisms (e.g. subsidize research input by giving money to researchers) or _pull_ mechanisms that reward research output (e.g. distribute money upon achieving a research objective). Grants typically fall under the push category because they usually do not come with obligations to deliver a particular outcome. In contrast, pull mechanisms like [Prize Competitions](https://www.notion.so/Prize-Competitions-491ffdfeda694c20aacd128d74a52296?pvs=21) or [Advanced Market Commitments](https://www.notion.so/Advanced-Market-Commitments-011ce695e1e745fa806920a1e4545b77?pvs=21) only disperse funding upon achieving specific criteria. Grants—and push mechanisms generally—work better for R&D projects without short-term deliverables, such as basic research. Pull mechanisms work better for technologies with lower technical risk and a relatively shorter time-to-market.
 
-Government grants (and other types of government funding with oversight requirements like [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md)) are typically not well-suited for funding startups, which are a unique class of companies that require the freedom to explore and move quickly. Consider the following excerpt from Alex Danco’s piece on [Why Canada’s Tech Scene Doesn’t Work](https://alexdanco.com/2021/01/11/why-the-canadian-tech-scene-doesnt-work/#:~:text=The%20problem%20with%20SR%26ED%20credits) and the potential limitations for government funding with reporting requirements, like tax credits and grants:
+Government and philanthropic grants can have powerful synergies when leveraged together. Governments usually have more money to spend on safer, more established areas, while private philanthropies can take more risks in exploring new areas due to their flexibility. To draw an analogy, think of government funding as a large tanker navigating through Arctic waters. In contrast, philanthropic efforts are like nimble drones that explore beyond the tanker's route. These drones are willing to venture into unknown territories, taking risks that the tanker cannot. Their aim is not to significantly change the tanker’s course but to gather important information that can slightly but importantly improve the tanker's journey.
 
-> The problem with [research tax] credits, honestly through no fault of their own, is that you have to say what you’re doing with them. This seems like a pretty benign requirement; and honestly it’s pretty fair that a government program for giving out money should be allowed to ask what the money’s being used for. But in practice, once you take this money and you start filling out time sheets and documenting how your engineers are spending their day, and writing summaries of what kind of R&D value you’re creating, you are well down the path to destroying your startup and killing what makes it work.
->
-> The problem starts when founders think about [government incentives] as “free money”. *It is not free*. It has a cost of capital, like any capital. But instead of costing you your equity, it costs you your time, your focus, and above all it costs you something you can never get back which is your indeterminate curiosity.
->
-> SR&ED forces you to play finite games, because it forces you to articulate what you’re spending this money on. And so you have to justify, at the very least, what problem you are solving and what specific steps you are taking to solve it. You enter the world of *problem definition,* where building your startup becomes Serious Work, with official time sheets and government forms.
+In science philanthropy, receiving significant follow-on funding, especially from the government, or spurring other investments in a focus area, is called leverage. Leverage is arguably the most important marker of how effective a philanthropic initiative is.
+
+For example, philanthropist Mike Lazaridis was an anchor donor to the creation of a quantum computing institute (IQC) at the University of Waterloo in 2002, [providing a $6M](https://www.cbc.ca/news/business/rim-founder-funds-high-tech-research-1.478689) donation. Since then, the institute has received more than $75M in funding from the government. IQC staff also help run the government’s $360M Quantum initiative, which was announced this year following the $460M quantum strategy the government launched in 2019, which IQC also helped launch.
+
+[FastGrants](https://fastgrants.org/) is a good example of the “fast” advantage of philanthropic grants. A rapid grants program that started during the pandemic, FastGrants worked quicker than any governmental agency to fund COVID-19 research, and 64% of respondents to a FastGrants grantees survey said that their work “_wouldn’t have happened_ without receiving a Fast Grant.”
 
 ## Case study
 
-[“America’s Seed Fund”](https://www.sbir.gov/) is an R&D grant program operated by the US Small Business Administration. It is comprised of two R&D funding programs: Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR).
+The US Small Business Administration operates two R&D grant programs for startups in conjunction with other federal agencies: Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR).
 
 The two programs share the same three [phases](https://www.sbir.gov/about):
 
@@ -57,10 +59,29 @@ While the SBIR program has delivered clear value to the government, it has also 
 
 - **There is a pattern of federal agencies failing to honor these legal agreements.** The SBA itself has [stated](https://www.govinfo.gov/content/pkg/FR-2019-04-02/pdf/2019-06129.pdf) that federal agencies have sometimes “bypassed the small business that created the technology, and pursued the Phase III work with another business rather than actively supporting and encouraging the commercialization or further development of SBIR/STTR technology by the innovative small business that developed the technology.”
 - **SBIR transitions are rare.** Most Phase I and II awardees are not converted into production contracts and programs of record.
-- \***\*\*\*\*\***SBIR awards are too little, too slow.\***\*\*\*\*\*** For a fast-scaling startup, going through the lengthy process to apply for a SBIR grant may not be worth it given the current nature of how venture capital is raised—it is not uncommon for entrepreneurs to raise millions of dollars in a matter of weeks.
+- **SBIR awards are too little, too slow.** For a fast-scaling startup, going through the lengthy process to apply for a SBIR grant may not be worth it given the current nature of how venture capital is raised—it is not uncommon for entrepreneurs to raise millions of dollars in a matter of weeks.
   - The problem with [research tax] credits, honestly through no fault of their own, is that you have to say what you’re doing with them. This seems like a pretty benign requirement; and honestly it’s pretty fair that a government program for giving out money should be allowed to ask what the money’s being used for. But in practice, once you take this money and you start filling out time sheets and documenting how your engineers are spending their day, and writing summaries of what kind of R&D value you’re creating, you are well down the path to destroying your startup and killing what makes it work.
+
+## Potential Pitfalls
+
+If government grants come with too many oversight requirements, they can over-burden the organizations applying for them.
+
+Consider the following excerpt from Alex Danco’s piece on [Why Canada’s Tech Scene Doesn’t Work](https://alexdanco.com/2021/01/11/why-the-canadian-tech-scene-doesnt-work/#:~:text=The%20problem%20with%20SR%26ED%20credits) and the potential limitations for government funding with reporting requirements, like tax credits and grants:
+
+> The problem with [research tax] credits, honestly through no fault of their own, is that you have to say what you’re doing with them. This seems like a pretty benign requirement; and honestly it’s pretty fair that a government program for giving out money should be allowed to ask what the money’s being used for. But in practice, once you take this money and you start filling out time sheets and documenting how your engineers are spending their day, and writing summaries of what kind of R&D value you’re creating, you are well down the path to destroying your startup and killing what makes it work.
+>
+> The problem starts when founders think about [government incentives] as “free money”. *It is not free*. It has a cost of capital, like any capital. But instead of costing you your equity, it costs you your time, your focus, and above all it costs you something you can never get back which is your indeterminate curiosity.
+>
+> SR&ED forces you to play finite games, because it forces you to articulate what you’re spending this money on. And so you have to justify, at the very least, what problem you are solving and what specific steps you are taking to solve it. You enter the world of *problem definition,* where building your startup becomes Serious Work, with official time sheets and government forms.
+
+Grants should also avoid perverse incentives. For instance, universities get paid overhead when scientists win grants. In some cases, they take up to a [third of the grant](https://www.science.org/content/article/nih-plan-reduce-overhead-payments-draws-fire). In exchange, principal investigators receive administrative help, special parking slots, etc.
+
+Lastly, in discussing risk for grant funding, a common framework is “high-risk, high reward.” Two additional risks one should consider are impact risk and execution risk. Impact risk considers “Is this goal scientifically possible?” and execution risk considers “Is this the right team for the job?”. When philanthropies refer to having a high-risk tolerance, the specific risk being referred to is likely the impact risk, not the execution risk. One example to illustrate this could be a grant made to create a tuberculosis vaccine. The vaccine itself may not be achievable for certain, however, the team leading this effort has a strong track record and are the right people for the project.
 
 ## Further readings
 
-- [Landscape of Push Funding in Antibiotic Research: Current Status and Way Forward](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9855914/)
+- [Uncle Sam’s Top-Performing Venture Fund | American Compass](https://americancompass.org/uncle-sams-top-performing-venture-fund/)
+- [How to Fund High-Risk, High-Reward Initiatives | Open Philanthropy](https://www.openphilanthropy.org/research/hits-based-giving/)
+- [How the NSF Moved Faster than the NIH During COVID-19 | Institute for Progress](https://ifp.org/how-the-nsf-moved-faster-than-the-nih/)
+- [Market Failures in Science | Milan Cvitkovic](https://milan.cvitkovic.net/writing/market_failures_in_science/#institutional-fees)
 - [How the Government Can Use the SBIR Program to Scale Innovation | Anduril](https://blog.anduril.com/how-the-government-can-use-the-sbir-program-to-scale-innovation-e53806941af2)
