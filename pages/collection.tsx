@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
@@ -9,6 +9,18 @@ import markdown from "markdown-it";
 import Modal from "react-modal";
 import { useWindowSize } from "@uidotdev/usehooks";
 import Tags from "../components/Tags";
+
+interface Lever {
+  title: string;
+  oneliner: string;
+  image: string;
+  authors: string[];
+  stage: string;
+  domain: string;
+  type: string;
+  link: string;
+  content: string;
+}
 
 const customStyles = {
   content: {
@@ -27,7 +39,7 @@ const customStyles = {
 
 Modal.setAppElement("#modals");
 
-export default function Home({ levers }: any) {
+export default function Home({ levers }: { levers: Lever[] }) {
   const [filteredLevers, setFilteredLevers] = useState(levers);
   const [selectedLever, setSelectedLever] = useState(levers[0]);
   const [selectedStage, setSelectedStage] = useState(levers[0]);
@@ -39,55 +51,55 @@ export default function Home({ levers }: any) {
 
   const [modalIsOpen, setIsOpen] = useState(false);
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
+  const closeModal = () => setIsOpen(false);
 
   useEffect(() => {
-    router.push(
-      {
-        pathname: "/collection",
-        query: { lever: selectedLever?.title }
-      },
+    const leverTitle = router.query.lever;
+    if (leverTitle) {
+      const lever = levers.find((lever) => lever.title === leverTitle);
+      if (lever) setSelectedLever(lever);
+    } else {
+      setSelectedLever(levers[0]);
+    }
+  }, [router.query.lever, levers]);
+
+  const handleClick = (lever: Lever) => {
+    setSelectedLever(lever);
+    router.replace(
+      { pathname: "/collection", query: { lever: lever.title } },
       undefined,
       { shallow: true }
     );
-  }, [selectedLever]);
+    if (size.width < 768) setIsOpen(true);
+  };
 
-  const handleClick = (lever) => {
-    setSelectedLever(lever);
-    if (size.width < 768) {
-      setIsOpen(true);
+  const handleStageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const option = event.target.value;
+    const selectedLever = levers.find((lever) => lever.stage === option);
+    if (selectedLever) {
+      setSelectedStage(selectedLever);
+      filterResults(option, "stage");
+      setIsOpen(false);
     }
   };
 
-  const handleStageChange = (event) => {
+  const handleDomainChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const option = event.target.value;
-    setSelectedStage(option);
-    filterResults(option, "stage");
-    setIsOpen(false);
+    const selectedLever = levers.find((lever) => lever.domain === option);
+    if (selectedLever) {
+      setSelectedDomain(selectedLever);
+      filterResults(option, "domain");
+      setIsOpen(false);
+    }
   };
 
-  const handleDomainChange = (event) => {
-    const option = event.target.value;
-    setSelectedDomain(option);
-    filterResults(option, "domain");
-    setIsOpen(false);
-  };
-
-  const filterResults = (option, property) => {
-    if (option == "Select") {
-      setFilteredLevers(levers);
-    } else if (!option) {
+  const filterResults = (option: string, property: keyof Lever) => {
+    if (option === "Select" || !option) {
       setFilteredLevers(levers);
     } else {
-      const filteredResults = levers.filter((result) => {
-        return result[property] && result[property].includes(option);
-      });
+      const filteredResults = levers.filter(
+        (result) => result[property] && result[property].includes(option)
+      );
       setFilteredLevers(filteredResults);
     }
   };
@@ -113,20 +125,20 @@ export default function Home({ levers }: any) {
                 onChange={(e) => {
                   setSearchTerm(e.target.value);
                 }}
-                className="h-full outline-none"
+                className="h-full outline-none text-sm"
               />
               <span className="absolute right-3 top-0 h-full w-5 flex justify-center items-center">
                 <img src="/icon-search.png" alt="search icon" />
               </span>
             </div>
           </div>
-          <div className="w-full h-full flex flex-col md:flex-row ">
-            <div className="w-full md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px] border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
-              <div className="w-full text-gray-500 text-sm">
+          <div className="w-full h-30 md:h-full flex flex-col md:flex-row ">
+            <div className="md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px] border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
+              <div className=" text-gray-500 text-sm">
                 <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
                 <select
-                  value={selectedStage}
+                  value={selectedStage.stage}
                   onChange={handleStageChange}
                   id="underline_select"
                   className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
@@ -143,7 +155,7 @@ export default function Home({ levers }: any) {
                   <p className="text-base">Domain</p>
                   <label className="sr-only">Underline select</label>
                   <select
-                    value={selectedDomain}
+                    value={selectedDomain.stage}
                     onChange={handleDomainChange}
                     id="underline_select"
                     className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
@@ -208,14 +220,14 @@ export default function Home({ levers }: any) {
                     >
                       <div
                         onClick={() => handleClick(lever)}
-                        className="flex flex-col justify-between md:flex-row mb-2"
+                        className="flex flex-col justify-between md:flex-row my-2"
                       >
                         <div className="flex flex-row justify-between md:justify-between content-start items-start w-full gap-2 ">
                           <div className="max-w-3/4 md:max-w-[70%] overflow-auto">
                             <h2 className="text-[30px] whitespace-normal">
                               {lever?.title}
                             </h2>
-                            <p className=" text-[12px] whitespace-normal pt-2 md:pt-0">
+                            <p className=" text-[12px] whitespace-normal pt-2 md:pt-1">
                               {lever.oneliner}
                             </p>
                           </div>
@@ -253,7 +265,6 @@ export default function Home({ levers }: any) {
       <div id="modals" className="md:hidden">
         <Modal
           isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
           onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Lever Modal"
@@ -285,13 +296,11 @@ export default function Home({ levers }: any) {
 
 export async function getStaticProps() {
   const files = fs.readdirSync("levers");
-  const levers: any = [];
-
-  files.map((file) => {
+  const levers: Lever[] = files.map((file) => {
     const titlePost = fs.readFileSync(`levers/${file}`, "utf-8");
     const { data: postData, content } = matter(titlePost);
 
-    levers.push({
+    return {
       title: postData.title,
       oneliner: postData.oneliner,
       image: postData.image,
@@ -301,12 +310,8 @@ export async function getStaticProps() {
       type: postData.type,
       link: postData.title ? `/?${postData.title.replace(/ /g, "%20")}` : "",
       content: content
-    });
+    };
   });
 
-  return {
-    props: {
-      levers
-    }
-  };
+  return { props: { levers } };
 }

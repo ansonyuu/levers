@@ -12,7 +12,6 @@ export default class MyDocument extends Document {
     ctx: DocumentContext
   ): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx);
-    
 
     return initialProps;
   }
@@ -23,8 +22,16 @@ export default class MyDocument extends Document {
         <Head>
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://leversforprogress.com" />
-          <meta property="og:description" content="TODO" key="og_description" />
-          <meta property="og:title" content="TODO" key="og_title" />
+          <meta
+            property="og:description"
+            content="An open collection of policies, tactics, and reforms modern institutions use to advance their scientific and technological output."
+            key="og_description"
+          />
+          <meta
+            property="og:title"
+            content="Levers for Progress"
+            key="og_title"
+          />
           <meta property="og:image" content="/TODO" key="og_image" />
           <meta property="og:image:type" content="image/png" />
           <meta name="twitter:site" content="TODO" />

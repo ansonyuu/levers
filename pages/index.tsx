@@ -8,7 +8,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const navList = [
   { name: "Credits", link: "#credits" },
   { name: "Collection", link: "/collection" },
-  { name: "Contribute", link: "/collection" },
+  {
+    name: "Contribute",
+    link: "https://8fmdz3e9wad.typeform.com/to/Z1mOCaPD"
+  },
   { name: "Github", link: "https://github.com/ansonyuu/levers" }
 ];
 
@@ -26,7 +29,7 @@ export default function Home() {
       <div className="flex flex-col relative w-full ">
         <img
           className="w-[100vw] mt-[-30px] inline-block"
-          src="/index-topbanner.png"
+          src="/index-topbanner.svg"
           alt="decorational photo"
         />
 

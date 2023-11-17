@@ -13,5 +13,13 @@ export default function SEO({
 }) {
   const fullTitle = `${title}${noSuffix ? "" : " | Levers For Progress"}`;
 
-  return <NextSeo title={fullTitle} description={description || "TODO"} />;
+  return (
+    <NextSeo
+      title={fullTitle}
+      description={
+        description ||
+        " A Living Database of Methods to Accelerate Science and Technology"
+      }
+    />
+  );
 }
