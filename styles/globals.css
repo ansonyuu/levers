@@ -251,34 +251,34 @@ li:before {
 }
 
 blockquote {
-  margin: 1.5rem 0 1.5rem 0;
+  padding: 0.2em 2em;
+  position: relative;
 }
 
 blockquote p {
   font-size: 1rem;
-  display: inline;
 }
 
 blockquote:before {
   color: #685275;
   font-family: 'Tiempos', Cambria, Cochin, Georgia, Times, 'Times New Roman',
     serif;
+  position: absolute;
   content: '“';
   font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+  top: -0.2em;
+  left: 0;
 }
 
 blockquote:after {
   color: #685275;
   font-family: 'Tiempos', Cambria, Cochin, Georgia, Times, 'Times New Roman',
     serif;
+  position: absolute;
   content: '”';
   font-size: 4em;
-  line-height: 0.1em;
-  margin-left: 0.25em;
-  vertical-align: -0.4em;
+  right: 0.1em;
+  bottom: -0.7em;
 }
 
 figure > a > img {

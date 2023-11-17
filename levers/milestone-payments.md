@@ -1,7 +1,7 @@
 ---
 title: Milestone Payments
-oneliner: "Incremental payments upon achieving milestones"
-image: "cover-market.png"
+oneliner: 'Incremental payments upon achieving milestones'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -33,21 +33,17 @@ NASA’s [](https://www.thecgo.org/benchmark/a-2006-nasa-program-shows-how-gover
 
 > For an investment of roughly $400 million, NASA gained access to a capability that would have cost them [$1.7-4B](https://ntrs.nasa.gov/citations/20170008895) and reduced US dependence on Russian rockets to access the ISS. It also **p**ropelled the US to a leadership position in commercial launch services, from 0% of the global commercial-launch market in 2010 to 65% by 2018
 
-Eli Dorado, senior fellow at Utah State’s Center for Growth and Opportunity, [identified](Milestone%20Payments%201706719eb767471f9d8007c10eec3638.md) three unique features of this payment model that enabled its success:
+Eli Dorado, senior fellow at Utah State’s Center for Growth and Opportunity, [identified](https://www.notion.so/Milestone-Payments-1706719eb767471f9d8007c10eec3638?pvs=21) three unique features of this payment model that enabled its success:
 
 > First, each of the companies selected was expected to pay part of its own development costs. This ensured that the companies were building something useful they could go on to commercialize — they would not have agreed to share costs to build something they knew was inefficient.
-
-Second, the use of fixed-price, milestone-based payments limited the amount of oversight necessary to ensure success. It allowed NASA to turn over development entirely to the companies, knowing that it was only on the hook for payments when the programs successfully met pre-defined milestone criteria.
-
-Third, NASA didn’t dictate the vehicle’s requirements. They evaluated the proposals based on the goal of providing reliable cargo service to the ISS, but they didn’t specify the technical means that participants could use to achieve that goal.
-
 >
+> Second, the use of fixed-price, milestone-based payments limited the amount of oversight necessary to ensure success. It allowed NASA to turn over development entirely to the companies, knowing that it was only on the hook for payments when the programs successfully met pre-defined milestone criteria.
+>
+> Third, NASA didn’t dictate the vehicle’s requirements. They evaluated the proposals based on the goal of providing reliable cargo service to the ISS, but they didn’t specify the technical means that participants could use to achieve that goal.
 
-In this case, milestone payments were made more effective because they subsidized the development of a system that the company would ultimately own the rights to. Eli further elaborated (in an email thread with us):
+A crucial detail to highlight is that SpaceX received all the underlying rights to the system it developed. Critics might characterize this as “corporate welfare,” but under the right conditions, this approach can lower government costs compared to directly operating a contractor-built system. If an unexpected issue arose during Falcon 9’s development, SpaceX still had an incentive to fix it because they were the ultimate beneficiary of the R&D. For a government-owned project (e.g. the Obamacare website), if a given step turned out to be hairier than expected, the contractor might try to shirk and slide by, doing a mediocre job. The Obamacare site cost >[$880M](https://www.theatlantic.com/politics/archive/2014/07/obamacare-website-has-cost-840-million/440478/) because they had to switch contractors multiple times due to poor performance.
 
-> If a given step in the Falcon 9 development process turned out to be harder than expected, SpaceX still had an incentive to fix it because they were the residual claimant on the value of the development. For a government-owned project (e.g. the Medicare website), if a given step turned out to be hairier than expected, the contractor might try to shirk and slide by, doing a less-than-stellar job. I think these style contracts make the most sense when the agency is trying to subsidize the development of a product it wants to use but not own.
-
-In other words, milestone payments are a useful tool to mitigate budget overruns for most government contracts, but it's especially effective in accelerating technological development in cases where the contractor can capture the value of completing the product.
+In other words, milestone payments are a useful contracting tool when the agency is trying to subsidize **the development of a product it wants to use but not own**.
 
 ## Potential pitfalls
 
