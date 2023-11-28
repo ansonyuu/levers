@@ -307,7 +307,7 @@ figure > a > img {
 .marginnote-right {
   float: right;
   clear: right;
-  margin-right: -35%;
+  margin-right: -32%;
   width: 30%;
   margin-top: 0.3rem;
   margin-bottom: 0;
@@ -323,7 +323,7 @@ figure > a > img {
 .marginnote-left {
   float: left;
   clear: left;
-  margin-left: -35%;
+  margin-left: -32%;
   width: 30%;
   margin-top: 0.3rem;
   margin-bottom: 0;
@@ -335,11 +335,13 @@ figure > a > img {
   border-top: 1px solid black;
 }
 
-.sidenote-number {
-  counter-increment: sidenote-counter;
-}
 
-.sidenote-number:after,
+.sidenote-number{
+  font-size: 0.6rem;
+  top: -1rem;
+  padding: 0rem 0.5rem 0.5rem 0;
+}
+/* .sidenote-number:after,
 .sidenote-left:before,
 .sidenote-right:before {
   position: relative;
@@ -360,16 +362,16 @@ figure > a > img {
   font-size: 0.6rem;
   top: -0.5rem;
   right: 0.2rem;
-}
+} */
 
-blockquote .sidenote-left,
+/* blockquote .sidenote-left,
 blockquote .sidenote-right,
 blockquote .marginnote-left,
 blockquote .marginnote-right {
   margin-right: -82%;
   min-width: 59%;
   text-align: left;
-}
+} */
 
 div.fullwidth,
 table.fullwidth {

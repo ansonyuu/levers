@@ -22,6 +22,12 @@ type: [Execution]
 - State-funded computing power will only grow as a vector of national and global importance over the coming decade. AI—and all the science enabled by frontier computing—will increasingly become vital to national security and economic vitality. China has been investing heavily in high-performance computing centers over the [last few years](https://www.scmp.com/news/china/science/article/3217499/china-aims-build-supercomputer-internet-solve-industry-challenges) and will only continue to accelerate investment following increasing US [export controls](https://foreignpolicy.com/2022/10/28/biden-china-semiconductors-chips/).
     - China has more supercomputers on the Top500 list than any other country in quantity, but they significantly lag behind the US in power.
 
+![State Funded Compute](State%20Funded%20Compute/Untitled.png)
+
+![State Funded Compute](State%20Funded%20Compute/Untitled%20(1).png)
+
+- Related to: [Industry-University Research Partnerships](collection?lever=Industry-University%2520Research%2520Partnerships)
+
 ## Case study
 
 In light of the growing realization that large-scale computing was increasingly necessary for ‘big science,’ Congress passed the [Department of Energy High-End Computing Revitalization Act of 2004](https://www.congress.gov/bill/108th-congress/house-bill/4516/titles) to establish a portfolio of national high-performance computing facilities. In 2005 and 2006, the Argonne Leadership Computing Facility (ALCF) and the Oak Ridge Leadership Computing Facility (OLCF) came online, housing some of the world’s most advanced computing resources, including supercomputers (e.g. the Frontier exascale computer), visualization clusters, advanced data storage systems, and high-performance networking capabilities.

@@ -26,7 +26,7 @@ type: [Capacity building, Execution]
 
 FROs are used to tackle science and technological problems that (1) require levels of coordinated engineering or system-building inaccessible to academia, and (2) benefit society broadly in ways that industry cannot rapidly monetize. These problems require a startup-like structure with tightly coordinated, medium-sized teams that can engineer and scale solutions in a manner unsuited for university labs.
 
-![Untitled](Focused%20Research%20Organizations%20a52df79084774014a5c3199068c2e3c1/Untitled.png)
+![FRO Diagram](Focused%20Research%20Organizations/Untitled.png)
 
 ## Case study
 

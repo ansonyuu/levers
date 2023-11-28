@@ -8,25 +8,21 @@ function Text({ children }) {
   );
 }
 
-function Sidenote({ children, right }) {
+function Sidenote({ children, right, id }) {
   return (
     <>
-      <label
-        htmlFor='sn-extensive-use-of-sidenotes'
-        className='margin-toggle sidenote-number px-0.5'
-      ></label>
       <input
         type='checkbox'
-        id='sn-extensive-use-of-sidenotes'
+        id={`sn-${id}`}
         className='margin-toggle'
       />
       <span className={right ? 'sidenote-right' : 'sidenote-left'}>
+      <span className="sidenote-number">{id}</span>
         {children}
       </span>
     </>
   );
 }
-
 export default function Letter() {
   return (
     <div className='w-full flex flex-col justify-center items-center '>
@@ -39,8 +35,8 @@ export default function Letter() {
         <p className=''>
           <em>By Kelvin Yu and Anson Yu</em>
 
-          <Sidenote right={true}>(not siblings and not married)</Sidenote>
-          <Sidenote right={false}>
+          <Sidenote id={1} right={true}>(not siblings and not married)</Sidenote>
+          <Sidenote id={2} right={false}>
             All views presented here are personal to Kelvin and Anson and do not
             represent the views of their employers.
           </Sidenote>
@@ -168,7 +164,7 @@ export default function Letter() {
           >
             crumbling
           </a>{' '}
-          buildings. Not in education, where US students have{' '}
+          buildings. <Sidenote id={3} right={false}> Snakes infiltrated one of their buildings after it was flooded. Another had a fly infestation in the stairwell and a broken cooling system that dumped thousands of gallons of water down the hall.</Sidenote>Not in education, where US students have{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -320,7 +316,7 @@ export default function Letter() {
             1.86%
           </a>{' '}
           of GDP into R&amp;D by 1964 (3x higher than today’s federal R&amp;D
-          budget). Most of today’s major scientific institutions were created
+          budget). <Sidenote id={4} right={false}>Much of the US R&D budget has shifted to the private sector, hence partially why federal R&D spending has gone down. However, not all dollars are created equal; there are many advantages to public R&D dollars, including ability to write checks too large for private entities and investing in unprofitable public goods. See this debate on industrial policy vs. free market fundamentalism.</Sidenote><Sidenote id={5} right={true}>This is based on the most recent <a href="https://ncses.nsf.gov/data-collections/national-patterns">NSF figures</a> from 2021 and therefore does not take into account the increased spending from the IRA, CHIPS+Science, and Infrastructure bills.</Sidenote>Most of today’s major scientific institutions were created
           during this{' '}
           <a
             target='_blank'
@@ -384,13 +380,14 @@ export default function Letter() {
           these critiques were justified, but the degree to which innovation was
           scapegoated was not. These overlapping revolts gradually dismantled
           technological ambition from politics, of science from the state.
-        </p>
-        <p className=''>
+        <br/>
+        <br/>
           The final nail in the coffin came with the end of the Cold War. The
           fall of the Soviet Union, which had once “plunged America into
           spiritual depression” with Sputnik, recast American R&amp;D from a
           positive-sum priority for external security to a zero-sum competition
-          for domestic appropriations. In response to the 1993{' '}
+          for domestic appropriations. <Sidenote id={6} right={false}>The SSC also suffered from poor management, cost overruns, and many scientists thought funding would be better spent elsewhere. To learn more, see this fantastic 3h documentary. Regardless whether cancelling the SSC was the correct decision, we mention it to emphasize the dependence of American innovation on foreign adversaries. Note that NASA and DARPA were also founded in direct response to Sputnik. How can we tell a political story that motivates sacrifice, investment, and incredibly hard work towards the future, that is not intrinsically violent?
+</Sidenote> In response to the 1993{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -400,8 +397,8 @@ export default function Letter() {
           </a>{' '}
           of the Superconducting Super Collider after Congress already invested
           $2 billion, Nobel Laureate Steven Weinberg lamented:
-        </p>
-        <p className=''>
+          <br/>
+        <br/>
           <em>
             "Spending for the SSC had become a target for a new class of
             Congressmen elected in 1992…they didn’t feel that much was at stake.
@@ -414,8 +411,7 @@ export default function Letter() {
             development over many states. Perhaps if the SSC had cost more, it
             would not have been canceled."
           </em>
-        </p>
-        <Sidenote right={true}>
+          <Sidenote id={7} right={true}>
           The F-35 fighter plane suffers from a similar incentive problem. The
           $1 trillion jet—the DoD's most expensive weapons program ever—has more
           than{' '}
@@ -424,8 +420,11 @@ export default function Letter() {
           </a>{' '}
           suppliers spread across every state, making it cancel-proof despite
           repeated cost overruns.
-        </Sidenote>
+        </Sidenote >
+       
+        </p>
       </Text>
+   
       <div>
         <figure className='image'>
           <img className='hidden md:inline-block' src='/letter-ssc.png' />
@@ -465,10 +464,10 @@ export default function Letter() {
           Industrial atrophy followed, with a nearly $60 billion trade surplus
           of advanced technology products (2020 dollars) in 1992 turning into a
           deficit of $191 billion by 2020.{' '}
-          <Sidenote right={true}>
+          <Sidenote id={8} right={true}>
             Advanced Technology Products includes biotech, advanced materials
             and electronics, aerospace, weapons, nuclear, and others as defined
-            by the US Census Bureau.
+            by the <a href="https://www.census.gov/foreign-trade/reference/codes/atp/index.html">US Census Bureau.</a>
           </Sidenote>
         </p>
       </Text>
@@ -652,8 +651,8 @@ export default function Letter() {
           </a>
           , the field of research on how to improve the scientific process
           itself.
-        </p>
-        <p className=''>
+          <Sidenote id={9} right={true}>Attempts to improve scientific processes have a long history, such as the rise of evidence-based medicine in the 1980’s and 90’s. What’s changed in recent years is synthesizing these ideas, generalizing them, and establishing a snappy name.</Sidenote>
+       <br></br>
           Many new institutions have emerged from these intellectual strands. On
           the government side, the NSF’s $880M{' '}
           <a
@@ -808,7 +807,7 @@ export default function Letter() {
           >
             FreakTakes
           </a>
-          ,
+        ,{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -840,7 +839,7 @@ export default function Letter() {
           >
             Construction Physics
           </a>
-          and{' '}
+          , and{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -1052,7 +1051,7 @@ export default function Letter() {
         </p>
         <p className=''>Let's get to work.</p>
         <blockquote className=''>
-          <em>&quot;Where there is no vision, the people perish.&quot; —</em>{' '}
+          <em>Where there is no vision, the people perish. —</em>{' '}
           Proverbs 29:18.
         </blockquote>
       </Text>
