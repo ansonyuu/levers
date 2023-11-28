@@ -22,7 +22,7 @@ stage: [Growth]
 
 - Tax credits can be given to buyers of technologies that the government wants to accelerate adoption for, such as electric vehicles.
 - Evaluating counterfactual impact is key to determining whether to implement such demand-side policies. In other words, how many buyers would not have purchased the technology if the tax credit did not exist?
-- Related: [Investment Tax Credit](Investment%20Tax%20Credit%207c0c5c9fcbff4a7d8981e1b94e1feb2b.md) [R&D Tax Credit](R&D%20Tax%20Credit%207ec54a05f43e4f09b153ae662cf14cd3.md) [Production Tax Credit](Production%20Tax%20Credit%2056312236373c409b9620a3759a1ce134.md)
+- Related: [Investment Tax Credit](/collection?lever=Investment%2520Tax%2520Credit), [R&D Tax Credit](/collection?lever=R%2526D%2520Tax%2520Credit), [Production Tax Credit](/collection?lever=Production%2520Tax%2520Credit)
 
 ## How to use
 

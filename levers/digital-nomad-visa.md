@@ -14,12 +14,14 @@ type: [Capacity building]
 
 [Joel Burke](https://www.linkedin.com/in/joelburke1/) is an AI Fellow in the U.S. Senate who previously worked in public and private sector roles in Silicon Valley, Berlin, and Estonia. He was one of the initial creators of Colombia’s digital nomad visa and is a proponent of using innovative governance solutions to address concrete needs.
 
+[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+
 ## Key things to know
 
 - Many [small countries](https://expertvagabond.com/digital-nomad-work-visas/), especially tourist destinations, have begun offering temporary visas for remote workers to relocate, typically for up to 1-2 years
   - Common benefits of such visas include being exempt from income taxes, ability to open local bank accounts, fast track to a permanent visa, and localization support
 - Some programs aim to incentivize long-term tourism like Bali’s [Digital Nomad Visa](https://www.notion.so/Digital-Nomad-Visa-7815e750ec9140148a7be38eef078b07?pvs=21) or Barbados’s [Welcome Stamp](https://www.visitbarbados.org/barbados-welcome-stamp). They tend to have lower minimum income requirements to attract more people. Other programs have more ambitious goals like advancing local entrepreneurship, or Costa Rica’s [Rentista](Rentista) visa—which allows visa holders to establish a business or work as a freelancer but prohibits being an employee. Most countries that wish to focus on bringing in new startups will create an explicit visa class for doing (see [Entrepreneur Visas](https://www.notion.so/Entrepreneur-Visas-ba1dca368f1644e79963b53682d27d25?pvs=21)).
-- Variations of this idea have been tried at the **\*\*\***intra-**\*\*\***country level too. Dozens of [US cities](https://www.makemymove.com/get-paid) are giving remote workers cash to move. [Tulsa](https://tulsaremote.com/) provides free co-working spaces and helps new arrivals find a place to live, even providing new residents with a $10K stipend to rent or buy a home.
+- Variations of this idea have been tried at the intra-country level too. Dozens of [US cities](https://www.makemymove.com/get-paid) are giving remote workers cash to move. [Tulsa](https://tulsaremote.com/) provides free co-working spaces and helps new arrivals find a place to live, even providing new residents with a $10K stipend to rent or buy a home.
 - Digital Nomad initiatives are useful for attracting labor with flexible work arrangements like software engineers. They can attract entire branches of companies and catalyze other longer-term talent-building initiatives. For example, if a country is able to bring in a few dozen employees from a large company, that company may consider opening local physical office space and creating a local presence. This could seed the country with a new crop of talent capable of kickstarting regional innovation. For example, many startup founders in Southeast Asia [originate from](https://www.techinasia.com/deep-dive-growing-influence-gojek-mafia) the superapp Gojek.
 - Related: [Entrepreneur Visas](https://www.notion.so/Entrepreneur-Visas-ba1dca368f1644e79963b53682d27d25?pvs=21)
 
@@ -34,8 +36,6 @@ In its first year, Barbados’s Welcome Stamp program received over 2800 applica
 - No personal income tax incentivizes visa holders to start a local business, which is where the real economic development dollars are
 
 ## Potential pitfalls
-
-\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Theoretical pitfalls, limitations, and concrete failure cases, if any exist\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
 Estonia’s [Digital Nomad Visa](https://www.e-resident.gov.ee/nomadvisa/) allows remote workers to move and work in Estonia for up to 1 year. While it was one of the first to launch globally, the program has been slow to take off and has a variety of lessons for countries designing new visas:
 

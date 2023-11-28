@@ -1,6 +1,6 @@
 ---
 title: Beware Consultants
-oneliner: ""
+oneliner: "FIX BEFORE PUSHING"
 image: "cover-camp.png"
 authors:
   - name: Kelvin Yu,

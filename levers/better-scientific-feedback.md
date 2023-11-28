@@ -23,7 +23,7 @@ Thank you to [Dr. Brian Nosek](https://www.cos.io/team/brian-nosek), Founder of 
 - Public feedback is possible, but other students or professors are unlikely to be very critical of a student seminar, with most “feedback” amounting to some form of “Nice Talk.”
 - The most reliable form of high-quality external feedback comes from peer review, which only occurs at the end of the scientific process—by the time a manuscript is submitted, it’s often very difficult to incorporate frequently excellent reviewer feedback.
 - New ways of giving honest, high-quality feedback on ongoing projects would dramatically improve the quality of science.
-- Related: [Structural Diversity](https://www.notion.so/Structural-Diversity-1060e162c12b4f1da7a49641ea382aaa?pvs=21)
+- Related: [Structural Diversity](/collection?lever=Structural%2520Diversity)
 
 ## Case studies
 

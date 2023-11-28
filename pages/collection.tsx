@@ -56,17 +56,21 @@ export default function Home({ levers }: { levers: Lever[] }) {
   useEffect(() => {
     const leverTitle = router.query.lever;
     if (leverTitle) {
-      const lever = levers.find((lever) => lever.title === leverTitle);
-      if (lever) setSelectedLever(lever);
+      const decodedTitle = decodeURIComponent(leverTitle as string);
+      const lever = levers.find((lever) => lever.title === decodedTitle);
+      if (lever) {
+        setSelectedLever(lever);
+        if (size.width < 768) setIsOpen(true);
+      }
     } else {
       setSelectedLever(levers[0]);
     }
-  }, [router.query.lever, levers]);
-
+  }, [router.query.lever, levers, size.width]);
+  
   const handleClick = (lever: Lever) => {
     setSelectedLever(lever);
     router.replace(
-      { pathname: "/collection", query: { lever: lever.title } },
+      { pathname: "/collection", query: { lever: encodeURIComponent(lever.title) } },
       undefined,
       { shallow: true }
     );
@@ -106,7 +110,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
 
   return (
     <div className="snap snap-mandatory snap-y">
-      <SEO title="Home" />
+  <SEO title={selectedLever ? selectedLever.title : "Home"} />
       <div className="flex flex-row border-b-[1px] border-black max-h-[96vh]">
         <div className="overflow-y-scroll border-r-[1px] border-black">
           <div className="w-full flex justify-between border-b-[1px] border-b-black">

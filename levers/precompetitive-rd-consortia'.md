@@ -68,7 +68,7 @@ Manufacturing USA’s [program mechanics](https://www.manufacturingusa.com/repor
 - **\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***Leveraged capital**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***. In 2021, the program leveraged $127 million in federal funds to attract **$354 million** in funds from state, federal and pandemic funds, and private funds.
 - **\*\*\*\***\*\*\*\***\*\*\*\***\*\***\*\*\*\***\*\*\*\***\*\*\*\***Workforce development**\*\*\*\***\*\*\*\***\*\*\*\***\*\***\*\*\*\***\*\*\*\***\*\*\*\***. In 2021, the program engaged more than **90,000 students, workers and teachers** in advanced manufacturing workforce development and training
 - **\*\*\*\***Emphasis on small manufacturers.**\*\*\*\*** 72% of the manufacturers in the program are small companies (less than 500 employees).
-- **\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***Frequently gathering member input**\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\*** via satisfaction [surveys](https://www.manufacturingusa.com/reports/advanced-manufacturing-innovation-institutes-report-technology-progress-and-members-report) of member organizations.
+- **\*\*\*\***Frequently gathering member input**\*\*\*\*** via satisfaction [surveys](https://www.manufacturingusa.com/reports/advanced-manufacturing-innovation-institutes-report-technology-progress-and-members-report) of member organizations.
 
 ## Potential pitfalls
 

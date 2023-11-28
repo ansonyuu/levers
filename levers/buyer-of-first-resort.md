@@ -20,7 +20,7 @@ _Thank you to [Brian Potter](https://twitter.com/@_brianpotter), senior infras
 
 - A buyer of first resort is an entity that is willing to be the first purchaser of new technologies. Government agencies and militaries are common buyers of first resort because they have the resources and willingness to invest in high-risk, high-reward technologies that could provide strategic advantages.
 - The existence of a BoFR in a market frees companies with early-stage prototypes to invest in continual improvements and apply their technologies in potentially risky ways (e.g. transistors for space travel, as detailed below). Without one, companies may feel pressured to commercialize prematurely.
-- Related: [Advanced Market Commitments](https://www.notion.so/Advanced-Market-Commitments-011ce695e1e745fa806920a1e4545b77?pvs=21)
+- Related: [Advanced Market Commitments](/collection?lever=Advanced%2520Market%2520Commitments)
 
 ## Success case studies
 

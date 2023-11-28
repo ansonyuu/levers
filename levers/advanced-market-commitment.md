@@ -22,7 +22,7 @@ type: [Procurement]
 - Successful AMCs have clear, well-scoped, medium-term, and commercializable goals. Here is a good example from [Frontier Climate](https://frontierclimate.com/), a $925M AMC for carbon removal technologies from Stripe, Alphabet, McKinsey, and others.
   ![Untitled](Advanced%20Market%20Commitment%20011ce695e1e745fa806920a1e4545b77/Untitled.png)
 - AMCs are unique amongst other binding advance purchase mechanisms like advance purchase agreements (APAs) because they’re open bids that can be won by anyone, whereas APAs are set with one supplier.
-- Related: [Rapid Response R&D Consortia](Rapid%20Response%20R&D%20Consortia%2034ac0276c8ed46b5a671039520fb5564.md)
+- Related: [Rapid Response R&D Consortia](/collection?lever=Rapid%2520Response%2520R%2526D%2520Consortia)
 
 ## Success case study
 

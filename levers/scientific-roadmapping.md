@@ -24,7 +24,7 @@ This Lever allows for the generation of solutions beyond what might be conceived
 
 - Progress made so far on the specified problem
 - Major roadblocks
-- Key questions the field is \***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***(and is not)\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\*** working on, and why
+- Key questions the field is **(and is not)** working on, and why
 - Ways to unlock bottlenecks and clear paths forward
 
 This form of roadmapping aims to deliberately unlock solutions that are not prey to institutional incentives. In essence, this tool allows for a path to be charted toward shovel-ready ideas, and then the appropriate institutional mechanism can be fitted. These institutions could be Focused Research Organisations, ARPA’s, Academic Labs, Industry projects, etc.
@@ -57,7 +57,6 @@ To solve this coordination and timing problem, a 15 year technology roadmap was 
 
 ## Potential pitfalls
 
-\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***Theoretical pitfalls, limitations, and concrete failure cases, if any exist\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
 If a problem has outcomes that can not be concretely measured or predicted, roadmapping may be difficult due to the inability of legible back chaining.
 
