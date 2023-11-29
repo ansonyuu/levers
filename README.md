@@ -2,6 +2,8 @@
 
 _Developed by [Anson Yu](https://www.ansonyu.me/)_
 
+![Landing Page](https://github.com/ansonyuu/levers/blob/main/public/cover-landing.png)
+
 This README file serves as basic documentation for the website to help future developers working on it.
 
 ## Overview
@@ -13,6 +15,7 @@ This website uses:
 - TailwindCSS for styling
   - Tailwind Typography for blog post formatting
 
+![Moon Landing]([https://github.com/ansonyuu/levers/blob/main/public/cover-landing.png](https://github.com/ansonyuu/levers/blob/main/public/letter-moon.png))
 ## Setup
 
 Set up how you would a normal Node/React/NextJS project. After cloning the repo:
