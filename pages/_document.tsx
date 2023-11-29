@@ -38,11 +38,11 @@ export default class MyDocument extends Document {
             content="Levers for Progress"
             key="og_title"
           />
-          <meta property="og:image" content="/TODO" key="og_image" />
+          <meta property="og:image" content="/index-topbanner.png" key="og_image" />
           <meta property="og:image:type" content="image/png" />
           <meta name="twitter:site" content="TODO" />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="TODO" />
+          <meta name="twitter:title" content="Levers for Progress" />
           <meta
             name="twitter:image"
             content="/index-hero.png"
@@ -50,21 +50,16 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:image:alt"
-            content="TODO"
+            content="/index-topbanner.png"
             key="twitter_image_alt"
           />
           <meta
             name="twitter:description"
-            content="TODO"
+            content=" A Living Database of Methods to Accelerate Science and Technology. By Kelvin Yu and Anson Yu"
             key="twitter_description"
           />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-            rel="stylesheet"
-          />
+  
         {/* Google Analytics Measurement ID*/}
         <script async src={gtag} />
         {/* Inject the GA tracking code with the Measurement ID */}
