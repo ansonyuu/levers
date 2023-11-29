@@ -1,4 +1,5 @@
 import Button from '../components/Button';
+import Sidenote from './Sidenote';
 
 function Text({ children }) {
   return (
@@ -8,39 +9,12 @@ function Text({ children }) {
   );
 }
 
-function Sidenote({ children, right, id }) {
-  return (
-    <>
-      <input
-        type='checkbox'
-        id={`sn-${id}`}
-        className='margin-toggle'
-      />
-      <span className={right ? 'sidenote-right' : 'sidenote-left'}>
-      <span className="sidenote-number">{id}</span>
-        {children}
-      </span>
-    </>
-  );
-}
+
 export default function Letter() {
   return (
     <div className='w-full flex flex-col justify-center items-center '>
       <Text>
-        <p className=''>
-          <em>
-            A Living Database of Methods to Accelerate Science and Technology
-          </em>
-        </p>
-        <p className=''>
-          <em>By Kelvin Yu and Anson Yu</em>
-
-          <Sidenote id={1} right={true}>(not siblings and not married)</Sidenote>
-          <Sidenote id={2} right={false}>
-            All views presented here are personal to Kelvin and Anson and do not
-            represent the views of their employers.
-          </Sidenote>
-        </p>
+ 
         <h3 className=''>
           <strong>Welcome.</strong>
         </h3>
@@ -113,24 +87,24 @@ export default function Letter() {
             diminishing returns
           </a>
           .
-        </p>
-        <img className='' src='letter-conveniences.svg' />
-        <p className=''>
-          <em>
+          <Sidenote right={true} id={2.5}>
             20th-century appliances vastly improved American life:{' '}
             <a href='https://press.princeton.edu/books/paperback/9780691175805/the-rise-and-fall-of-american-growth'>
               Rise and Fall of American Growth
             </a>{' '}
             | Data: Lebergott (1976), pp. 260-88.
-          </em>
-        </p>
-        <p className=''>
+        </Sidenote>
+     
+        <img className='' src='letter-conveniences.svg' />
+     
+      
+        <br/>
           We created Levers for Progress to play a small part in reversing this
           trend. It is an open collection of{' '}
           <b>policies, tactics, and reforms</b> modern institutions use to
           advance their scientific and technological output.
-        </p>
-        <p className=''>
+<br/>
+<br/>
           We acknowledge the project’s title is a bit of a misnomer. If progress
           is{' '}
           <a
@@ -224,16 +198,11 @@ export default function Letter() {
           1970s. We inexplicably lost this ethos—and only began rekindling it in
           the last few years. The rest of this letter explains this history, but
           if you’d like to skip to the levers that are being used today to
-          reanimate this spirit, you can head{' '}
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://www.leversforprogress.com/collection'
-          >
-            here
-          </a>
-          .
+          reanimate this spirit, you can to the collection, linked below. 
         </p>
+        <div className="flex justify-center">
+        <Button/>
+        </div>
       </Text>
       <div>
         <figure>
@@ -652,7 +621,7 @@ export default function Letter() {
           , the field of research on how to improve the scientific process
           itself.
           <Sidenote id={9} right={true}>Attempts to improve scientific processes have a long history, such as the rise of evidence-based medicine in the 1980’s and 90’s. What’s changed in recent years is synthesizing these ideas, generalizing them, and establishing a snappy name.</Sidenote>
-       <br></br>
+       <br/><br/>
           Many new institutions have emerged from these intellectual strands. On
           the government side, the NSF’s $880M{' '}
           <a
@@ -783,7 +752,7 @@ export default function Letter() {
           >
             Speculative Technologies
           </a>
-          . Deeptech venture funds have{' '}
+          .  <br/><br/>Deeptech venture funds have{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -1048,14 +1017,41 @@ export default function Letter() {
             Typeform
           </a>
           .
-        </p>
-        <p className=''>Let's get to work.</p>
+       <br/><br/>Let's get to work.</p>
         <blockquote className=''>
           <em>Where there is no vision, the people perish. —</em>{' '}
           Proverbs 29:18.
         </blockquote>
+
+        <p className="text-xs" id="credits">
+              Levers of Progress was co-created by{" "}
+              <a href="https://www.ansonyu.me/">Anson Yu</a> and{" "}
+              <a href="https://www.kelv.me/">Kelvin Yu</a>. We would like to
+              especially thank our early contributors, who solo-authored many
+              entries, provided invaluable feedback, and shared many inspiring
+              stories. They are:{" "}
+              <a href="https://www.elidourado.com/">Eli Dourado</a>,{" "}
+              <a href="https://www.elidourado.com/">Ben Reinhardt</a>,{" "}
+              <a href="https://www.linkedin.com/in/charlesxjyang/">
+                Charles Yang
+              </a>
+              ,{" "}
+              <a href="https://www.linkedin.com/in/joelburke1/">Joel Burke, </a>
+              <a href="https://www.linkedin.com/in/alice-q-wu/">Alice Wu, </a>
+              <a href="https://corinwagen.github.io/public/main/index.html">
+                Corin Wagen
+              </a>
+              , <a href="https://maxlangenkamp.me/">Max Langenkamp, </a>
+              <a href="https://www.ajkourabi.com/">AJ Kourabi</a>, and a number
+              of unnamed individuals, anonymized at their request.
+            </p>
       </Text>
+
+      
+      
       <Button className=' mb-32' />
+
+    
     </div>
   );
 }

@@ -8,35 +8,9 @@ function Footer() {
   const path = useRouter().route;
 
   return (
-    <div className="w-full">
-      <div className="px-10 flex flex-col md:flex-col text-xs md:items-left justify-between my-2">
-        {path == "/" && (
-          <div className="md:text-left md:l-3/4 py-1">
-            <p className="text-xs" id="credits">
-              Levers of Progress was co-created by{" "}
-              <a href="https://www.ansonyu.me/">Anson Yu</a> and{" "}
-              <a href="https://www.kelv.me/">Kelvin Yu</a>. We would like to
-              especially thank our early contributors, who solo-authored many
-              entries, provided invaluable feedback, and shared many inspiring
-              stories. They are:{" "}
-              <a href="https://www.elidourado.com/">Eli Dourado</a>,{" "}
-              <a href="https://www.elidourado.com/">Ben Reinhardt</a>,{" "}
-              <a href="https://www.linkedin.com/in/charlesxjyang/">
-                Charles Yang
-              </a>
-              ,{" "}
-              <a href="https://www.linkedin.com/in/joelburke1/">Joel Burke, </a>
-              <a href="https://www.linkedin.com/in/alice-q-wu/">Alice Wu, </a>
-              <a href="https://corinwagen.github.io/public/main/index.html">
-                Corin Wagen
-              </a>
-              , <a href="https://maxlangenkamp.me/">Max Langenkamp, </a>
-              <a href="https://www.ajkourabi.com/">AJ Kourabi</a>, and a number
-              of unnamed individuals, anonymized at their request.
-            </p>
-          </div>
-        )}
-        <div className="py-1">
+    <div className="w-full bg-white max-h-[5vh] z-100">
+      <div className="px-10 flex flex-col md:flex-col text-xs md:items-left justify-between">
+        <div className="m-2 ">
           © {new Date().getFullYear()} Levers for Progress
         </div>
       </div>

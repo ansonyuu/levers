@@ -60,7 +60,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
       const lever = levers.find((lever) => lever.title === decodedTitle);
       if (lever) {
         setSelectedLever(lever);
-        if (size.width < 768) setIsOpen(true);
+        if (size.width < 1000) setIsOpen(true);
       }
     } else {
       setSelectedLever(levers[0]);
@@ -74,7 +74,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
       undefined,
       { shallow: true }
     );
-    if (size.width < 768) setIsOpen(true);
+    if (size.width < 1000) setIsOpen(true);
   };
 
   const handleStageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -109,10 +109,10 @@ export default function Home({ levers }: { levers: Lever[] }) {
   };
 
   return (
-    <div className="snap snap-mandatory snap-y">
+    <div className="">
   <SEO title={selectedLever ? selectedLever.title : "Home"} />
-      <div className="flex flex-row border-b-[1px] border-black max-h-[96vh]">
-        <div className="overflow-y-scroll border-r-[1px] border-black">
+      <div className="flex flex-row border-b-[1px] border-black max-h-[96.5vh]">
+        <div className="border-r-[1px] border-black">
           <div className="w-full flex justify-between border-b-[1px] border-b-black">
             <Link href="/">
               <img
@@ -136,16 +136,16 @@ export default function Home({ levers }: { levers: Lever[] }) {
               </span>
             </div>
           </div>
-          <div className="w-full h-30 md:h-full flex flex-col md:flex-row ">
-            <div className="md:w-[15vw] md:h-full overflow-hidden md:border-r-[1px] border-b-[1px]  md:border-b-[0px] border-black p-8 flex flex-row md:flex-col  gap-x-4 md:grid md:content-between">
+          <div className="inline w-full h-30 md:h-full flex flex-col md:flex-row ">
+            <div className="md:w-[15vw] md:border-r-[1px] border-b-[1px] md:border-b-[0px] border-black p-8 flex flex-row md:flex-col gap-x-4 ">
               <div className=" text-gray-500 text-sm">
-                <p className="text-base">Stage</p>
+                {/* <p className="text-base">Stage</p>
                 <label className="sr-only">Underline select</label>
                 <select
                   value={selectedStage.stage}
                   onChange={handleStageChange}
                   id="underline_select"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none focus:outline-none focus:ring-0 focus:border-gray-200 "
                 >
                   <option selected>Select</option>
                   <option value="Correction">Correction</option>
@@ -153,7 +153,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                   <option value="Catalytic">Catalytic</option>
                   <option value="Growth">Growth</option>
                   <option value="Procurement">Procurement</option>
-                </select>
+                </select> */}
 
                 <div className="w-full text-gray-500 text-sm">
                   <p className="text-base">Domain</p>
@@ -162,7 +162,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                     value={selectedDomain.stage}
                     onChange={handleDomainChange}
                     id="underline_select"
-                    className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+                    className="w-[40vw] md:w-[10vw] block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none focus:outline-none focus:ring-0 focus:border-gray-200 peer"
                   >
                     <option selected>Select</option>
                     <option value="Industry">Industry</option>
@@ -173,8 +173,8 @@ export default function Home({ levers }: { levers: Lever[] }) {
                 </div>
               </div>
 
-              <div className="">
-                <p className="text-gray-500 text-sm hidden">
+              <div className="pt-10 text-gray-500">
+              <p className=" text-xs ">
                   Anyone can submit suggestions for new levers* or edits to
                   existing ones through our public{" "}
                   <a
@@ -204,7 +204,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col md:w-[50vw] overflow-y-scroll ">
+            <div className="flex flex-col md:w-[50vw] h-[70vh] md:h-[90vh] overflow-y-scroll no-scrollbar z-20">
               {filteredLevers
                 .filter((lever) => {
                   return (
@@ -220,7 +220,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                   return (
                     <div
                       key={i}
-                      className="grid items-start border-b-[0.5px]  border-b-black py-4 px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer"
+                      className="grid items-start border-b-[0.5px] border-b-black py-4 px-5 md:px-8 flex flex-col hover:bg-gray-100 cursor-pointer"
                     >
                       <div
                         onClick={() => handleClick(lever)}
@@ -273,7 +273,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
           style={customStyles}
           contentLabel="Lever Modal"
         >
-          <div className="overflow-y-scroll ">
+          <div className="overflow-y-scroll">
             <img alt="" src={`/${selectedLever?.image}`} className="" />
             <div className="p-8">
               <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
