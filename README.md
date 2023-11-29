@@ -15,7 +15,7 @@ This website uses:
 - TailwindCSS for styling
   - Tailwind Typography for blog post formatting
 
-![Moon Landing]([https://github.com/ansonyuu/levers/blob/main/public/cover-landing.png](https://github.com/ansonyuu/levers/blob/main/public/letter-moon.png))
+![Moon Landing](https://github.com/ansonyuu/levers/blob/main/public/letter-moon.png)
 ## Setup
 
 Set up how you would a normal Node/React/NextJS project. After cloning the repo:
