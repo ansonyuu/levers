@@ -114,7 +114,7 @@ export default function Letter() {
           </a>
           .
         </p>
-        <img className='' src='letter-conveniences.png' />
+        <img className='' src='letter-conveniences.svg' />
         <p className=''>
           <em>
             20th-century appliances vastly improved American life:{' '}
@@ -237,10 +237,10 @@ export default function Letter() {
       </Text>
       <div>
         <figure>
-          <img className='hidden md:inline-block' src='/letter-moon.png' />
+          <img className='hidden md:inline-block' src='/letter-moon.svg' />
           <img
             className='md:hidden inline-block px-5'
-            src='letter-moon-sm.png'
+            src='letter-moon-sm.svg'
           />
         </figure>
       </div>

@@ -7,7 +7,7 @@ authors:
     link: https://twitter.com/kelvinotcelsius
 stage: [Growth]
 domain: [Policy]
-type: [Policy]
+type: [Funding]
 ---
 
 ## Contributors
@@ -26,7 +26,8 @@ type: [Policy]
 
 - **When direct R&D funding bills are not possible:** Tax credits are an effective way to incentivize private capital to invest in R&D without directly spending taxpayer dollars. Given the [budget constraints](https://sgp.fas.org/crs/misc/R47384.pdf) of the 118th Congress (2023-2024), any meaningful R&D bill will likely rely on tax credits as a primary instrument
 - **When catalyzing new startup formation is a top priority:** A 2019 [paper](https://www.nber.org/system/files/working_papers/w26099/w26099.pdf) by the National Bureau of Economic Research found that small business R&D tax credits have a significant long-term impact on both the overall quantity and quality of startup formation
-- [Better suited](https://cepr.org/voxeu/columns/effectiveness-rd-tax-incentives-oecd-economies) for products close to commercialization while direct government funding (e.g. grants and procurement) is better for technologies with high technical risk
+
+Ultimately, direct R&D may be [better suited](https://cepr.org/voxeu/columns/effectiveness-rd-tax-incentives-oecd-economies) for products close to commercialization while direct government funding (e.g. grants and procurement) is better for technologies with high technical risk
 
 ## Success case study
 

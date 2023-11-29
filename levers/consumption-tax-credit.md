@@ -8,7 +8,7 @@ authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
 type: [Funding]
-domain: [Industry, Policy]
+domain: [Policy, Industry]
 stage: [Growth]
 ---
 
@@ -32,7 +32,7 @@ It is important to note that tax credits for consumers also tend to benefit thos
 
 ## Case study
 
-In 1978, Congress introduced a federal tax credit for residential energy-efficient equipment that ran until 1983. While an average of four million tax returns claimed the credit each year, totaling $2.3 billion, the qualifying amount was too low, resulting in many "free riders" — people who would have purchased the equipment regardless of the tax credit. Moreover, much of the equipment that qualified for the credit was not as energy-efficient as the best options available.
+In 1978, Congress introduced a federal tax credit for residential energy-efficient equipment that ran until 1983. While an average of four million tax returns claimed the credit each year, [totaling $2.3 billion](https://www.energy.gov/eere/solar/federal-tax-credits-solar-manufacturers), the qualifying amount was too low, resulting in many "free riders" — people who would have purchased the equipment regardless of the tax credit. Moreover, much of the equipment that qualified for the credit was not as energy-efficient as the best options available.
 
 In response, new tax incentives included in the Energy Policy Act of 2005 sought to increase the market share of the most energy-efficient equipment, which were typically expensive and had <5% penetration. These tax credits were largely successful in accelerating the adoption of efficient washers, dishwashers, refrigerators, and hybrid cars according to a [report](https://www.aceee.org/files/pdf/white-paper/Tax%20incentive%20white%20paper.pdf) by the American Council for an Energy-Efficient Economy.
 

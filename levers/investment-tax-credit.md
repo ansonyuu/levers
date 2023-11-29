@@ -6,8 +6,8 @@ authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
 stage: [Growth]
-domain: [Industry, Philanthropy, Policy]
-type: [Procurement]
+domain: [Industry, Policy]
+type: [Funding]
 ---
 
 ## Contributors

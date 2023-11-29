@@ -57,7 +57,6 @@ To solve this coordination and timing problem, a 15 year technology roadmap was 
 
 ## Potential pitfalls
 
-
 If a problem has outcomes that can not be concretely measured or predicted, roadmapping may be difficult due to the inability of legible back chaining.
 
 ## Further readings

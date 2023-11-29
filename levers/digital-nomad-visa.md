@@ -5,9 +5,9 @@ image: "cover-market.png"
 authors:
   - name: Joel Burke,
     link: https://atlasunshrugged.medium.com/
-stage: [Growth]
+stage: [Resilience, Course Correction, Growth]
 domain: [Policy]
-type: [Capacity building]
+type: [Capacity building, Execution]
 ---
 
 ## About the co-author
