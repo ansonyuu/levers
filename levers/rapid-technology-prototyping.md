@@ -19,6 +19,7 @@ type: [Procurement]
 - A Rapid Technology Prototyping (RTP) program is an acquisition program that issues several contracts for small, fast, and cheap prototypes instead of relying on a single contractor to build one alpha-ready version
 - This allows a federal agency to test functional research prototypes within a short period of time to assess the technology’s viability prior to substantial government investment
 - Two key principles to successfully implementing a RTP are: **(1)** design the acquisition approach and the request for proposal (RFP) to be open, transparent, and clear so that it solicits a large number of proposals that fit the agency’s requirements and **(2)** the acquisition process needs to be expedited compared to traditional government procurement methods
+- Related: [Staged Contracts](/collection?lever=Staged%2520Contracts) [Milestone Payments](/collection?lever=Milestone%2520Payments)
 
 ## When to use
 

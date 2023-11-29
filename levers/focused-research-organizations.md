@@ -20,7 +20,7 @@ type: [Capacity building, Execution]
 
 - A Focused Research Organization (FRO) is a specialized non-profit research entity that seeks to advance a specific scientific topic or technology that cannot be efficiently addressed by standard organizational structures in academia or industry
 - “[Academic incentives disfavor medium- to large-scale teamwork across disciplines](https://www.nature.com/articles/d41586-021-01581-z) and projects with a low possibility of publishable results, while commercial profit motive precludes the production of public goods, so projects that fall in between academic and commercial incentives often go untouched.” — [Alice Wu, Federation of American Scientists](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/)
-- Related: [Structural Diversity](https://www.notion.so/Structural-Diversity-1060e162c12b4f1da7a49641ea382aaa?pvs=21)
+- Related: [Structural Diversity](/collection?lever=Structural%2520Diversity)
 
 ## When to use
 

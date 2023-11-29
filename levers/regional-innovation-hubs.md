@@ -26,6 +26,7 @@ We thank an unnamed individual who works on regional entrepreneurship policy at 
 - Hubs can grow organically, or be intentionally designed as part of a national economic and technological development strategy and then implemented at the local level
 - Successful hubs establish a unique advantage relative to other hubs (e.g. Silicon Valley in software) by becoming a hotspot for talent and capital in particular industries or technologies
 - The successful growth of hubs can differ greatly depending on the degree of government involvement, geographic scope (e.g. city-focused on region-focused), global economy, funding, etc.
+- Related: [State Economic Development Agencies](/collection?lever=State%2520Economic%2520Development%2520Agencies) [Public Venture Capital Funds](/collection?lever=Public%2520Venture%2520Capital%2520Funds)
 
 ## When to use
 

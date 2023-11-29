@@ -22,7 +22,7 @@ type: [Execution, Funding]
 
 - Modern nations have occasionally faced emergencies that required rapid, large-scale R&D programs to find solutions. Viruses are one common example—H1N1, Ebola, and Covid-19 being recent cases. Climate issues are another; the 1985 discovery of the ozone hole sparked fast R&D to find alternatives for the chemical culprits that caused it.
 - This page provides a short case study of Operation Warp Speed (OWS), by many measures the most successful government R&D program in a generation. It accelerated the development and distribution of Covid-19 vaccines in record time, although it carried a number of flaws as well. Understanding the wins and challenges of this program will help policymakers replicate its principles for the next rapid response R&D program.
-- Related: [Pre-Competitive R&D Consortia](https://www.notion.so/Pre-Competitive-R-D-Consortia-c07f6245c9c3483bb586ab934aad3a6c?pvs=21) [Industry-University Research Partnerships](https://www.notion.so/Industry-University-Research-Partnerships-4d9fbd88cb624574855b190ed6e4569a?pvs=21)
+- Related: [Pre-Competitive R&D Consortia](/collection?lever=Pre-Competitive%2520R%2526D%2520Consortia) [Industry-University Research Partnerships](/collection?lever=Industry-University%2520Research%2520Partnerships)
 
 ## Case Study: Operation Warp Speed
 

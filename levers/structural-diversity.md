@@ -23,7 +23,7 @@ type: [Capacity building, Execution]
   - Allowing for greater flexibility in the structure of labs (i.e. multiple professors within the same lab).
   - [Giving department heads more power](https://www.freaktakes.com/p/how-karl-compton-believed-a-research), thus making departments more like a single, large-scale organization working towards a single goal.
   - [Focused research organizations](https://www.convergentresearch.org/about-fros) and similar large-scale undertakings.
-- Related: [Focused Research Organizations](https://www.notion.so/Focused-Research-Organizations-a52df79084774014a5c3199068c2e3c1?pvs=21)
+- Related: [Focused Research Organizations](/collection?lever=Focused%2520Research%2520Organizations)
 
 ## Case study
 

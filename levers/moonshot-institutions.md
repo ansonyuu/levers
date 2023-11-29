@@ -22,6 +22,7 @@ Thank you to [Ben Reinhardt](https://www.elidourado.com/), founder of [Speculati
 - [Historical themes](https://progress.institute/how-do-we-make-an-entrepreneurial-state/#:~:text=certain%20themes%20that%20repeat%20across%20case%20studies) from government institutions with outsized innovative output such as ARPA/DARPA, MITI, and Vinnovaad include the importance of attracting elite talent into public service, a consistent and large funding stream, lack of red tape, and tolerance for risk and failure.
 - We used the term “institution” instead of “department” for this lever to highlight that regardless of whether the organization is independent or part of a larger bureaucracy, it needs to be **functionally independent** and should not be thought of as ‘just another department.' The more rules, norms, and existing ways of thinking that are implanted in the moonshot institution, the less able people on the team can think boldly and differently.
 - The fundamental challenge for any bureaucracy—corporate, government, or otherwise—is achieving [agile stability](https://www.ucl.ac.uk/bartlett/public-purpose/publications/2019/dec/innovation-bureaucracies-how-agile-stability-creates-entrepreneurial-state): maintaining what works while growing the flexibility to evolve. This is notoriously difficult, for as organizations grow, entrenched hierarchies and risk aversion inhibit organizations from taking risky bets. Innovation departments can be the organizational antidote to combating cultural stagnation.
+- Related: [Structural Diversity](/collection?lever=Structural%2520Diversity) [Focused Research Organizations](/collection?lever=Focused%2520Research%2520Organizations) [Remove Funding Bureaucracy](/collection?lever=Remove%2520Funding%2520Bureaucracy)
 
 ## Success case study
 
@@ -42,6 +43,7 @@ I encourage you to read Ben’s post for his full analysis, but here are some in
 Another successful example of an innovation institution that lived within a larger parent organization is Netflix. The Institute for Progress [wrote](https://progress.institute/how-do-we-make-an-entrepreneurial-state/) about the reasons for its success:
 
 > For the first decade of its existence, Netflix was essentially a DVD-by-mail company. Not content with this business model, and intrigued by the early success of YouTube, leadership at the company started investigating the possibility of streaming video directly over the internet, and launched a streaming product in 2007. To do this, they set up a new division that was somewhat isolated from the traditional processes and metrics used to govern the rest of the firm. According to one history of the company, the DVD executives were even [kicked out](https://thestrategystory.com/2020/09/13/netflix-pivoting-business-model/) of certain management meetings to make sure the streaming division had room to grow.
+>
 > This separate streaming division eventually grew to become the modern Netflix. Netflix competed with itself internally across product verticals rather than let an outside competitor beat it to the new market. **But for this new team to have success, they needed to be able to pull from a different talent pool, be judged by a different set of metrics, and productively interface with the rest of the company without kickstarting a turf war. In other words, they needed a high degree of institutional autonomy.**
 
 ## Potential pitfalls
@@ -61,6 +63,7 @@ Regina Dugan, the founding director of Google ATAP, was also DARPA director duri
 Under Dugan, Building 8 worked on a variety of prototypes, from brain-computer interfaces to [AR glasses](https://techcrunch.com/2018/10/24/facebook-ar-headset/). The project that received the most attention was Little Foot, a device that aimed to create a more intimate video-calling experience—which formed the basis for Facebook’s now-discontinued [Portal](meta.com/portal/).
 
 ![Facebook’s Portal — [New York Times]](Moonshot%20Institutions/Untitled.png)
+
 Facebook’s Portal — [New York Times](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2018%2F11%2F08%2Ftechnology%2Fpersonaltech%2Ffacebook-portal-review.html&psig=AOvVaw3k2hOvpXkPbCuaLtKW3xY8&ust=1692885746462000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCJigt_748oADFQAAAAAdAAAAABAI)
 
 The only detailed breakdown of Building 8 we found online was a [2019 report](https://www.cnbc.com/2019/08/02/facebooks-flop-in-hardware-the-untold-story-of-building-8.html) from CNBC, which interviewed a dozen former employees. The report highlighted numerous challenges that Building 8’s faced:

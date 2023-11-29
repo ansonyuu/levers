@@ -23,9 +23,9 @@ type: [Funding]
   - Funding private technologies relevant to national interests to ensure that technology within government is at least competitive with private industry. Examples include [In-Q-Tel](https://www.iqt.org/) or China’s [guidance funds](https://cset.georgetown.edu/publication/understanding-chinese-government-guidance-funds/).
   - Address market failures by providing “patient capital,” such as China’s guidance funds or the DoD’s new [Office of Strategic Capital](https://www.cto.mil/osc/#:~:text=aims%20to%20offer%20%E2%80%9C-,patient%20capital,-%E2%80%9D%20to%20investors%20and)
   - Catalyze regional innovation where private capital is scarce, such as the [Arkansas Venture Capital Development Fund](https://adfa.arkansas.gov/program/arkansas-risk-capital-matching-fund), which provides 1:1 matching for private investments in Arkansas startups up to $1 million
-- Related: [Grants](https://www.notion.so/Grants-637d2126a6274b66bfda1a57e8c2119e?pvs=21), [Investment Tax Credit](https://www.notion.so/Investment-Tax-Credit-7c0c5c9fcbff4a7d8981e1b94e1feb2b?pvs=21)
+- Related: [Grants](/collection?lever=Grants), [State Economic Development Agencies](/collection?lever=State%2520Economic%2520Development%2520Agencies), [Investment Tax Credit](/collection?lever=Investment%2520Tax%2520Credit)
 
-## Success case study
+## Case study
 
 In-Q-Tel (IQT) is a non-profit venture capital firm that invests in critical technology startups with both commercial and national security (”dual-use”) potential. Although it is technically an independent non-profit, it has extremely close ties to the US intelligence community (IC) and is colloquially known as the “CIA’s venture arm.”
 

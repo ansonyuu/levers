@@ -19,7 +19,7 @@ type: [Capacity building]
 - States spend billions every year on economic development activities that range from recruiting new businesses to helping local businesses expand. State economic development agencies are the entities that coordinate these initiatives.
 - They serve an important middle layer of funding, with sufficient financial power to meaningfully shape development in a region, while still being nimble and localized enough to do the illegible work of coalition building and understanding local contexts that often federal funding organizations cannot, simply by virtue of their size.
 - Traditionally, state economic development agencies craft incentive packages and work to attract businesses, including through megasite development and regional hub coordination. However, there is a growing model of state economic development agencies moving beyond these traditional incentive- and site-based roles towards funding innovation through startup incubators and building coalitions for regional innovation hubs.
-- Related: [Regional Innovation Hubs](https://www.notion.so/Regional-Innovation-Hubs-c50b621e8266464394ef7134a80c6f78?pvs=21), [Moonshot Institutions](https://www.notion.so/Moonshot-Institutions-8a6af497ccbe46be9b36d16160ce9f47?pvs=21), [Structural Diversity](https://www.notion.so/Structural-Diversity-1060e162c12b4f1da7a49641ea382aaa?pvs=21)
+- Related: [Regional Innovation Hubs](/collection?lever=Regional%2520Innovation%2520Hubs), [Moonshot Institutions](/collection?lever=Moonshot%2520Institutions), [Structural Diversity](/collection?lever=Structural%2520Diversity)
 
 ## Case study
 

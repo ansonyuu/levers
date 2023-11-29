@@ -21,7 +21,7 @@ type: [Funding]
 - Many government agencies, philanthropies, and other institutions have dedicated grant programs for funding third-party R&D proposals
 - These programs typically target social impact technologies that private markets aren’t incentivized to fund
 - Grants are the dominant method for funding research by the United States government. [72%](https://www.nsf.gov/about/budget/fy2023/pdf/01_fy2023.pdf) of NSF projects in 2021 were funded through grants.
-- Related: [Prize Competitions](https://www.notion.so/Prize-Competitions-491ffdfeda694c20aacd128d74a52296?pvs=21), [R&D Tax Credit](https://www.notion.so/R-D-Tax-Credit-7ec54a05f43e4f09b153ae662cf14cd3?pvs=21), [Advanced Market Commitments](https://www.notion.so/Advanced-Market-Commitments-011ce695e1e745fa806920a1e4545b77?pvs=21), [Buyer of First Resort](https://www.notion.so/Buyer-of-First-Resort-465e4b4e5c4844208d883e04cd586e4a?pvs=21), [Cooperative Agreements](https://www.notion.so/Cooperative-Agreements-f4b29ee9c90e45aa8ca99adac1d4d5c1?pvs=21)
+- Related: [Prize Competitions](/collection?lever=Prize%2520Competitions), [R&D Tax Credit](/collection?lever=R%2526D%2520Tax%2520Credit), [Advanced Market Commitments](/collection?lever=Advanced%2520Market%2520Commitments), [Buyer of First Resort](/collection?lever=Buyer%2520of%2520First%2520Resort), [Cooperative Agreements](/collection?lever=Cooperative%2520Agreements), [Remove Funding Bureacracy](/collection?lever=Remove%2520Funding%2520Bureaucracy)
 
 ## When to use
 

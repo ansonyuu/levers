@@ -23,8 +23,11 @@ type: [Funding, Procurement]
 - Although every US federal agency has the authority to support prize competitions up to $50 million, it is not commonly used. [Between 2010 and 2020](https://cset.georgetown.edu/publication/federal-prize-competitions/), agencies hosted 814 competitions through [Challenge.gov](http://challenge.gov/) with combined prizes of $243 million. In comparison, total federal R&D spending totaled $1.3 trillion during the same time—meaning prize pools accounted for 0.02% of R&D spending.
 - A Center for Security and Emerging Technology (CSET) study of the 814 federal prize competitions identified three factors that lead some competitions to outperform others in producing positive outcomes. They are:
   > First, prizes should reflect the time, effort, and resources involved for participants. Though larger prizes are more likely to attract high quality participants, it is not entirely necessary.
+  >
   > Second, organizers should design competitions to ensure promising entries have a path towards rapid procurement or scaling versus the traditional acquisition and procurement process.
+  >
   > Finally, competitions can benefit from access to or the creation of professional networks among participants, which ultimately can improve public-private partnerships.
+- Related: [Milestone Payments](/collection?lever=Milestone%2520Payments), [Grants](/collection?lever=Grants)
 
 ## Case studies
 
