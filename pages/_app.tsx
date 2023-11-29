@@ -46,19 +46,13 @@ function Footer() {
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
-
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ window.dataLayer.push(arguments); }
-      gtag('config', 'G-VM2FVTVBX2', {
+    const handleRouteChange = url => {
+      window.gtag('config', process.env.NEXT_PUBLIC_GA_ID as string, {
         page_path: url,
       });
     }
-
     router.events.on('routeChangeComplete', handleRouteChange);
-
-    // Cleanup function
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     }
@@ -88,17 +82,7 @@ function MyApp({ Component, pageProps }) {
           }
         }}
       >
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM2FVTVBX2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VM2FVTVBX2');
-</script>
         <Component {...pageProps} />
-
-     
         <Footer />
       </motion.main>
     </AnimatePresence>

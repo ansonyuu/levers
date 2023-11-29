@@ -7,6 +7,9 @@ import Document, {
   NextScript
 } from "next/document";
 
+const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
+
+
 export default class MyDocument extends Document {
   static async getInitialProps(
     ctx: DocumentContext
@@ -16,7 +19,10 @@ export default class MyDocument extends Document {
     return initialProps;
   }
 
+
   render() {
+
+    
     return (
       <Html>
         <Head>
@@ -59,7 +65,23 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
             rel="stylesheet"
           />
+        {/* Google Analytics Measurement ID*/}
+        <script async src={gtag} />
+        {/* Inject the GA tracking code with the Measurement ID */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                page_path: window.location.pathname
+              });
+            `,
+          }}
+        />
         </Head>
+       
         <body>
           <Main />
           <NextScript />
