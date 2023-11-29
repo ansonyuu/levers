@@ -21,14 +21,4 @@ Set up how you would a normal Node/React/NextJS project. After cloning the repo:
 - run `npm run dev` to start a hot-refreshing preview at `localhost:3000`
 - run `npm run build` to build the site. This will be run when deploying, ex. by a CI/CD service. If the build is failing in CI/CD, it can be useful to test locally.
 
-## Website to-dos: Anson
-- Ensure pics in lever pages and their captions show up on website
-- Animations
-- Letter image styling
-- Remaining levers outreach
-- Bolded text on letter looks kinda blurry?
-- Foonote issue
-- Update CTA to make you can go to collection right away
-- Custom images for levers
-- Intra-website link styling (e.g. going from AMCs to FROs lever)
 
