@@ -21,15 +21,10 @@ type: [Execution]
 - Key outputs of science roadmapping include:
     - Progress made so far on the specified problem
     - Major roadblocks
-    - Key questions the field is **************************(and is not)************************** working on, and why
+    - Key questions the field is **(and is not)** working on, and why
     - Ways to unlock bottlenecks and clear paths forward
     - Who is working on what, and if there are coordination problems that need solving
 - Well-defined roadmaps use a taxonomy that is mutually exclusive and collectively exhaustible ([MECE](https://en.wikipedia.org/wiki/MECE_principle)). One can think of these paths as non-overlapping tiles that collectively cover the space of possibilities.
-
-![Winding roads](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d42b9d89-567e-43aa-9995-b0ce05099d82/DALLE_2023-08-29_16.28.12_-_Winding_roads_in_the_foreground_leading_toward_a_miraculous_scientific_event_in_the_distance_at_night_digital_art_the_roads_are_illuminated_and_map.png)
-
-Winding roads
-
 - Related: [Focused Research Organizations](/collection?lever=Advanced%2520Market%2520Commitments), [Moonshot Institutions](/collection?lever=Moonshot%2520Institutions)
 
 ## Case Study
