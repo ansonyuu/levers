@@ -5,11 +5,10 @@ image: "cover-market.png"
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
-stage: [Correction, Resilience]
+stage: [Growth, Correction, Resilience]
 domain: [Policy]
 type: ["Execution", "Funding"]
 ---
-
 ## Contributors
 
 [Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
@@ -42,6 +41,7 @@ Like any government funding mechanism, there are implicit and explicit strings a
 As one case study into public health cooperative agreements [highlighted](https://www.naccho.org/uploads/downloadable-resources/Co-Ag-Case-Studies-Case-Study-1.pdf):
 
 > The potential exists, however, with such a complex network of funding sources and layers of requirements, that competing interests of funding sources and overly prescriptive or restrictive requirements may impede achievement of the purpose or goals of the cooperative agreement. The resulting infrastructure or environment for recipients may lead to tradeoffs between achieving one objective over another, duplication of efforts, increased administrative burden, and other barriers to achieving goals. In some cases, the time and expense to perform award activities may exceed the value of the award. Due to this, potential applicants may choose not to apply for the funding opportunity.
+> 
 
 The report goes on to dissect issues that three CDC cooperative agreements faced. They include:
 

@@ -1,6 +1,6 @@
 ---
 title: Beware Consultants
-oneliner: "FIX BEFORE PUSHING"
+oneliner: "Avoiding expensive, external consultancies"
 image: "cover-camp.png"
 authors:
   - name: Kelvin Yu,
@@ -25,7 +25,7 @@ An anonymous scientist at a leading science agency.
 
 > “I have never seen a management consultant’s report in my long life that didn’t end with the following paragraph: ‘What this situation really needs is more management consulting.” — Charlie Munger
 
-## Case study [don’t include on website bc it disparages my workplace]
+## Case study 
 
 The following case study on the Office of Technology Assessment (OTA) in Congress is not explicitly relevant to ‘bewaring consultants’—rather, it highlights the importance of having in-house expertise. Congress’s ability to create effective technology policy significantly weakened when it canceled the office in 1995, and much of the institution’s technical expertise today comes from temporary fellowships like [TechCongress](https://techcongress.io/), [AAAS](https://www.aaas.org/programs/science-technology-policy-fellowships), and [Horizon](https://www.horizonpublicservice.org/) (although many of these fellows transition to full-time roles after their 1-year fellowship).
 
