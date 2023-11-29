@@ -1,6 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import "../styles/globals.css";
 import { useRouter } from "next/router";
+import React, { useEffect } from 'react';
+
 
 function Footer() {
   const path = useRouter().route;
@@ -43,6 +45,25 @@ function Footer() {
 }
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ window.dataLayer.push(arguments); }
+      gtag('config', 'G-VM2FVTVBX2', {
+        page_path: url,
+      });
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Cleanup function
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    }
+  }, [router.events]);
+
   return (
     <AnimatePresence mode="wait">
       <motion.main
@@ -68,6 +89,7 @@ function MyApp({ Component, pageProps }) {
         }}
       >
         <Component {...pageProps} />
+     
         <Footer />
       </motion.main>
     </AnimatePresence>
