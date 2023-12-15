@@ -12,7 +12,7 @@ type: [Funding]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 [AJ Kourabi](https://www.ajkourabi.com/) is an engineering physics student at McMaster University, interested in scientific public goods, metascience, and philanthropy. He has previously interned at Convergent Research, started a micro-grants program for engineering students, and wrote a paper for the Canadian Government on building a Canadian ARPA-H. He most recently interned at Schmidt Futures, the philanthropic venture of Eric and Wendy Schmidt.
 

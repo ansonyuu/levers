@@ -1,7 +1,7 @@
 ---
 title: Pre-Competitive R&D Consortia
-oneliner: "Collaborative R&D partnerships"
-image: "cover-market.png"
+oneliner: 'Collaborative R&D partnerships'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -12,7 +12,7 @@ type: [Funding]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -65,7 +65,7 @@ As the consortia started demonstrating value for its members, the government beg
 
 Manufacturing USA’s [program mechanics](https://www.manufacturingusa.com/reports/2022-manufacturing-usa-highlights-report) contains valuable lessons for other R&D consortiums, such as:
 
-- **. In 2021, the program leveraged $127 million in federal funds to attract **$354 million** in funds from state, federal and pandemic funds, and private funds.
+- In 2021, the program leveraged $127 million in federal funds to attract **$354 million** in funds from state, federal and pandemic funds, and private funds.
 - **Workforce development**. In 2021, the program engaged more than **90,000 students, workers and teachers** in advanced manufacturing workforce development and training
 - **Emphasis on small manufacturers.** 72% of the manufacturers in the program are small companies (less than 500 employees).
 - **Frequently gathering member input** via satisfaction [surveys](https://www.manufacturingusa.com/reports/advanced-manufacturing-innovation-institutes-report-technology-progress-and-members-report) of member organizations.

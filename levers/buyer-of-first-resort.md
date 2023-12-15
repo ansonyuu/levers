@@ -14,7 +14,7 @@ type: [Procurement]
 
 _Thank you to [Brian Potter](https://twitter.com/@_brianpotter), senior infrastructure fellow at the Institute for Progress and creator of [Construction Physics](https://www.construction-physics.com/), for his thoughts and feedback._
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 

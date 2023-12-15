@@ -1,7 +1,7 @@
 ---
 title: Beware Consultants
-oneliner: "Avoiding expensive, external consultancies"
-image: "cover-camp.png"
+oneliner: 'Avoiding expensive, external consultancies'
+image: 'cover-camp.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -25,9 +25,9 @@ An anonymous scientist at a leading science agency.
 
 > “I have never seen a management consultant’s report in my long life that didn’t end with the following paragraph: ‘What this situation really needs is more management consulting.” — Charlie Munger
 
-## Case study 
+## Case study
 
-The following case study on the Office of Technology Assessment (OTA) in Congress is not explicitly relevant to ‘bewaring consultants’—rather, it highlights the importance of having in-house expertise. Congress’s ability to create effective technology policy significantly weakened when it canceled the office in 1995, and much of the institution’s technical expertise today comes from temporary fellowships like [TechCongress](https://techcongress.io/), [AAAS](https://www.aaas.org/programs/science-technology-policy-fellowships), and [Horizon](https://www.horizonpublicservice.org/) (although many of these fellows transition to full-time roles after their 1-year fellowship).
+The content and graphs in this section are summarized from this [case study](https://ash.harvard.edu/files/ash/files/293408_hvd_ash_sciecne_tech_and_democracy_report.pdf) from the Harvard Kennedy School on the Office of Technology Assessment (OTA) in Congress. It is not explicitly about consultants—rather, it highlights the importance of having in-house expertise and the dangers of out-sourcing. Congress’s ability to create effective technology policy significantly weakened when it canceled the office in 1995, and much of the institution’s technical expertise today comes from temporary fellowships like [TechCongress](https://techcongress.io/), [AAAS](https://www.aaas.org/programs/science-technology-policy-fellowships), and [Horizon](https://www.horizonpublicservice.org/) (although many of these fellows transition to full-time roles after their 1-year fellowship).
 
 The Office of Technology Assessment was an in-house think tank within Congress from 1974 to 1995 that advised policymakers on a broad range of science and technology issues. Unlike the Congressional Research Service, which synthesizes existing research into issue briefs and summaries, OTA focused on multi-disciplinary, expert-reviewed analysis that informed the policymaking process at a deeper level (similar to what RAND does for the DoD).
 

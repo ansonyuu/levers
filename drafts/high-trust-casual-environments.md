@@ -1,7 +1,7 @@
 ---
 title: High-Trust Casual Environments
-oneliner: "PLACEHOLDER"
-image: "cover-market.png"
+oneliner: 'PLACEHOLDER'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -12,7 +12,7 @@ type: [Capacity building]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -26,7 +26,7 @@ type: [Capacity building]
 
 ## When to use
 
-## Success case study
+## Case study
 
 - [https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1](https://www.ccclub.org/Default.aspx%3Fp=dynamicmodule&pageid=399760&ssid=323000&vnf=1)
 - [https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open](https://www.golfchannel.com/article/associated-press/historic-congressional-capital-site-us-open)

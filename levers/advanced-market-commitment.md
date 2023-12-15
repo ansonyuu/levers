@@ -1,7 +1,7 @@
 ---
 title: Advanced Market Commitments
-oneliner: "Upfront commitment to underwrite a market"
-image: "cover-market.png"
+oneliner: 'Upfront commitment to underwrite a market'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -12,7 +12,7 @@ type: [Procurement]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -20,13 +20,11 @@ type: [Procurement]
 - Naturally, entrepreneurs, researchers, and investors are dissuaded from investing in technologies with insufficient upfront demand or significant technical risk. By guaranteeing a buyer for the product once it’s successfully developed, AMCs send a strong demand signal to the community that de-risks R&D investments.
 - AMCs are particularly useful in addressing market failures and areas where private investment is limited, such as public health or high-risk technologies. For example, AMCs are often used to develop vaccines for diseases prevalent in developing nations, as free markets don’t incentivize developing complex drugs for the poorest nations.
 - Successful AMCs have clear, well-scoped, medium-term, and commercializable goals. Here is a good example from [Frontier Climate](https://frontierclimate.com/), a $925M AMC for carbon removal technologies from Stripe, Alphabet, McKinsey, and others.
-    
-    ![Table of Solutions](Advanced%20Market%20Commitment/Untitled.png)
-    
+  ![Table of Solutions](Advanced%20Market%20Commitment/Untitled.png)
 - AMCs are unique amongst other binding advance purchase mechanisms like advance purchase agreements (APAs) because they’re open bids that can be won by anyone, whereas APAs are set with one supplier.
 - Related: [Rapid Response R&D Consortia](/collection?lever=Pre-Competitive%2520R%2526D%2520Consortia)
 
-## Success case study
+## Case study
 
 In the 2000s, pneumococcal disease was the biggest vaccine-preventable cause of death in children under five. Most of these deaths occurred in developing countries.
 
@@ -37,9 +35,9 @@ It was a smashing success. The program [distributed](https://www.nber.org/digest
 Here is a quick rundown of the AMC’s history and program design, taken from a 2020 analysis by the [National Bureau of Economic Research](https://www.nber.org/system/files/working_papers/w26775/w26775.pdf):
 
 - The AMC formally launched in 2009 under the Global Alliance for Vaccines and Immunizations (GAVI), calling called for firms to compete for ten-year supply contracts that capped prices at $3.50 per dose
-    - A firm committing to supply 𝑋𝑋 million annual doses (𝑋𝑋/200 of the projected 200 million annual need) would secure an 𝑋𝑋/200 share of the $1.5 billion AMC fund, paid out as a per-dose subsidy for initial purchases.
-    - The AMC set an income threshold for countries to be eligible to receive the PCVs, of which 73 countries qualified.
-    - Countries were also required to have 70% coverage with DPT vaccines to receive the AMC’s PCVs
+  - A firm committing to supply 𝑋𝑋 million annual doses (𝑋𝑋/200 of the projected 200 million annual need) would secure an 𝑋𝑋/200 share of the $1.5 billion AMC fund, paid out as a per-dose subsidy for initial purchases.
+  - The AMC set an income threshold for countries to be eligible to receive the PCVs, of which 73 countries qualified.
+  - Countries were also required to have 70% coverage with DPT vaccines to receive the AMC’s PCVs
 - In 2010, GAVI released its first set of 60 million doses. GSK and Pfizer each committed to supply 30 million doses annually, at $3.50 per dose, or $10.50 for a three-dose combination.
 - GAVI released subsequent batches over time, sometimes outpaced by country demand. In each case, the firms expanded their supply commitments in line with the tenders. As of 2020, dosage pricing had dropped to $2.90/unit due to purchaser and public pressure for the manufacturers to reduce their prices.
 - In 2019, the Serum Institute of India developed a third vaccine that qualified for the AMC. Serum Institute is expected to participate in tenders for the remaining $262 million of uncommitted AMC funds, reportedly pricing its vaccine at $2 per dose for low-income countries
@@ -47,7 +45,6 @@ Here is a quick rundown of the AMC’s history and program design, taken from a 
 Although we do not know the counterfactual case of whether a PCV would have been developed as timely and effectively without an AMC, data suggests that the AMC was highly cost-effective. As the paper’s authors write:
 
 > Estimates from Tasslimi, et al. (2011) suggest that the PCV rollout has been highly cost effective. At initial program prices, the PCV rollout avoided the loss of a disability adjusted life year (DALY) at cost of only $83. The WHO classifies interventions as highly cost effective if a DALY costs less than one GDP per capita.
-> 
 
 According to the [World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?most_recent_value_desc=false), the poorest country in the world has a GDP per capita of $238.4—implying an $83 DALY is a high return on investment for even the world’s least well-off countries.
 

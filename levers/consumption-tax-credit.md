@@ -1,7 +1,7 @@
 ---
 title: Consumption Tax Credit
-oneliner: "More usage, more tax benefits"
-image: "cover-market.png"
+oneliner: 'More usage, more tax benefits'
+image: 'cover-market.png'
 authors:
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en
@@ -16,7 +16,7 @@ stage: [Growth]
 
 [Charles Yang](https://www.linkedin.com/in/charlesxjyang/) is an Energy Supply Chain Fellow at the Department of Energy (through ORISE). He was previously a machine learning engineer at an AI hardware startup, worked on ARPA-E’s commercialization team, and has spent considerable time exploring the intersection of climate policy and technology adoption. All views presented here are personal and do not represent the views of the Department of Energy or the Federal government.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 

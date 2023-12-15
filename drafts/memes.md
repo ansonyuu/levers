@@ -1,7 +1,7 @@
 ---
 title: Memes
-oneliner: "Upfront commitment to underwrite a market"
-image: "cover-market.png"
+oneliner: 'Upfront commitment to underwrite a market'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -25,7 +25,7 @@ _Definition and Significance_
 
 ## When to use
 
-## Success case study
+## Case study
 
 ## Potential pitfalls
 

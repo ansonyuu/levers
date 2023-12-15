@@ -1,7 +1,7 @@
 ---
 title: Digital Nomad Visa
-oneliner: "Relocate remote talent to you"
-image: "cover-market.png"
+oneliner: 'Relocate remote talent to you'
+image: 'cover-market.png'
 authors:
   - name: Joel Burke,
     link: https://atlasunshrugged.medium.com/
@@ -10,11 +10,11 @@ domain: [Policy]
 type: [Capacity building, Execution]
 ---
 
-## About the co-author
+## Contributors
 
 [Joel Burke](https://www.linkedin.com/in/joelburke1/) is an AI Fellow in the U.S. Senate who previously worked in public and private sector roles in Silicon Valley, Berlin, and Estonia. He was one of the initial creators of Colombia’s digital nomad visa and is a proponent of using innovative governance solutions to address concrete needs.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -25,7 +25,7 @@ type: [Capacity building, Execution]
 - Digital Nomad initiatives are useful for attracting labor with flexible work arrangements like software engineers. They can attract entire branches of companies and catalyze other longer-term talent-building initiatives. For example, if a country is able to bring in a few dozen employees from a large company, that company may consider opening local physical office space and creating a local presence. This could seed the country with a new crop of talent capable of kickstarting regional innovation. For example, many startup founders in Southeast Asia [originate from](https://www.techinasia.com/deep-dive-growing-influence-gojek-mafia) the superapp Gojek.
 - Related: [Entrepreneur Visas](https://www.notion.so/Entrepreneur-Visas-ba1dca368f1644e79963b53682d27d25?pvs=21)
 
-## Success case study
+## Case study
 
 In its first year, Barbados’s Welcome Stamp program received over 2800 applicants. Each paid a $2000 application fee, which monetarily benefited the country beyond those who actually made the move. The program checked many of the best practices for visas:
 

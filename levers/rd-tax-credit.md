@@ -1,7 +1,7 @@
 ---
 title: R&D Tax Credit
-oneliner: "More research and development, more tax benefits"
-image: "cover-market.png"
+oneliner: 'More research and development, more tax benefits'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -12,7 +12,7 @@ type: [Funding]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -29,7 +29,7 @@ type: [Funding]
 
 Ultimately, direct R&D may be [better suited](https://cepr.org/voxeu/columns/effectiveness-rd-tax-incentives-oecd-economies) for products close to commercialization while direct government funding (e.g. grants and procurement) is better for technologies with high technical risk
 
-## Success case study
+## Case study
 
 The Orphan Drug Act (ODA)of 1983 established a tax credit to encourage the development of drugs for rare diseases, which pharmaceutical companies were not incentivized to tackle given the small market size. The tax credit provides a 50% credit for eligible clinical trial costs related to developing drugs for rare diseases. Since the tax credit’s inception, [more than](https://archive.bio.org/articles/impact-orphan-drug-tax-credit-treatments-rare-diseases) 200 new orphan drugs have been approved by the Food and Drug Administration (FDA) – compared with only 34 approved before 1983.
 

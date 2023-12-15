@@ -1,7 +1,7 @@
 ---
 title: Production Tax Credit
-oneliner: "More production, more tax benefits"
-image: "cover-market.png"
+oneliner: 'More production, more tax benefits'
+image: 'cover-market.png'
 authors:
   - name: Charles Yang,
     link: https://twitter.com/charlesxjyang?lang=en
@@ -16,7 +16,7 @@ stage: [Growth]
 
 [Charles Yang](https://www.linkedin.com/in/charlesxjyang/) is an Energy Supply Chain Fellow at the Department of Energy (through ORISE). He was previously a machine learning engineer at an AI hardware startup, worked on ARPA-E’s commercialization team, and has spent considerable time exploring the intersection of climate policy and technology adoption. All views presented here are personal and do not represent the views of the Department of Energy or the Federal government.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -32,7 +32,7 @@ stage: [Growth]
 
 This lever is effective when there is a clear way to measure eligible production of the resource—both technically and whether the state has the capacity to (see interagency coordination challenge in potential pitfalls).
 
-## Success case study
+## Case study
 
 Iowa’s Wind Energy PTC and Renewable Energy PTC are some of the most successful clean energy tax credit programs in the United States. The programs provide credits worth $0.01 and $0.015 per kilowatt-hour of electricity generated at eligible facilities, respectively. The credits are available for a ten-year period starting from the facility’s in-service date.
 

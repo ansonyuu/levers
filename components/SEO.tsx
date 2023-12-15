@@ -1,24 +1,24 @@
-import { NextSeo } from "next-seo";
+import { NextSeo } from 'next-seo';
 
 export default function SEO({
   title,
   description,
   imgUrl,
-  noSuffix
+  noSuffix,
 }: {
   title: string;
   description?: string;
   imgUrl?: string;
   noSuffix?: boolean;
 }) {
-  const fullTitle = `${title}${noSuffix ? "" : " | Levers For Progress"}`;
+  const fullTitle = `${title}${noSuffix ? '' : ' | Levers For Progress'}`;
 
   return (
     <NextSeo
       title={fullTitle}
       description={
         description ||
-        " A Living Database of Methods to Accelerate Science and Technology"
+        ' A Living Database of Methods to Advance Science and Technology'
       }
     />
   );

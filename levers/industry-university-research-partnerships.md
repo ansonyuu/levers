@@ -1,7 +1,7 @@
 ---
 title: Industry-University Research Partnerships
-oneliner: "Collaborative research structures in industry and academia"
-image: "cover-market.png"
+oneliner: 'Collaborative research structures in industry and academia'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -12,24 +12,24 @@ type: [Funding]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
 - Research partnerships between industrial organizations and universities [began growing](https://nap.nationalacademies.org/read/5579/chapter/2) in popularity in the 1980s, as private companies [increasingly focused](https://hbr.org/2018/01/why-companies-and-universities-should-forge-long-term-collaborations) on commercialization and ceding early-stage research (basic and applied) to academia.
-    > From a 1997 National Academies report: “Collaborative partnerships have become strategic assets for companies that face increasingly rapid technological change, increasingly intense international competition, and diminishing in-house research resources. Such partnerships have become more attractive to universities, too, as overall growth in public funding for research has slowed substantially since the 1980s. **The federal government's efforts in the 1980s to stimulate technological innovation while reducing spending spawned an array of initiatives designed specifically to encourage industry-university collaboration in R&D.**”
+  > From a 1997 National Academies report: “Collaborative partnerships have become strategic assets for companies that face increasingly rapid technological change, increasingly intense international competition, and diminishing in-house research resources. Such partnerships have become more attractive to universities, too, as overall growth in public funding for research has slowed substantially since the 1980s. **The federal government's efforts in the 1980s to stimulate technological innovation while reducing spending spawned an array of initiatives designed specifically to encourage industry-university collaboration in R&D.**”
 - There are [four main types](https://nap.nationalacademies.org/read/5579/chapter/3) of IURPs:
-    - **Single Company/Multi-University:** For example, materials company Celanese established partnerships with Rutgers, North Carolina State, and UNC Chapel Hill in the late 90s to determine if the company could conduct a significant portion of its discovery research externally, and whether this process would be beneficial to the partner universities.
-    - **Multi-Company/Single University Model**: MIT’s famous Media Laboratory researches emerging information technologies and receives funding from a [wide range](https://www.media.mit.edu/posts/membership-levels/#members) of corporate partners including Hyundai, Google, and L’Oreal.
-    - **Single Company/Single University**: Red Hat [created](https://hbr.org/2018/01/why-companies-and-universities-should-forge-long-term-collaborations#:~:text=Cloud%20Computing%20Initiative.-,BU,-and%20Red%20Hat) a $5M partnership with Boston University to advance research and education on open source and emerging technologies, including cloud computing, and machine learning. BU and Red Hat will jointly license co-developed technology while each party retains exclusive rights to its pre-existing IP. In addition, IP developed solely by either BU or Red Hat will be owned by whichever organization employs the inventor. The aim is not only to establish an enduring relationship with BU that spawns co-developed IP in Red Hat’s sweet spot — cloud computing technologies and systems — but also to create a pipeline of graduate students who will seriously consider jobs at the company.
-    - **Multi-Company/Multi-University Model:** University of Rochester’s [Center for Emerging and Innovative Sciences](https://www.ceis.rochester.edu/collaboration/index.html) conducts basic research at the frontiers of imaging, remote sensing, and telecommunication. The center receives participation from a few New York universities including the University of Rochester and the Rochester Institute of Technology, and receives funding from many corporate sponsors and the State of New York.
+  - **Single Company/Multi-University:** For example, materials company Celanese established partnerships with Rutgers, North Carolina State, and UNC Chapel Hill in the late 90s to determine if the company could conduct a significant portion of its discovery research externally, and whether this process would be beneficial to the partner universities.
+  - **Multi-Company/Single University Model**: MIT’s famous Media Laboratory researches emerging information technologies and receives funding from a [wide range](https://www.media.mit.edu/posts/membership-levels/#members) of corporate partners including Hyundai, Google, and L’Oreal.
+  - **Single Company/Single University**: Red Hat [created](https://hbr.org/2018/01/why-companies-and-universities-should-forge-long-term-collaborations#:~:text=Cloud%20Computing%20Initiative.-,BU,-and%20Red%20Hat) a $5M partnership with Boston University to advance research and education on open source and emerging technologies, including cloud computing, and machine learning. BU and Red Hat will jointly license co-developed technology while each party retains exclusive rights to its pre-existing IP. In addition, IP developed solely by either BU or Red Hat will be owned by whichever organization employs the inventor. The aim is not only to establish an enduring relationship with BU that spawns co-developed IP in Red Hat’s sweet spot — cloud computing technologies and systems — but also to create a pipeline of graduate students who will seriously consider jobs at the company.
+  - **Multi-Company/Multi-University Model:** University of Rochester’s [Center for Emerging and Innovative Sciences](https://www.ceis.rochester.edu/collaboration/index.html) conducts basic research at the frontiers of imaging, remote sensing, and telecommunication. The center receives participation from a few New York universities including the University of Rochester and the Rochester Institute of Technology, and receives funding from many corporate sponsors and the State of New York.
 - Related: [Pre-Competitive R&D Consortia](/collection?lever=Pre-Competitive%2520R%2526D%2520Consortia) [Rapid Response R&D Consortia](/collection?lever=Rapid%2520Response%2520R%2526D%2520Consortia)
 
 ## When to use
 
 IURPs are effective when private companies have a clear interest in furthering early-stage research that can be translated into a commercial product. The topics of research should be novel enough that universities are uniquely positioned to pursue them due to lack of for-profit constraints, but not so mature that companies would invest in it themselves. Technologies with a [Technology-Readiness-Level](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level) (TLR) between 2-5 would fit within these bounds.
 
-## Success case study
+## Case study
 
 The National Science Foundation’s (NSF) Industry-University Cooperative Research Center (IUCRC) program connects industry partners and government agencies with university researchers to pursue three main objectives:
 

@@ -1,7 +1,7 @@
 ---
 title: Entrepreneur Visas
-oneliner: "Upfront commitment to underwrite a market"
-image: "cover-market.png"
+oneliner: 'Upfront commitment to underwrite a market'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -22,7 +22,7 @@ _Definition and Significance_
   - Other examples include Australia, Canada, New Zealand, and (infamously) China’s [Thousand Talents Program](https://en.wikipedia.org/wiki/Thousand_Talents_Plan)
 - Related: [Digital Nomad Visa](Digital%20Nomad%20Visa%20dbe4f5fe4d874853b5e23e7f4c4f905f.md)
 
-## Success case study
+## Case study
 
 ## Potential pitfalls
 

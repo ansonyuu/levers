@@ -1,17 +1,18 @@
 ---
 title: Cooperative Agreements
-oneliner: "Funding mechanism involving extensive federal staff resources"
-image: "cover-market.png"
+oneliner: 'Funding mechanism involving extensive federal staff resources'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
 stage: [Growth, Correction, Resilience]
 domain: [Policy]
-type: ["Execution", "Funding"]
+type: ['Execution', 'Funding']
 ---
+
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -24,7 +25,7 @@ type: ["Execution", "Funding"]
 
 CAs are typically used for large-scale projects that require agency expertise to implement well. For example, the many Centers for Disease Control and Prevention’s (CDC) [cooperative agreements](https://www.cdc.gov/publichealthgateway/partnerships/index.html) target public health initiatives that require integration with the agency’s pre-existing systems programs. Therefore, guidance from the CDC is needed for the contract winner to perform the task successfully.
 
-## Success case study
+## Case study
 
 In 2021, the National Science Foundation (NSF) distributed [24%](https://www.nsf.gov/about/budget/fy2023/pdf/01_fy2023.pdf) of its funding through CAs to support capital-intensive research investments like research centers. In 2015, NSF hired the National Academy of Public Administration (the Academy), an independent non-profit, to review NSF’s use of CAs in developing and maintaining $100 million+ research facilities.
 
@@ -41,7 +42,6 @@ Like any government funding mechanism, there are implicit and explicit strings a
 As one case study into public health cooperative agreements [highlighted](https://www.naccho.org/uploads/downloadable-resources/Co-Ag-Case-Studies-Case-Study-1.pdf):
 
 > The potential exists, however, with such a complex network of funding sources and layers of requirements, that competing interests of funding sources and overly prescriptive or restrictive requirements may impede achievement of the purpose or goals of the cooperative agreement. The resulting infrastructure or environment for recipients may lead to tradeoffs between achieving one objective over another, duplication of efforts, increased administrative burden, and other barriers to achieving goals. In some cases, the time and expense to perform award activities may exceed the value of the award. Due to this, potential applicants may choose not to apply for the funding opportunity.
-> 
 
 The report goes on to dissect issues that three CDC cooperative agreements faced. They include:
 

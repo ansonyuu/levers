@@ -14,7 +14,7 @@ type: [Capacity building, Execution, Funding]
 
 We thank an unnamed individual who works on regional entrepreneurship policy at the Federation of American Scientists, who asked to remain anonymous, for their contributions to this piece.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -56,9 +56,7 @@ It is currently difficult to evaluate whether China’s AI pilot zones are succe
 
 ## Potential pitfalls
 
-Efforts to create a “Silicon X” across the world
-
-Numerous countries and locales have sought to capitalize on the success and brand name recognition of Silicon Valley by trying to promote local tech development (particularly software) through a variety of different incentives and strategies. These Silicon X’s have a mixed track record.
+Numerous countries and locales have sought to recreate “Silicon X” in their regions through a variety of different incentives and strategies. These Silicon X’s have a mixed track record.
 
 For example, ‘Silicon Wadi’ is a term used to describe the cluster of globally successful technology companies around Tel Aviv, Isrel. This cluster features an extremely high number of both startups and established global technology companies that conduct R&D in Tel Aviv. The success of the startup ecosystem is due in part to a successful government program to grow a nascent venture capital landscape in the 1990s called the [Yozma Program](https://link.springer.com/article/10.1007/s11187-010-9298-z) (modeled after the United States’ Small Business Investment Company Program). Other factors include a robust higher education system and programs to incentivize the immigration of high-skilled workers.
 

@@ -1,7 +1,7 @@
 ---
 title: Federalizing Permitting Authority
-oneliner: "Changing domain of jurisdiction"
-image: "cover-market.png"
+oneliner: 'Changing domain of jurisdiction'
+image: 'cover-market.png'
 authors:
   - name: Anson Yu,
     link: https://twitter.com/ansonyuu
@@ -22,7 +22,7 @@ _Definition and Significance_
 - When there is already an existing federal authority that manages the resource
   - Especially one with exlcusive jurisdiction to do these types of things
 
-## Success case study
+## Case study
 
 ## Failure case study
 

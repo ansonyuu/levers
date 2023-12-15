@@ -9,12 +9,10 @@ function Text({ children }) {
   );
 }
 
-
 export default function Letter() {
   return (
     <div className='w-full flex flex-col justify-center items-center '>
       <Text>
- 
         <h3 className=''>
           <strong>Welcome.</strong>
         </h3>
@@ -35,7 +33,7 @@ export default function Letter() {
           >
             entrepreneurs
           </a>{' '}
-          aised the “stagnation hypothesis”: that Western scientific,
+          raised the “stagnation hypothesis”: that Western scientific,
           technological, and economic progress has slowed significantly in
           recent decades.
         </p>
@@ -77,7 +75,7 @@ export default function Letter() {
           >
             not
           </a>{' '}
-          uplifted wages or life expectancy at the same scale as past
+          uplifted the average quality of life at the same scale as past
           innovations. Even science itself is showing{' '}
           <a
             target='_blank'
@@ -93,36 +91,36 @@ export default function Letter() {
               Rise and Fall of American Growth
             </a>{' '}
             | Data: Lebergott (1976), pp. 260-88.
-        </Sidenote>
-     
-        <img className='' src='letter-conveniences.svg' />
-     
-      
-        <br/>
+          </Sidenote>
+          <img className='' src='letter-conveniences.svg' />
+          <br />
           We created Levers for Progress to play a small part in reversing this
-          trend. It is an open collection of{' '}
-          <b>policies, tactics, and reforms</b> modern institutions use to
-          advance their scientific and technological output.
-<br/>
-<br/>
-          We acknowledge the project’s title is a bit of a misnomer. If progress
-          is{' '}
+          trend. While the importance of scientists, entrepreneurs, and capital
+          for innovation is obvious, we highlight the pivotal role that public
+          policy and state capacity can have as well. LoP is an open collection
+          of <b>policies, tactics, and reforms</b>modern institutions have used
+          to advance their scientific and technological output. Some have worked
+          better than others, but we hope LoP will inspire more discussion on
+          experimenting with similar interventions, faster and more often.
+          <br />
+          <br />
+          We acknowledge the project’s title is a bit of a misnomer. Progress is{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
             href='https://jamesclear.com/book-summaries/lessons-of-history#:~:text=If%20progress%20is%20real%2C%20it,larger%20portion%20of%20human%20heritage.'
           >
             real
-          </a>
+          </a>{' '}
           but it’s certainly not concentrated only in beakers, labs, and
           factories. Carving a holistic definition of civilizational progress is
           a grand challenge, so we leave that undertaking to braver souls.
         </p>
         <p>
           We chose to focus on science and technology because, despite their
-          measurable, material, and scalable improvements on quality of life, we
-          as a culture do not fully appreciate or support their role in enabling
-          lives of greater prosperity. Not in Washington, where{' '}
+          measurable impact on quality of life, we do not fully appreciate or
+          support their role in enabling lives of greater prosperity. Not in
+          Washington, where{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -138,7 +136,12 @@ export default function Letter() {
           >
             crumbling
           </a>{' '}
-          buildings. <Sidenote id={3} right={false}> Snakes infiltrated one of their buildings after it was flooded. Another had a fly infestation in the stairwell and a broken cooling system that dumped thousands of gallons of water down the hall.</Sidenote>Not in education, where US students have{' '}
+          buildings.{' '}
+          <Sidenote id={3} right={false}>
+            {' '}
+            Snakes infiltrated one of their buildings after it was flooded.
+          </Sidenote>
+          Not in education, where US students have{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -146,8 +149,8 @@ export default function Letter() {
           >
             underachieved
           </a>{' '}
-          in STEM for decades. Not even in Silicon Valley, which tends to sneer
-          at academia and government,{' '}
+          in STEM for decades. Not even in Silicon Valley, which tends to
+          dismiss academia and government,{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -174,13 +177,29 @@ export default function Letter() {
           underpins most technologies that power modern life.
         </p>
         <p>
-          We lack appreciation because we falsely believe that progress “just
-          happens.” Some assume innovation marches along a singular path whereby
-          discoveries occur when they are destined to. Others assume when the
-          apocalypse arrives, unknown great scientists will inevitably rise and
-          save us all. Determinism and indeterminism are equally destructive;
-          history is neither inevitable nor random. To believe either is to
-          whitewash human agency to act, to change, to mold the future.
+          We lack appreciation because we falsely believe that progress{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.youtube.com/watch?v=GhljHahCick&ab_channel=MotivationStrikes'
+          >
+            “just happens.”
+          </a>
+          . Some assume the universe has a{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://beff.substack.com/p/notes-on-eacc-principles-and-tenets'
+          >
+            natural will
+          </a>{' '}
+          that trends toward some technological singularity. Others believe
+          innovation marches along a singular path whereby discoveries occur
+          when they are destined to. Most just assume it is nothing more than a
+          stochastic procedure. Determinism, indeterminism, and apathy are all
+          equally destructive; history is neither inevitable nor random. To
+          believe either is to remove human agency to act, to change, to mold
+          the future.
         </p>
         <p>
           We used to understand that{' '}
@@ -190,7 +209,7 @@ export default function Letter() {
             href='https://ifp.org/progress-is-a-policy-choice/'
           >
             progress is a policy choice
-          </a>{' '}
+          </a>
           . In the 1940s, we charged the nation’s intellectual capacity and
           industrial might toward the Manhattan Project. In the 1960s, 400,000
           people, 20,000 organizations, and 4.4% of the federal budget propelled
@@ -198,10 +217,10 @@ export default function Letter() {
           1970s. We inexplicably lost this ethos—and only began rekindling it in
           the last few years. The rest of this letter explains this history, but
           if you’d like to skip to the levers that are being used today to
-          reanimate this spirit, you can to the collection, linked below. 
+          reanimate this spirit, you can head to the collection here.
         </p>
-        <div className="flex justify-center">
-        <Button/>
+        <div className='flex justify-center'>
+          <Button />
         </div>
       </Text>
       <div>
@@ -285,8 +304,24 @@ export default function Letter() {
             1.86%
           </a>{' '}
           of GDP into R&amp;D by 1964 (3x higher than today’s federal R&amp;D
-          budget). <Sidenote id={4} right={false}>Much of the US R&D budget has shifted to the private sector, hence partially why federal R&D spending has gone down. However, not all dollars are created equal; there are many advantages to public R&D dollars, including ability to write checks too large for private entities and investing in unprofitable public goods. See this debate on industrial policy vs. free market fundamentalism.</Sidenote><Sidenote id={5} right={true}>This is based on the most recent <a href="https://ncses.nsf.gov/data-collections/national-patterns">NSF figures</a> from 2021 and therefore does not take into account the increased spending from the IRA, CHIPS+Science, and Infrastructure bills.</Sidenote>Most of today’s major scientific institutions were created
-          during this{' '}
+          budget).{' '}
+          <Sidenote id={4} right={false}>
+            Much of the US R&D budget has shifted to the private sector, hence
+            partially why federal R&D spending has gone down. However, not all
+            dollars are created equal; there are many advantages to public R&D
+            dollars, including ability to write checks too large for private
+            entities and investing in unprofitable public goods. See this debate
+            on industrial policy vs. free market fundamentalism.
+          </Sidenote>
+          <Sidenote id={5} right={true}>
+            This is based on the most recent{' '}
+            <a href='https://ncses.nsf.gov/data-collections/national-patterns'>
+              NSF figures
+            </a>{' '}
+            from 2021 and therefore does not take into account the increased
+            spending from the IRA, CHIPS+Science, and Infrastructure bills.
+          </Sidenote>
+          Most of today’s major scientific institutions were created during this{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -349,14 +384,25 @@ export default function Letter() {
           these critiques were justified, but the degree to which innovation was
           scapegoated was not. These overlapping revolts gradually dismantled
           technological ambition from politics, of science from the state.
-        <br/>
-        <br/>
+          <br />
+          <br />
           The final nail in the coffin came with the end of the Cold War. The
           fall of the Soviet Union, which had once “plunged America into
           spiritual depression” with Sputnik, recast American R&amp;D from a
           positive-sum priority for external security to a zero-sum competition
-          for domestic appropriations. <Sidenote id={6} right={false}>The SSC also suffered from poor management, cost overruns, and many scientists thought funding would be better spent elsewhere. To learn more, see this fantastic 3h documentary. Regardless whether cancelling the SSC was the correct decision, we mention it to emphasize the dependence of American innovation on foreign adversaries. Note that NASA and DARPA were also founded in direct response to Sputnik. How can we tell a political story that motivates sacrifice, investment, and incredibly hard work towards the future, that is not intrinsically violent?
-</Sidenote> In response to the 1993{' '}
+          for domestic appropriations.{' '}
+          <Sidenote id={6} right={false}>
+            The SSC also suffered from poor management, cost overruns, and many
+            scientists thought funding would be better spent elsewhere. To learn
+            more, see this fantastic 3h documentary. Regardless whether
+            cancelling the SSC was the correct decision, we mention it to
+            emphasize the dependence of American innovation on foreign
+            adversaries. Note that NASA and DARPA were also founded in direct
+            response to Sputnik. How can we tell a political story that
+            motivates sacrifice, investment, and incredibly hard work towards
+            the future, that is not intrinsically violent?
+          </Sidenote>{' '}
+          In response to the 1993{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -366,8 +412,8 @@ export default function Letter() {
           </a>{' '}
           of the Superconducting Super Collider after Congress already invested
           $2 billion, Nobel Laureate Steven Weinberg lamented:
-          <br/>
-        <br/>
+          <br />
+          <br />
           <em>
             "Spending for the SSC had become a target for a new class of
             Congressmen elected in 1992…they didn’t feel that much was at stake.
@@ -381,19 +427,18 @@ export default function Letter() {
             would not have been canceled."
           </em>
           <Sidenote id={7} right={true}>
-          The F-35 fighter plane suffers from a similar incentive problem. The
-          $1 trillion jet—the DoD's most expensive weapons program ever—has more
-          than{' '}
-          <a href='https://www.nytimes.com/2019/08/21/magazine/f35-joint-strike-fighter-program.html#:~:text=It%E2%80%99s%20no%20accident,criticize%20this%20program'>
-            1,500
-          </a>{' '}
-          suppliers spread across every state, making it cancel-proof despite
-          repeated cost overruns.
-        </Sidenote >
-       
+            The F-35 fighter plane suffers from a similar incentive problem. The
+            $1 trillion jet—the DoD's most expensive weapons program ever—has
+            more than{' '}
+            <a href='https://www.nytimes.com/2019/08/21/magazine/f35-joint-strike-fighter-program.html#:~:text=It%E2%80%99s%20no%20accident,criticize%20this%20program'>
+              1,500
+            </a>{' '}
+            suppliers spread across every state, making it cancel-proof despite
+            repeated cost overruns.
+          </Sidenote>
         </p>
       </Text>
-   
+
       <div>
         <figure className='image'>
           <img className='hidden md:inline-block' src='/letter-ssc.png' />
@@ -436,7 +481,10 @@ export default function Letter() {
           <Sidenote id={8} right={true}>
             Advanced Technology Products includes biotech, advanced materials
             and electronics, aerospace, weapons, nuclear, and others as defined
-            by the <a href="https://www.census.gov/foreign-trade/reference/codes/atp/index.html">US Census Bureau.</a>
+            by the{' '}
+            <a href='https://www.census.gov/foreign-trade/reference/codes/atp/index.html'>
+              US Census Bureau.
+            </a>
           </Sidenote>
         </p>
       </Text>
@@ -620,8 +668,14 @@ export default function Letter() {
           </a>
           , the field of research on how to improve the scientific process
           itself.
-          <Sidenote id={9} right={true}>Attempts to improve scientific processes have a long history, such as the rise of evidence-based medicine in the 1980’s and 90’s. What’s changed in recent years is synthesizing these ideas, generalizing them, and establishing a snappy name.</Sidenote>
-       <br/><br/>
+          <Sidenote id={9} right={true}>
+            Attempts to improve scientific processes have a long history, such
+            as the rise of evidence-based medicine in the 1980’s and 90’s.
+            What’s changed in recent years is synthesizing these ideas,
+            generalizing them, and establishing a snappy name.
+          </Sidenote>
+          <br />
+          <br />
           Many new institutions have emerged from these intellectual strands. On
           the government side, the NSF’s $880M{' '}
           <a
@@ -752,7 +806,9 @@ export default function Letter() {
           >
             Speculative Technologies
           </a>
-          .  <br/><br/>Deeptech venture funds have{' '}
+          . <br />
+          <br />
+          Deeptech venture funds have{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -776,7 +832,7 @@ export default function Letter() {
           >
             FreakTakes
           </a>
-        ,{' '}
+          ,{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -1017,41 +1073,37 @@ export default function Letter() {
             Typeform
           </a>
           .
-       <br/><br/>Let's get to work.</p>
+          <br />
+          <br />
+          Let's get to work.
+        </p>
         <blockquote className=''>
-          <em>Where there is no vision, the people perish. —</em>{' '}
-          Proverbs 29:18.
+          <em>Where there is no vision, the people perish. —</em> Proverbs
+          29:18.
         </blockquote>
 
-        <p className="text-xs" id="credits">
-              Levers of Progress was co-created by{" "}
-              <a href="https://www.ansonyu.me/">Anson Yu</a> and{" "}
-              <a href="https://www.kelv.me/">Kelvin Yu</a>. We would like to
-              especially thank our early contributors, who solo-authored many
-              entries, provided invaluable feedback, and shared many inspiring
-              stories. They are:{" "}
-              <a href="https://www.elidourado.com/">Eli Dourado</a>,{" "}
-              <a href="https://www.elidourado.com/">Ben Reinhardt</a>,{" "}
-              <a href="https://www.linkedin.com/in/charlesxjyang/">
-                Charles Yang
-              </a>
-              ,{" "}
-              <a href="https://www.linkedin.com/in/joelburke1/">Joel Burke, </a>
-              <a href="https://www.linkedin.com/in/alice-q-wu/">Alice Wu, </a>
-              <a href="https://corinwagen.github.io/public/main/index.html">
-                Corin Wagen
-              </a>
-              , <a href="https://maxlangenkamp.me/">Max Langenkamp, </a>
-              <a href="https://www.ajkourabi.com/">AJ Kourabi</a>, and a number
-              of unnamed individuals, anonymized at their request.
-            </p>
+        <p className='text-xs' id='credits'>
+          Levers of Progress was co-created by{' '}
+          <a href='https://www.ansonyu.me/'>Anson Yu</a> and{' '}
+          <a href='https://www.kelv.me/'>Kelvin Yu</a>. We would like to
+          especially thank our early contributors, who solo-authored many
+          entries, provided invaluable feedback, and shared many inspiring
+          stories. They are:{' '}
+          <a href='https://www.elidourado.com/'>Eli Dourado</a>,{' '}
+          <a href='https://www.elidourado.com/'>Ben Reinhardt</a>,{' '}
+          <a href='https://www.linkedin.com/in/charlesxjyang/'>Charles Yang</a>,{' '}
+          <a href='https://www.linkedin.com/in/joelburke1/'>Joel Burke, </a>
+          <a href='https://www.linkedin.com/in/alice-q-wu/'>Alice Wu, </a>
+          <a href='https://corinwagen.github.io/public/main/index.html'>
+            Corin Wagen
+          </a>
+          , <a href='https://maxlangenkamp.me/'>Max Langenkamp, </a>
+          <a href='https://www.ajkourabi.com/'>AJ Kourabi</a>, and a number of
+          unnamed individuals, anonymized at their request.
+        </p>
       </Text>
 
-      
-      
       <Button className=' mb-32' />
-
-    
     </div>
   );
 }

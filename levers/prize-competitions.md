@@ -12,7 +12,7 @@ type: [Funding, Procurement]
 
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -21,7 +21,7 @@ type: [Funding, Procurement]
   > One [Ansari XPrize competition](https://www.xprize.org/) awarded a $10 million prize to a privately funded reliable, reusable spaceship able to carry three people into space (100 km above the Earth’s surface) two times within two weeks. Nearly 30 teams competed in the competition, investing a total of $100 million into finding a solution. The prize competition turned into an acquisition when the winner was licensed by Virgin Galactic—and the solution has become part of the commercial space-flight industry today.
 - Since prize competitions attract a diverse range of participants with various technological approaches, they are an especially useful method for federal agencies to test the operational effectiveness of different technologies. Competitions transfer most of the downside risks to participants, allowing agencies to set ambitious targets without risking great financial loss.
 - Although every US federal agency has the authority to support prize competitions up to $50 million, it is not commonly used. [Between 2010 and 2020](https://cset.georgetown.edu/publication/federal-prize-competitions/), agencies hosted 814 competitions through [Challenge.gov](http://challenge.gov/) with combined prizes of $243 million. In comparison, total federal R&D spending totaled $1.3 trillion during the same time—meaning prize pools accounted for 0.02% of R&D spending.
-- A Center for Security and Emerging Technology (CSET) study of the 814 federal prize competitions identified three factors that lead some competitions to outperform others in producing positive outcomes. They are:
+- A Center for Security and Emerging Technology (CSET) [study](https://cset.georgetown.edu/publication/federal-prize-competitions/) of the 814 federal prize competitions identified three factors that lead some competitions to outperform others in producing positive outcomes. They are:
   > First, prizes should reflect the time, effort, and resources involved for participants. Though larger prizes are more likely to attract high quality participants, it is not entirely necessary.
   >
   > Second, organizers should design competitions to ensure promising entries have a path towards rapid procurement or scaling versus the traditional acquisition and procurement process.
@@ -69,6 +69,7 @@ As the paper elaborates, “We have collectively produced many videos showing co
 
 ## Further readings
 
+- [How to Use Challenge Prizes | Statecraft by Santi Ruiz](https://www.statecraft.pub/p/how-to-use-challenge-prizes)
 - [Federal Prize Competitions | Congressional Research Service (CRS)](https://sgp.fas.org/crs/misc/R45271.pdf)
 - [Federal Prize Competitions | Center for Security and Emerging Technology](https://cset.georgetown.edu/publication/federal-prize-competitions/)
 - [Prizes and challenge-based acquisition](https://www.mitre.org/sites/default/files/publications/6-prizes-and-challenge-based-acquisition.pdf)

@@ -14,7 +14,7 @@ type: [Capacity building]
 
 Thank you to [Ben Reinhardt](https://www.elidourado.com/), founder of [Speculative Technologies](https://spec.tech/), for his thoughts and edits to this piece.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -24,7 +24,7 @@ Thank you to [Ben Reinhardt](https://www.elidourado.com/), founder of [Speculati
 - The fundamental challenge for any bureaucracy—corporate, government, or otherwise—is achieving [agile stability](https://www.ucl.ac.uk/bartlett/public-purpose/publications/2019/dec/innovation-bureaucracies-how-agile-stability-creates-entrepreneurial-state): maintaining what works while growing the flexibility to evolve. This is notoriously difficult, for as organizations grow, entrenched hierarchies and risk aversion inhibit organizations from taking risky bets. Innovation departments can be the organizational antidote to combating cultural stagnation.
 - Related: [Structural Diversity](/collection?lever=Structural%2520Diversity) [Focused Research Organizations](/collection?lever=Focused%2520Research%2520Organizations) [Remove Funding Bureaucracy](/collection?lever=Remove%2520Funding%2520Bureaucracy)
 
-## Success case study
+## Case study
 
 Ben Reinhardt’s case study “[Why does DARPA work?](https://benjaminreinhardt.com/wddw)” is the most in-depth public breakdown of the levers behind DARPA’s success. ARPAnet (Internet precursor), GPS, computer mouse, TCP/IP, PAL (Siri precursor), lasers, and autonomous vehicles all came out of DARPA programs, just to name a few mildly important outcomes.
 
@@ -63,8 +63,7 @@ Regina Dugan, the founding director of Google ATAP, was also DARPA director duri
 Under Dugan, Building 8 worked on a variety of prototypes, from brain-computer interfaces to [AR glasses](https://techcrunch.com/2018/10/24/facebook-ar-headset/). The project that received the most attention was Little Foot, a device that aimed to create a more intimate video-calling experience—which formed the basis for Facebook’s now-discontinued [Portal](meta.com/portal/).
 
 ![Facebook’s Portal — [New York Times]](Moonshot%20Institutions/Untitled.png)
-
-Facebook’s Portal — [New York Times](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2018%2F11%2F08%2Ftechnology%2Fpersonaltech%2Ffacebook-portal-review.html&psig=AOvVaw3k2hOvpXkPbCuaLtKW3xY8&ust=1692885746462000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCJigt_748oADFQAAAAAdAAAAABAI)
+_Facebook’s Portal — [New York Times](https://www.nytimes.com/2018/11/08/technology/personaltech/facebook-portal-review.html)_
 
 The only detailed breakdown of Building 8 we found online was a [2019 report](https://www.cnbc.com/2019/08/02/facebooks-flop-in-hardware-the-untold-story-of-building-8.html) from CNBC, which interviewed a dozen former employees. The report highlighted numerous challenges that Building 8’s faced:
 

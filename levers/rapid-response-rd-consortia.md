@@ -16,7 +16,7 @@ type: [Execution, Funding]
 
 [Alice Wu](https://www.linkedin.com/in/alice-q-wu/) is a senior associate at the Federation of American Scientists, where she works on climate and science R&D policy. She previously conducted graduate research at MIT focusing on singlet fission solar cells and organic LEDs.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Context
 
@@ -29,8 +29,7 @@ type: [Execution, Funding]
 America entered Covid lockdown in March 2020. Two months later, Trump announced Operation Warp Speed (OWS) to “produce and deliver 300 million doses of safe and effective vaccines with the initial doses available by January 2021.” Due to the typical 5-10 years it takes to develop a vaccine, there was a [strong consensus](https://thehill.com/opinion/white-house/544175-getting-the-facts-right-on-operation-warp-speed/#:~:text=Consider%20some%20typical%20examples) of experts, media, and prediction markets that were highly skeptical of OWS.
 
 ![[The lightning-fast quest for COVID vaccines — and what it means for other diseases | Nature](https://www.nature.com/articles/d41586-020-03626-1)](Rapid%20Response%20R&D%20Consortia%2034ac0276c8ed46b5a671039520fb5564/Untitled.png)
-
-[The lightning-fast quest for COVID vaccines — and what it means for other diseases | Nature](https://www.nature.com/articles/d41586-020-03626-1)
+_[The lightning-fast quest for COVID vaccines — and what it means for other diseases | Nature](https://www.nature.com/articles/d41586-020-03626-1)_
 
 Less than a year after the US entered lockdown, the first vaccines were administered in December 2020. The OWS fell short of its initial goals—distributing [50 million](https://www.cnn.com/world/live-news/coronavirus-pandemic-vaccine-updates-01-31-21/h_1193af5dd1d7cb1a2dcb6c41c1a5ab63) vaccine doses by the end of Jan 2021 (instead of 300 million), but nonetheless beat the [previous record](https://www.nature.com/articles/d41586-020-03626-1) for vaccine development by ~three years. This unique success among many government R&D programs comes from OWS’s strong public-private partnerships, effective coordination mechanisms, and command leadership structure. Future programs can learn from the key mechanisms behind OWS’s triumph, which are detailed in a recent [report](https://fas.org/publication/how-to-operation-warp-speed/) by the Federal of American Scientists and summarized here:
 

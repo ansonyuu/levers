@@ -1,7 +1,7 @@
 ---
 title: Startup Incubator for Scientists
-oneliner: "Upfront commitment to underwrite a market"
-image: "cover-market.png"
+oneliner: 'Upfront commitment to underwrite a market'
+image: 'cover-market.png'
 authors:
   - name: Kelvin Yu,
     link: https://twitter.com/kelvinotcelsius
@@ -9,9 +9,10 @@ stage: [Catalytic, Growth]
 domain: [Academia, Philanthropy, Policy]
 type: [Capacity building, Funding]
 ---
+
 ## Contributors
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -21,12 +22,12 @@ type: [Capacity building, Funding]
 - Example programs that have tried to address this gap include the [Activate Fellowship](https://www.activate.org/fellowship) (two-year full-time fellowship for entrepreneurial scientists), DARPA’s [Embedded Entrepreneurship Initiative](https://eei.darpa.mil/#impact) (connects DARPA program managers with commercial advisors), [NSF’s Innovation Corps](https://new.nsf.gov/funding/initiatives/i-corps) (teaches entrepreneurship to academics with project-based learning), and Lawrence Berkeley National Laboratory’s [Cyclotron Road program](https://cyclotronroad.lbl.gov/) (which partners with Activate).
 - Related levers: [Structural Diversity](/collection?lever=Structural%2520Diversity), [Focused Research Organizations](/collection?lever=Focused%2520Research%2520Organizations), [Moonshot Institutions](/collection?lever=Moonshot%2520Institutions)
 
-## Success case study
+## Case study
 
 [The Activate Fellowship](https://www.activate.org/fellowship) is a non-profit fellowship program that provides two-year, full-time support for scientists to bring their research to market. Of all the previously mentioned programs, Activate is the most involved, intense, and successful. Some of the benefits it offers to fellows include:
 
 - **Dedicated funding for two years**: Fellows receive an annual living stipend between $80-$110K. Each project receives $100K in guaranteed funding and access to at least $100K in additional capital if needed.
--  **Peer community:** Activate Fellows build their products alongside other fellows. The program has been running for nearly eight years and has generated nine cohorts, permitting fellows to get plugged into a deep alumni network. The other mentioned programs do not have the intimate community dimension offered by Activate.
+- **Peer community:** Activate Fellows build their products alongside other fellows. The program has been running for nearly eight years and has generated nine cohorts, permitting fellows to get plugged into a deep alumni network. The other mentioned programs do not have the intimate community dimension offered by Activate.
 - Deep network: Activate Fellows receive access to top scientists, investors, corporates, and entrepreneurs across academia, technology hubs, and government labs. Some of these network connections even become fellows’ early employees, co-founders, or investors.
 - **Research facilities**: Fellows have access to research tools, equipment, and facilities at world-class facilities while retaining IP rights.
 - Mentorship and startup curriculum: The Activate team meets with fellows one-on-one to develop execution roadmaps and make relevant connections. They also teach fellows about startup skills that academics typically do not have, such as sales, marketing, and product development.

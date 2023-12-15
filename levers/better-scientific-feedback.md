@@ -30,6 +30,7 @@ Thank you to [Dr. Brian Nosek](https://www.cos.io/team/brian-nosek), Founder of 
 One of the most successful interventions has been Registered Reports, a publishing format that conducts peer review before data collection, thereby emphasizing the importance of the research question and the quality of methodology. Papers are then provisionally accepted for publication if the authors follow through with the registered methodology.
 
 ![Registered Reports pipeline](Better%20Scientific%20Feedback/Untitled.png)
+_[From the Center on Open Science](https://www.cos.io/initiatives/registered-reports)_
 
 According to the [Center for Open Science](https://www.cos.io/initiatives/registered-reports), this format rewards adhering to the “hypothetico-deductive model of the scientific method.” It helps eliminate questionable research practices, including low statistical power, selective reporting of results, and publication bias, while allowing flexibility to report serendipitous findings. A couple of papers illustrating its impact can be found here, here, and here.
 

@@ -14,7 +14,7 @@ type: [Funding]
 
 [Max Langenkamp](https://maxlangenkamp.me/) is building better hardware security for DNA benchtop synthesizers to prevent home-printed viruses from becoming a reality. He has spent a summer as a program manager for In-Q-Tel, worked on tech policy at CSET and OSTP, and investigated the governance structures of open-source machine learning packages as a graduate student at MIT.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -47,8 +47,7 @@ As part of China’s efforts to surpass the US in advanced technology, the Chine
 The earliest GGFs appeared in the 2000s, but growth surged when Beijing sought to replace direct government subsidies in the mid-2010s for being inefficient/corrupt and undermining competition. The total assets under management by GGFs 68’d from 2010 to 2020, totaling $900 billion AUM by 2020.
 
 ![From the book, [Chinese Power and Artificial Intelligence](https://www.taylorfrancis.com/books/edit/10.4324/9781003212980/chinese-power-artificial-intelligence-william-hannas-huey-meei-chang)](https://remnote-user-data.s3.amazonaws.com/p9cvj51Itm19lZonPUJzRQmZQQpcbjkidbom84mGTBgkcRMOwHdsGobUbB55RFESfHCMq2t3A-QGt6pN4Uj9ErOfFePnmsRGInvSK0qKv41bsz2r5vIyUHlLydJnCfPE.png)
-
-From the book, [Chinese Power and Artificial Intelligence](https://www.taylorfrancis.com/books/edit/10.4324/9781003212980/chinese-power-artificial-intelligence-william-hannas-huey-meei-chang)
+_From the book, [Chinese Power and Artificial Intelligence](https://www.taylorfrancis.com/books/edit/10.4324/9781003212980/chinese-power-artificial-intelligence-william-hannas-huey-meei-chang)_
 
 In theory, GGFs have a few distinct advantages versus other government funding mechanisms:
 
@@ -56,7 +55,7 @@ In theory, GGFs have a few distinct advantages versus other government funding m
 - They complement and amplify other industrial policy measures
 - They align markets with national interest
 
-While there are successful GGFs and a few high-profile investment winners (such as Nio and iFlyTek), a 2021 report by the Center for Security and Emerging Technology questioned the effectiveness of GGFs in aggregate. As the authors detail:
+While there are successful GGFs and a few high-profile investment winners (such as Nio and iFlyTek), a [2021 report](https://cset.georgetown.edu/publication/understanding-chinese-government-guidance-funds/) by the Center for Security and Emerging Technology (CSET) questioned the effectiveness of GGFs in aggregate. As the authors detail:
 
 > In practice, most guidance funds fail to live up to their ambitions, weakened by unrealistic goals, bureaucratic constraints, incompetent management, risk aversion, and a lack of market discipline. Our research shows that:
 >
@@ -67,8 +66,6 @@ While there are successful GGFs and a few high-profile investment winners (such 
 > - Guidance fund capital has been wasted on nonstrategic and illicit activities.
 > - Guidance funds do not invest in early-stage companies as intended.
 > - Guidance funds often fail to attract truly private capital, and in some cases may even crowd private capital out of the market.
-
-You can read the full report [here](https://cset.georgetown.edu/publication/understanding-chinese-government-guidance-funds/).
 
 ## Further readings
 

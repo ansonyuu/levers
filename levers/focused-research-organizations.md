@@ -14,7 +14,7 @@ type: [Capacity building, Execution]
 
 [Alice Wu](https://www.linkedin.com/in/alice-q-wu/) is a senior associate at the Federation of American Scientists, where she works on climate and science R&D policy. She previously conducted graduate research at MIT focusing on singlet fission solar cells and organic LEDs.
 
-[Kelvin Yu](https://www.kelv.me/) works on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
+[Kelvin Yu](https://www.kelv.me/) most recently worked on AI and R&D policy in Congress. He previously built, invested, and advised technology startups, mostly in the Bay Area. All views presented here are personal and do not represent the views of Congress or the Federal government.
 
 ## Key things to know
 
@@ -27,10 +27,11 @@ type: [Capacity building, Execution]
 FROs are used to tackle science and technological problems that (1) require levels of coordinated engineering or system-building inaccessible to academia, and (2) benefit society broadly in ways that industry cannot rapidly monetize. These problems require a startup-like structure with tightly coordinated, medium-sized teams that can engineer and scale solutions in a manner unsuited for university labs.
 
 ![FRO Diagram](Focused%20Research%20Organizations/Untitled.png)
+_[From Convergent Research](https://www.convergentresearch.org/)_
 
 ## Case study
 
-The FRO model is relatively new and remains to be seen what its outcomes to be, but it is likely they will prove effective for appropriately-sized problems.
+The FRO model is relatively new and remains to be seen what its outcomes will be, but in theory they are promising for appropriately-sized problems.
 
 The largest effort to create new FROs is led by [Convergent Research](https://www.convergentresearch.org/), a non-profit founded in 2021 dedicated to incubating and funding new FROs. In March 2023, Forbes reported that they received $50M from Schmidt Futures and Ken Griffin to further their work.
 
@@ -54,4 +55,5 @@ A recent [memo](https://fas.org/publication/focused-research-organizations-a-new
 - [Three learnings about Focused Research Organizations | Samuel Rodriques](https://calvinball.substack.com/p/three-learnings-about-focused-research)
 - [What is an FRO | AJ Kourabi](https://www.ajkourabi.com/writings/what-is-and-is-not-an-fro)
 - [Focused Research Organizations | Astera](https://astera.org/fros)
+- [Focused Research Organizations | Federation of American Scientists](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/)
 - [Unblock research bottlenecks with non-profit start-ups | Nature](https://www.nature.com/articles/d41586-022-00018-5)
