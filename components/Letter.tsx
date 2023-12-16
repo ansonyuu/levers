@@ -85,7 +85,11 @@ export default function Letter() {
             diminishing returns
           </a>
           .
-          <Sidenote right={true} id={2.5}>
+          <Sidenote right={false} id={3}>
+            There are exceptions, like mRNA vaccines, but they are increasingly
+            fewer-and-further-between.
+          </Sidenote>
+          <Sidenote right={true} id={4}>
             20th-century appliances vastly improved American life:{' '}
             <a href='https://press.princeton.edu/books/paperback/9780691175805/the-rise-and-fall-of-american-growth'>
               Rise and Fall of American Growth
@@ -137,7 +141,7 @@ export default function Letter() {
             crumbling
           </a>{' '}
           buildings.{' '}
-          <Sidenote id={3} right={false}>
+          <Sidenote id={5} right={false}>
             {' '}
             Snakes infiltrated one of their buildings after it was flooded.
           </Sidenote>
@@ -231,9 +235,7 @@ export default function Letter() {
             src='letter-moon-sm.svg'
           />
         </figure>
-      </div>
-      <Text>
-        <p className=''>
+        <p className='text-center mt-3'>
           <em>
             Apollo Missions{' '}
             <a href='https://www.nasa.gov/centers/marshall/history/this-week-in-nasa-history-apollo-16-launches-april-16-1972-1.html'>
@@ -246,6 +248,8 @@ export default function Letter() {
             , the final times humans went to the moon.
           </em>
         </p>
+      </div>
+      <Text>
         <h3 className=''>
           <strong>The Rise and Fall of Technological Statecraft</strong>
         </h3>
@@ -305,21 +309,25 @@ export default function Letter() {
           </a>{' '}
           of GDP into R&amp;D by 1964 (3x higher than today’s federal R&amp;D
           budget).{' '}
-          <Sidenote id={4} right={false}>
+          <Sidenote id={6} right={false}>
             Much of the US R&D budget has shifted to the private sector, hence
-            partially why federal R&D spending has gone down. However, not all
-            dollars are created equal; there are many advantages to public R&D
-            dollars, including ability to write checks too large for private
-            entities and investing in unprofitable public goods. See this debate
-            on industrial policy vs. free market fundamentalism.
+            partially why federal R&D spending has gone down. Free markets are
+            crucial but so is public R&D funding, which has many unique
+            advantages, including ability to write checks too large for private
+            entities and investing in unprofitable public goods (e.g. basic
+            research). See{' '}
+            <a href='https://youtu.be/Gp8U7icCCoc?si=-eIBw5_Z5GvBsE75'>
+              this debate
+            </a>{' '}
+            on the industrial policy vs. free market fundamentalism.
           </Sidenote>
-          <Sidenote id={5} right={true}>
+          <Sidenote id={7} right={true}>
             This is based on the most recent{' '}
             <a href='https://ncses.nsf.gov/data-collections/national-patterns'>
               NSF figures
             </a>{' '}
-            from 2021 and therefore does not take into account the increased
-            spending from the IRA, CHIPS+Science, and Infrastructure bills.
+            , which are from 2021 and does not include the increased spending
+            from the IRA, CHIPS+Science, and Infrastructure bills.
           </Sidenote>
           Most of today’s major scientific institutions were created during this{' '}
           <a
@@ -356,15 +364,14 @@ export default function Letter() {
             src='letter-vannevar-sm.png'
           />
         </figure>
-      </div>
-
-      <Text>
-        <p className=''>
+        <p className='text-center mt-3'>
           <a href='https://www.computerhistory.org/revolution/analog-computers/3/143'>
             <em>Source</em>
           </a>
           <em>: Vannevar Bush (1890-1974) with his analog computer.</em>
         </p>
+      </div>
+      <Text>
         <p className=''>
           Cultural narratives about technology took a darker turn in the 1960s
           and 70s. Left-wing humanists{' '}
@@ -388,17 +395,35 @@ export default function Letter() {
           <br />
           The final nail in the coffin came with the end of the Cold War. The
           fall of the Soviet Union, which had once “plunged America into
-          spiritual depression” with Sputnik, recast American R&amp;D from a
-          positive-sum priority for external security to a zero-sum competition
-          for domestic appropriations.{' '}
-          <Sidenote id={6} right={false}>
+          spiritual depression” with Sputnik,{' '}
+          <Sidenote id={8} right={true}>
+            {' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://media.defense.gov/2017/Apr/05/2001727355/-1/-1/0/B_0098_ERICKSON_INTO_UNKNOWN_TOGETHER.PDF'
+            >
+              Source:
+            </a>{' '}
+            Senator Lyndon Johnson.
+          </Sidenote>{' '}
+          recast American R&amp;D from a positive-sum priority for external
+          security to a zero-sum competition for domestic appropriations.{' '}
+          <Sidenote id={9} right={false}>
             The SSC also suffered from poor management, cost overruns, and many
             scientists thought funding would be better spent elsewhere. To learn
-            more, see this fantastic 3h documentary. Regardless whether
-            cancelling the SSC was the correct decision, we mention it to
-            emphasize the dependence of American innovation on foreign
-            adversaries. Note that NASA and DARPA were also founded in direct
-            response to Sputnik. How can we tell a political story that
+            more, see this fantastic{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.youtube.com/watch?v=3xSUwgg1L4g'
+            >
+              3h documentary
+            </a>
+            . Regardless whether cancelling the SSC was the correct decision, we
+            mention it to emphasize the dependence of American innovation on
+            foreign adversaries. NASA and DARPA were also founded in direct
+            response to Sputnik. Is it possible to a political story that
             motivates sacrifice, investment, and incredibly hard work towards
             the future, that is not intrinsically violent?
           </Sidenote>{' '}
@@ -406,7 +431,7 @@ export default function Letter() {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href='https://archive.is/NzbSU#selection-1719.0-1719.161'
+            href='https://www.nybooks.com/articles/2012/05/10/crisis-big-science/'
           >
             termination
           </a>{' '}
@@ -420,13 +445,9 @@ export default function Letter() {
             The Cold War was over, and discoveries at the SSC were not going to
             produce anything of immediate practical importance. The Clinton
             administration decided that it could only support one large
-            technological project in Texas, and it chose the Space Station. The
-            Space Station had the great advantage that it cost about ten times
-            more than the SSC, so NASA could spread contracts for its
-            development over many states. Perhaps if the SSC had cost more, it
-            would not have been canceled."
-          </em>
-          <Sidenote id={7} right={true}>
+            technological project in Texas, and it chose the Space Station.
+          </em>{' '}
+          <Sidenote id={10} right={true}>
             The F-35 fighter plane suffers from a similar incentive problem. The
             $1 trillion jet—the DoD's most expensive weapons program ever—has
             more than{' '}
@@ -435,10 +456,16 @@ export default function Letter() {
             </a>{' '}
             suppliers spread across every state, making it cancel-proof despite
             repeated cost overruns.
-          </Sidenote>
+          </Sidenote>{' '}
+          <em>
+            {' '}
+            The Space Station had the great advantage that it cost about ten
+            times more than the SSC, so NASA could spread contracts for its
+            development over many states. Perhaps if the SSC had cost more, it
+            would not have been canceled."
+          </em>
         </p>
       </Text>
-
       <div>
         <figure className='image'>
           <img className='hidden md:inline-block' src='/letter-ssc.png' />
@@ -448,9 +475,7 @@ export default function Letter() {
             src='letter-ssc-sm.png'
           />
         </figure>
-      </div>
-      <Text>
-        <p className=''>
+        <p className='text-center mt-3'>
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -460,13 +485,21 @@ export default function Letter() {
           </a>
           <em>: The SSC tunnel one year before it was canceled</em>
         </p>
+      </div>
+      <Text>
         <p className=''>
           Instead, the world’s flagship particle accelerator was built in
           Europe. Research fell out of fashion as a federal priority. Following
           Milton Friedman’s neoliberal doctrine, the government increasingly
-          ceded technological inventions (and their supply chains) to the
-          private sector and global markets. As a H.W. Bush’sI economic advisor
-          famously{' '}
+          ceded{' '}
+          <Sidenote id={11} right={false}>
+            By no means are we blaming private markets, which are an incredibly
+            powerful tool for innovation (e.g. AI progress). Our point is that
+            the public and private sectors should be complementary to each
+            other; either one dominating the other leads to poor outcomes.
+          </Sidenote>{' '}
+          technological inventions (and their supply chains) to the private
+          sector and global markets. As H.W. Bush's economic advisor famously{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -475,25 +508,41 @@ export default function Letter() {
             quipped
           </a>
           , &quot;computer chips, potato chips, what’s the difference?&quot;
-          Industrial atrophy followed, with a nearly $60 billion trade surplus
-          of advanced technology products (2020 dollars) in 1992 turning into a
-          deficit of $191 billion by 2020.{' '}
-          <Sidenote id={8} right={true}>
+          Industrial atrophy followed, with a nearly $60 billion trade surplus{' '}
+          <Sidenote id={12} right={true}>
             Advanced Technology Products includes biotech, advanced materials
             and electronics, aerospace, weapons, nuclear, and others as defined
             by the{' '}
             <a href='https://www.census.gov/foreign-trade/reference/codes/atp/index.html'>
               US Census Bureau.
             </a>
-          </Sidenote>
+          </Sidenote>{' '}
+          of advanced technology products (2020 dollars) in 1992 turning into a
+          deficit of $191 billion by 2020.{' '}
         </p>
       </Text>
       <div className='flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-4 lg:flex-row'>
-        <figure className='image'>
+        <figure className='image mb-5'>
           <img src='/letter-randd.png' />
+          <p className='text-center'>
+            <em>
+              Reconstructed from the{' '}
+              <a href='https://sgp.fas.org/crs/misc/R44307.pdf'>
+                Congressional Research Service
+              </a>
+            </em>
+          </p>
         </figure>
         <figure className='image'>
           <img src='/letter-spending.png' />
+          <p className='text-center mt-3'>
+            <em>
+              Reconstructed from{' '}
+              <a href='https://americancompass.org/wheres-the-growth/'>
+                American Compass: Where’s the Growth?
+              </a>
+            </em>
+          </p>
         </figure>
       </div>
       <Text>
@@ -516,7 +565,15 @@ export default function Letter() {
           </a>{' '}
           in American politics, has gained bipartisan traction in Washington.
           Efforts to build better roads, counter China, and deploy faster clean
-          energy have resulted in $2 trillion of{' '}
+          energy have resulted in{' '}
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.mckinsey.com/industries/public-sector/our-insights/the-inflation-reduction-act-heres-whats-in-it'
+          >
+            $2 trillion
+          </a>{' '}
+          of{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -540,8 +597,15 @@ export default function Letter() {
           >
             climate
           </a>{' '}
-          investments. Free market fundamentalism should have died long ago, as
-          democracies like{' '}
+          investments.{' '}
+          <Sidenote id={13} right={true}>
+            Much of this still needs to be{' '}
+            <a href='https://www.nature.com/articles/d41586-023-03135-x'>
+              appropriated.
+            </a>
+          </Sidenote>{' '}
+          Free market fundamentalism should have died long ago, as democracies
+          like{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -654,7 +718,7 @@ export default function Letter() {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href='https://www.biotechniques.com/technology-news/the-rise-of-metascience/'
+            href='https://goodscience.substack.com/p/metascience-since-2012-a-personal'
           >
             growth
           </a>{' '}
@@ -668,7 +732,7 @@ export default function Letter() {
           </a>
           , the field of research on how to improve the scientific process
           itself.
-          <Sidenote id={9} right={true}>
+          <Sidenote id={14} right={true}>
             Attempts to improve scientific processes have a long history, such
             as the rise of evidence-based medicine in the 1980’s and 90’s.
             What’s changed in recent years is synthesizing these ideas,
@@ -892,7 +956,11 @@ export default function Letter() {
           <a target='_blank' rel='noopener noreferrer' href='https://fas.org/'>
             Federal of American Scientists
           </a>{' '}
-          translate ideas into policies, helping create the $1.5B{' '}
+          translate ideas into policies, helping create the{' '}
+          <Sidenote id={15} right={true}>
+            Funding figures are for fiscal year 2023.
+          </Sidenote>{' '}
+          $1.5B{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -965,16 +1033,13 @@ export default function Letter() {
           />
         </figure>
       </div>
+      <p className='text-center mt-3'>
+        <a href='https://computerhistory.org/blog/indigenous-circuits/'>
+          <em>Source</em>
+        </a>
+        <em>: Ribbon cutting at Fairchild, September 8, 1969</em>
+      </p>
       <Text>
-        <p className=''>
-          <a href='https://computerhistory.org/blog/indigenous-circuits/'>
-            <em>Source</em>
-          </a>
-          <em>
-            : Ribbon cutting at Fairchild Building Dedication, Shiprock, New
-            Mexico, September 8, 1969
-          </em>
-        </p>
         <p className=''>
           Of course, material innovation is not the best or only way to solve
           these problems. The easiest solution to reduce housing costs requires
