@@ -78,6 +78,7 @@ A month after Portal’s release, Building 8 was shut down and renamed Portal. I
 ## Further readings
 
 - [Why does DARPA work? | Ben Reinhardt](https://benjaminreinhardt.com/wddw)
+- [How to Run Good DARPA Programs | Statecraft](https://www.statecraft.pub/p/how-to-run-good-darpa-programs)
 - [But Seriously, How Do We Make an Entrepreneurial State? | Institute for Progress](https://progress.institute/how-do-we-make-an-entrepreneurial-state/)
 - [Shifting the impossible to the inevitable - a Private ARPA user manual | Ben Reinhardt](https://benjaminreinhardt.com/parpa)
 - [The Complete Story of Lockheed Martin, Skunkworks, and the US's Top Secret 1960's Satellite Program | Acquired Podcast](https://www.acquired.fm/episodes/lockheed-martin)
