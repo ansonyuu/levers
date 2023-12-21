@@ -283,8 +283,11 @@ export default function Letter() {
             “There is a growing mountain of research. But there is increased
             evidence that we are being bogged down today as specialization
             extends. The investigator is staggered by the findings and
-            conclusions of thousands of other workers—conclusions which he
-            cannot find time to grasp, much less to remember, as they appear.”
+            conclusions of thousands of other workers—{' '}
+            <b>
+              conclusions which he cannot find time to grasp, much less to
+              remember, as they appear.{' '}
+            </b>
           </em>
         </p>
         <p className=''>
@@ -442,10 +445,13 @@ export default function Letter() {
           <em>
             "Spending for the SSC had become a target for a new class of
             Congressmen elected in 1992…they didn’t feel that much was at stake.
-            The Cold War was over, and discoveries at the SSC were not going to
-            produce anything of immediate practical importance. The Clinton
-            administration decided that it could only support one large
-            technological project in Texas, and it chose the Space Station.
+            <b>
+              The Cold War was over, and discoveries at the SSC were not going
+              to produce anything of immediate practical importance.
+            </b>{' '}
+            The Clinton administration decided that it could only support one
+            large technological project in Texas, and it chose the Space
+            Station.
           </em>{' '}
           <Sidenote id={10} right={true}>
             The F-35 fighter plane suffers from a similar incentive problem. The
@@ -459,10 +465,12 @@ export default function Letter() {
           </Sidenote>{' '}
           <em>
             {' '}
-            The Space Station had the great advantage that it cost about ten
-            times more than the SSC, so NASA could spread contracts for its
-            development over many states. Perhaps if the SSC had cost more, it
-            would not have been canceled."
+            <b>
+              The Space Station had the great advantage that it cost about ten
+              times more than the SSC,{' '}
+            </b>{' '}
+            so NASA could spread contracts for its development over many states.
+            Perhaps if the SSC had cost more, it would not have been canceled."
           </em>
         </p>
       </Text>
@@ -1071,10 +1079,12 @@ export default function Letter() {
         <blockquote className=''>
           <em>
             Science can be effective in the national welfare only as a member of
-            a team, whether the conditions be peace or war. But without
-            scientific progress no amount of achievement in other directions can
-            insure our health, prosperity, and security as a nation in the
-            modern world.
+            a team, whether the conditions be peace or war. But{' '}
+            <b>
+              without scientific progress no amount of achievement in other
+              directions can insure our health, prosperity, and security as a
+              nation in the modern world.
+            </b>
           </em>{' '}
           —{' '}
           <a
@@ -1108,10 +1118,12 @@ export default function Letter() {
           <em>
             “Organizations as varied as Y Combinator, MIT’s Radiation Lab, and
             ARPA have astonishing track records in catalyzing progress far
-            beyond their confines. These examples collectively indicate that one
-            of our highest priorities should be figuring out interventions that
-            increase the efficacy, productivity, and innovative capacity of
-            human organizations.”
+            beyond their confines. These examples collectively indicate that{' '}
+            <b>
+              one of our highest priorities should be figuring out interventions
+              that increase the efficacy, productivity, and innovative capacity
+              of human organizations.”
+            </b>
           </em>
         </p>
         <p className=''>
@@ -1151,18 +1163,33 @@ export default function Letter() {
           Levers of Progress was co-created by{' '}
           <a href='https://www.ansonyu.me/'>Anson Yu</a> and{' '}
           <a href='https://www.kelv.me/'>Kelvin Yu</a>. We would like to
-          especially thank our early contributors, who solo-authored many
-          entries, provided invaluable feedback, and shared many inspiring
-          stories. They are:{' '}
+          especially thank our early contributors, who authored entries,
+          provided invaluable feedback, and shared inspiring stories. They are:{' '}
+          <a href='https://www.cos.io/team/brian-nosek'>Dr. Brian Nosek</a>,{' '}
+          <a href='https://twitter.com/rSanti97'>Santi Ruiz</a>,{' '}
           <a href='https://www.elidourado.com/'>Eli Dourado</a>,{' '}
-          <a href='https://www.elidourado.com/'>Ben Reinhardt</a>,{' '}
-          <a href='https://www.linkedin.com/in/charlesxjyang/'>Charles Yang</a>,{' '}
-          <a href='https://www.linkedin.com/in/joelburke1/'>Joel Burke, </a>
-          <a href='https://www.linkedin.com/in/alice-q-wu/'>Alice Wu, </a>
-          <a href='https://corinwagen.github.io/public/main/index.html'>
-            Corin Wagen
+          <a href='https://twitter.com/SusannahGlickm1'>
+            Dr. Susannah Glickman
           </a>
-          , <a href='https://maxlangenkamp.me/'>Max Langenkamp, </a>
+          , <a href='https://twitter.com/aramaswamis'>Ashwin Ramaswami</a>,{' '}
+          <a href='https://www.linkedin.com/in/sosanya'>Sosa</a>,{' '}
+          <a href='https://corinwagen.github.io/public/main/index.html'>
+            Dr. Corwin Wagen
+          </a>
+          ,{' '}
+          <a href='https://www.csis.org/people/masao-dahlgren'>
+            Masao Dahlgren
+          </a>
+          <a href='https://www.linkedin.com/in/charlesxjyang/'>Charles Yang</a>,{' '}
+          <a href='https://www.linkedin.com/in/erinsm/'>Erin Smith</a>,{' '}
+          <a href='https://michelle-fang.com/'>Michelle Fang</a>,{' '}
+          <a href='https://www.linkedin.com/in/dcooke34'>Di Cooke</a>,{' '}
+          <a href='https://jasonjinzhao.com/'>Jason Zhao</a>,{' '}
+          <a href='https://twitter.com/a_nnawang'>Anna Wang</a>,{' '}
+          <a href='https://www.linkedin.com/in/joelburke1/'>Joel Burke</a>,{' '}
+          <a href='https://www.linkedin.com/in/alice-q-wu/'>Alice Wu</a>,{' '}
+          <a href='https://maxlangenkamp.me/'>Max Langenkamp</a>,{' '}
+          <a href='https://www.elidourado.com/'>Ben Reinhardt</a>,{' '}
           <a href='https://www.ajkourabi.com/'>AJ Kourabi</a>, and a number of
           unnamed individuals, anonymized at their request.
         </p>
