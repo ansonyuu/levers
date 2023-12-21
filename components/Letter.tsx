@@ -102,7 +102,7 @@ export default function Letter() {
           trend. While the importance of scientists, entrepreneurs, and capital
           for innovation is obvious, we highlight the pivotal role that public
           policy and state capacity can have as well. LoP is an open collection
-          of <b>policies, tactics, and reforms</b>modern institutions have used
+          of <b>policies, tactics, and reforms</b> modern institutions have used
           to advance their scientific and technological output. Some have worked
           better than others, but we hope LoP will inspire more discussion on
           experimenting with similar interventions, faster and more often.
