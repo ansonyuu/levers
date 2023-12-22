@@ -530,9 +530,8 @@ export default function Letter() {
         </p>
       </Text>
       <div className='flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-4 lg:flex-row'>
-<<<<<<< HEAD
         <figure className='image mb-5'>
-          <img src='/letter-randd.png' />
+          <img src='/letter-randd.svg' />
           <p className='text-center'>
             <em>
               Reconstructed from the{' '}
@@ -543,7 +542,7 @@ export default function Letter() {
           </p>
         </figure>
         <figure className='image'>
-          <img src='/letter-spending.png' />
+          <img src='/letter-spending.svg' />
           <p className='text-center mt-3'>
             <em>
               Reconstructed from{' '}
@@ -552,13 +551,6 @@ export default function Letter() {
               </a>
             </em>
           </p>
-=======
-        <figure className='image'>
-          <img src='/letter-randd.svg' />
-        </figure>
-        <figure className='image'>
-          <img src='/letter-spending.svg' />
->>>>>>> b7d8094 (fix: images and formatting)
         </figure>
       </div>
       <Text>
