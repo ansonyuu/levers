@@ -234,7 +234,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                         className="flex flex-col justify-between md:flex-row my-2"
                       >
                         <div className="flex flex-row justify-between md:justify-between content-start items-start w-full gap-2 ">
-                          <div className="max-w-3/4 md:max-w-[70%] overflow-auto">
+                          <div className="overflow-auto">
                             <h2 className="text-[30px] whitespace-normal">
                               {lever?.title}
                             </h2>
@@ -242,9 +242,9 @@ export default function Home({ levers }: { levers: Lever[] }) {
                               {lever.oneliner}
                             </p>
                           </div>
-                          <div className="w-1/4 flex flex-row space-x-2 justify-end">
+                          {/* <div className="w-1/4 flex flex-row space-x-2 justify-end">
                             <Tags lever={lever} />
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
