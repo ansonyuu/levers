@@ -1193,6 +1193,10 @@ export default function Letter() {
           <a href='https://www.linkedin.com/in/alice-q-wu/'>Alice Wu</a>,{' '}
           <a href='https://maxlangenkamp.me/'>Max Langenkamp</a>,{' '}
           <a href='https://www.elidourado.com/'>Ben Reinhardt</a>,{' '}
+          <a href='https://twitter.com/humford'>Henry Williams</a>,{' '}
+          <a href='https://neilhacker.com/'>Neil Hacker</a>,{' '}
+          <a href='https://twitter.com/jasminewsun'>Jasmine Sun</a>,{' '}
+          <a href='https://jzhao.xyz/'>Jacky Zhao</a>,{' '}
           <a href='https://www.ajkourabi.com/'>AJ Kourabi</a>, and a number of
           unnamed individuals, anonymized at their request.
         </p>
