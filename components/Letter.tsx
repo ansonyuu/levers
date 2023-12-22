@@ -1150,14 +1150,7 @@ export default function Letter() {
             Typeform
           </a>
           .
-<<<<<<< HEAD
-          <br />
-          <br />
-          Let's get to work.
-        </p>
-=======
        <br/><br/>Let's get to work!</p>
->>>>>>> b7d8094 (fix: images and formatting)
         <blockquote className=''>
           <em>Where there is no vision, the people perish. —</em> Proverbs
           29:18.
