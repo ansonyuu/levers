@@ -1181,7 +1181,10 @@ export default function Letter() {
             Masao Dahlgren
           </a>
           <a href='https://www.linkedin.com/in/charlesxjyang/'>Charles Yang</a>,{' '}
-          <a href='https://www.linkedin.com/in/erinsm/'>Erin Smith</a>,{' '}
+          <a href='https://manhattan.institute/person/willy-chertman'>
+            Dr. Willy Chertman
+          </a>
+          , <a href='https://www.linkedin.com/in/erinsm/'>Erin Smith</a>,{' '}
           <a href='https://michelle-fang.com/'>Michelle Fang</a>,{' '}
           <a href='https://www.linkedin.com/in/dcooke34'>Di Cooke</a>,{' '}
           <a href='https://jasonjinzhao.com/'>Jason Zhao</a>,{' '}
