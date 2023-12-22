@@ -11,8 +11,9 @@ function Footer() {
     <div className="w-full bg-white max-h-[5vh] z-100">
       <div className="px-10 flex flex-col md:flex-col text-xs md:items-left justify-between">
         <div className="m-2 ">
-          © {new Date().getFullYear()} Levers for Progress
-        </div>
+          © {new Date().getFullYear()} Levers for Progress 
+          </div>
+  
       </div>
     </div>
   );

@@ -360,11 +360,11 @@ export default function Letter() {
       </Text>
       <div>
         <figure className='image'>
-          <img className='hidden md:inline-block' src='/letter-vannevar.png' />
+          <img className='hidden md:inline-block' src='/letter-vannevar.svg' />
 
           <img
             className='md:hidden inline-block px-5'
-            src='letter-vannevar-sm.png'
+            src='letter-vannevar-sm.svg'
           />
         </figure>
         <p className='text-center mt-3'>
@@ -476,11 +476,11 @@ export default function Letter() {
       </Text>
       <div>
         <figure className='image'>
-          <img className='hidden md:inline-block' src='/letter-ssc.png' />
+          <img className='hidden md:inline-block' src='/letter-ssc.svg' />
 
           <img
             className='md:hidden inline-block px-5'
-            src='letter-ssc-sm.png'
+            src='letter-ssc-sm.svg'
           />
         </figure>
         <p className='text-center mt-3'>
@@ -531,7 +531,7 @@ export default function Letter() {
       </Text>
       <div className='flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-4 lg:flex-row'>
         <figure className='image mb-5'>
-          <img src='/letter-randd.png' />
+          <img src='/letter-randd.svg' />
           <p className='text-center'>
             <em>
               Reconstructed from the{' '}
@@ -542,7 +542,7 @@ export default function Letter() {
           </p>
         </figure>
         <figure className='image'>
-          <img src='/letter-spending.png' />
+          <img src='/letter-spending.svg' />
           <p className='text-center mt-3'>
             <em>
               Reconstructed from{' '}
@@ -645,14 +645,14 @@ export default function Letter() {
       <div className='flex flex-col gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-8 lg:flex-row'>
         <div className='flex  gap-x-0 gap-y-4 lg:gap-y-4  lg:gap-x-8 flex-row'>
           <figure className='image'>
-            <img src='letter-climate.png' />
+            <img src='letter-climate.svg' />
           </figure>
           <figure className='image'>
-            <img src='letter-climate2.png' />
+            <img src='letter-industrial.svg' />
           </figure>
         </div>
         <figure className='image'>
-          <img src='letter-construction.png' />
+          <img src='letter-construction.svg' />
         </figure>
       </div>
       <Text>
@@ -1033,11 +1033,11 @@ export default function Letter() {
       </Text>
       <div>
         <figure>
-          <img className='hidden md:inline-block' src='/letter-chips.png' />
+          <img className='hidden md:inline-block' src='/letter-chips.svg' />
 
           <img
             className='md:hidden inline-block px-5'
-            src='letter-chips-sm.png'
+            src='letter-chips-sm.svg'
           />
         </figure>
       </div>
@@ -1114,7 +1114,7 @@ export default function Letter() {
           </a>
           :
         </p>
-        <p className=''>
+        <blockquote className=''>
           <em>
             “Organizations as varied as Y Combinator, MIT’s Radiation Lab, and
             ARPA have astonishing track records in catalyzing progress far
@@ -1125,7 +1125,7 @@ export default function Letter() {
               of human organizations.”
             </b>
           </em>
-        </p>
+        </blockquote>
         <p className=''>
           Through our work and reading, we’ve come across some deeply inspiring
           organizations, interventions, and principles. By aggregating these
@@ -1150,10 +1150,7 @@ export default function Letter() {
             Typeform
           </a>
           .
-          <br />
-          <br />
-          Let's get to work.
-        </p>
+       <br/><br/>Let's get to work!</p>
         <blockquote className=''>
           <em>Where there is no vision, the people perish. —</em> Proverbs
           29:18.
