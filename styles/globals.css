@@ -192,6 +192,10 @@ a {
   text-decoration-color: #7f4fc7;
 }
 
+b {
+  font-weight: 500;
+}
+
 .animate-underline-white,
 .animate-underline-purple {
   display: inline-block;

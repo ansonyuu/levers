@@ -648,7 +648,7 @@ export default function Letter() {
             <img src='letter-climate.svg' />
           </figure>
           <figure className='image'>
-            <img src='letter-climate2.svg' />
+            <img src='letter-industrial.svg' />
           </figure>
         </div>
         <figure className='image'>
