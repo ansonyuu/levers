@@ -1150,7 +1150,10 @@ export default function Letter() {
             Typeform
           </a>
           .
-       <br/><br/>Let's get to work!</p>
+          <br />
+          <br />
+          Let's get to work!
+        </p>
         <blockquote className=''>
           <em>Where there is no vision, the people perish. —</em> Proverbs
           29:18.
@@ -1171,12 +1174,13 @@ export default function Letter() {
           , <a href='https://twitter.com/aramaswamis'>Ashwin Ramaswami</a>,{' '}
           <a href='https://www.linkedin.com/in/sosanya'>Sosa</a>,{' '}
           <a href='https://corinwagen.github.io/public/main/index.html'>
-            Dr. Corwin Wagen
+            Dr. Corin Wagen
           </a>
           ,{' '}
           <a href='https://www.csis.org/people/masao-dahlgren'>
             Masao Dahlgren
-          </a>
+          </a>{' '}
+          ,{' '}
           <a href='https://www.linkedin.com/in/charlesxjyang/'>Charles Yang</a>,{' '}
           <a href='https://manhattan.institute/person/willy-chertman'>
             Dr. Willy Chertman
