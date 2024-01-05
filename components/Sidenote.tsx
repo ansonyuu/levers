@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Sidenote({ children, right, id }) {
     return (
       <div className="hidden md:inline">

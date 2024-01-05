@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import SEO from '../components/SEO';
 import Button from '../components/Button';
 import Letter from '../components/Letter';
@@ -19,25 +19,11 @@ const navList = [
 
 export default function Home() {
   const { scrollY } = useScroll();
-  const closer = useTransform(scrollY, [0, 800], [2000, 0]);
-  const normal = useTransform(scrollY, [0, 800], [500, 0]);
-  const far = useTransform(scrollY, [0, 800], [200, 0]);
-  const rotate = useTransform(scrollY, [0, 800], [0, 360]);
-
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  const handleScroll = () => {
-    const totalScroll = document.documentElement.scrollTop;
-    const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scroll = `${totalScroll / windowHeight}`;
-
-    setScrollProgress(parseFloat(scroll));
-  };
 
   return (
     <div className='overflow-y-auto'>
       <SEO title='Home' />
-      {/* <Sidebar/> */}
+      <Sidebar/>
         
 
       <div className='flex flex-col relative w-full'>

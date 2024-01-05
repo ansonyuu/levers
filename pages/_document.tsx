@@ -1,3 +1,4 @@
+import React from "react";
 import Document, {
   DocumentContext,
   DocumentInitialProps,
@@ -40,8 +41,8 @@ export default class MyDocument extends Document {
             key='og_image'
           />
           <meta property='og:image:type' content='image/png' />
-          <meta name='twitter:site' content='TODO' />
-          <meta name='twitter:card' content='summary' />
+          <meta name='twitter:site' content='leversforprogress.com' />
+          <meta name='twitter:card' content='An open collection of policies, tactics, and reforms modern institutions use to advance their scientific and technological output.' />
           <meta name='twitter:title' content='Levers for Progress' />
           <meta
             name='twitter:image'

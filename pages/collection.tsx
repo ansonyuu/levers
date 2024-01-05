@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";

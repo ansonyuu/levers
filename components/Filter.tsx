@@ -1,12 +1,10 @@
-import { ReactNode } from "react";
-import { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
+
 
 export default function Filter({
   levers,
-  className
 }: {
-  levers: any;
-  className?: string;
+  levers: Array<{ stage: string }>;
 }) {
   const [selectedStage, setSelectedStage] = useState(levers[0]);
   const [filteredStage, setFilteredStage] = useState(levers);
