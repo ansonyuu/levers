@@ -1,17 +1,31 @@
 import React from "react";
+import Link from "next/link"
 
 export default function Sidebar() {
     return (
-      <div className="sidebar fixed left-0 top-0 z-50 h-screen flex flex-col items-center hidden md:flex">
-        <div id="sidebarItem1">
-        <p>test</p>
+        <div className="max-w-[12vw] fixed bottom-0 left-0 z-50 h-screen hidden md:inline-block gradient">
+            <div className="flex flex-col justify-end h-full ml-2 pb-4 mx-auto my-auto gap-y-1">
+                <div id="sidebarItem1" className="w-full">
+                    <a href="/#section1">
+                        <h5>Welcome</h5>
+                    </a>
+                </div>
+                <div id="sidebarItem2" className="w-full">
+                    <a href="/#section2">
+                        <h5>The Rise and Fall of Technological Statecraft</h5>
+                    </a>
+                </div>
+                <div id="sidebarItem3" className="w-full">
+                    <a href="/#section3">
+                        <h5>The Roots of Revival</h5>
+                    </a>
+                </div>
+                <div id="sidebarItem4" className="w-full">
+                    <a href="/#section4">
+                        <h5>A Timely Collection</h5>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="sidebarItem2">
-        <p>test</p>
-        </div>
-        <div id="sidebarItem2">
-        <p>test</p>
-        </div>
-      </div>
     );
   }
