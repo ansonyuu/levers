@@ -3,7 +3,7 @@ import React from "react";
 export default function Filter({ lever }: { lever?: { stage: string | string[] } }) {
   return (
     <>
-      {lever.stage.map((i) => {
+      {Array.isArray(lever.stage) ? lever.stage.map((i) => {
         return (
           <p
             className={`text-[11px] p-2 mb-2 inline-block border-[0.5px] border-black rounded-sm ${
