@@ -121,10 +121,11 @@ export default function Home({ levers }: { levers: Lever[] }) {
                 className="p-3 ml-4 h-10 w-auto"
               />
             </Link>
-            <div className="h-full flex flex-row gap-x-3 items-center">
+            <div className="h-full flex flex-row gap-x-3 items-center justify-center">
+              
 
-            <Link className="no-underline" href="https://github.com/ansonyuu/levers">
-            <p className="text-right text-black ">Contribute</p>
+            <Link className=" no-underline" href="https://github.com/ansonyuu/levers">
+              <p className="text-black lg:mb-3">Contribute</p>
             </Link>
             <div className="relative m-2 p-1 px-3 border-black border">
               <input
@@ -143,7 +144,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
             </div>
             
           </div>
-          <div className="inline w-full h-30 md:h-full flex flex-col md:flex-row ">
+          <div className="inline w-full h-30 md:h-full flex flex-col md:flex-row">
             <div className="md:w-[12vw] md:border-r-[1px] border-b-[1px] md:border-b-[0px] border-black p-8 flex flex-row md:flex-col gap-x-4 ">
             
 
@@ -178,7 +179,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col md:w-[40vw] h-[70vh] md:h-[90vh] overflow-y-scroll no-scrollbar z-20">
+            <div className="flex flex-col md:w-[40vw] h-[78vh] md:h-[91vh] overflow-y-scroll no-scrollbar z-20">
               {filteredLevers
                 .filter((lever) => {
                   return (
@@ -266,6 +267,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
           </div>
         </Modal>
       </div>
+    
     </div>
   );
 }

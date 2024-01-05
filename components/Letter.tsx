@@ -1,6 +1,7 @@
 import React from "react";
 import Button from '../components/Button';
 import Sidenote from './Sidenote';
+import { useInView } from 'react-intersection-observer';
 
 function Text({ children }: { children: React.ReactNode }) {
   return (
@@ -11,6 +12,10 @@ function Text({ children }: { children: React.ReactNode }) {
 }
 
 export default function Letter() {
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Change this to false if you want to trigger every time it comes into view
+  });
+  
   return (
     <div className='w-full flex flex-col justify-center items-center '>
       <section id="section1" className="w-full flex flex-col justify-center items-center">
