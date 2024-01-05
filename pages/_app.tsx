@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import "../styles/globals.css";
 import { useRouter } from "next/router";
 import React, { useEffect } from 'react';
+import Background from '../components/Background';
 
 
 function Footer() {
@@ -20,6 +21,8 @@ function Footer() {
 }
 
 function MyApp({ Component, pageProps }) {
+
+
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = url => {
@@ -35,6 +38,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <AnimatePresence mode="wait">
+
       <motion.main
         initial="initialState"
         animate="animateState"

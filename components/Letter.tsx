@@ -12,6 +12,7 @@ function Text({ children }) {
 export default function Letter() {
   return (
     <div className='w-full flex flex-col justify-center items-center '>
+      <section id="section1" className="w-full flex flex-col justify-center items-center">
       <Text>
         <h3 className=''>
           <strong>Welcome.</strong>
@@ -249,6 +250,8 @@ export default function Letter() {
           </em>
         </p>
       </div>
+      </section>
+      <section id="section2" className='w-full flex flex-col justify-center items-center '>
       <Text>
         <h3 className=''>
           <strong>The Rise and Fall of Technological Statecraft</strong>
@@ -553,6 +556,8 @@ export default function Letter() {
           </p>
         </figure>
       </div>
+      </section>
+      <section id="section3" className='w-full flex flex-col justify-center items-center'>
       <Text>
         <h3 className=''>
           <strong>The Roots of Revival</strong>
@@ -1095,6 +1100,10 @@ export default function Letter() {
             Vannevar Bush
           </a>
         </blockquote>
+        </Text>
+        </section>
+        <section id="section4" className='w-full flex flex-col justify-center items-center '>
+        <Text>
         <h3 className=''>
           <strong>A Timely Collection</strong>
         </h3>
@@ -1202,7 +1211,7 @@ export default function Letter() {
           unnamed individuals, anonymized at their request.
         </p>
       </Text>
-
+</section>
       <Button className=' mb-32' />
     </div>
   );

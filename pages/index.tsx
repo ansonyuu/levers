@@ -1,9 +1,9 @@
-import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import SEO from '../components/SEO';
 import Button from '../components/Button';
 import Letter from '../components/Letter';
 import Sidenote from '../components/Sidenote';
-import Text from '../components/Text';
+import Sidebar from '../components/Sidebar';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 
@@ -24,9 +24,21 @@ export default function Home() {
   const far = useTransform(scrollY, [0, 800], [200, 0]);
   const rotate = useTransform(scrollY, [0, 800], [0, 360]);
 
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  const handleScroll = () => {
+    const totalScroll = document.documentElement.scrollTop;
+    const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scroll = `${totalScroll / windowHeight}`;
+
+    setScrollProgress(parseFloat(scroll));
+  };
+
   return (
     <div className='overflow-y-auto'>
       <SEO title='Home' />
+      {/* <Sidebar/> */}
+        
 
       <div className='flex flex-col relative w-full'>
         <img
@@ -35,20 +47,26 @@ export default function Home() {
           alt='decorational photo'
         />
 
+
+
         <div className='md:px-10 lg:px-20 w-full h-auto relative flex flex-col '>
           <div className='flex flex-row justify-end m-10 gap-x-4 md:mt-[-80px]'>
             {navList.map((navItem) => {
               return (
                 <a className='no-underline' href={navItem.link}>
-                  <p className='text-right text-black '>{navItem.name}</p>
+                 
+                  <p className='text-right text-black '> {navItem.name}</p>
+                  <hr className='border-t-0.5 border-black' />
+                
+               
                 </a>
               );
             })}
           </div>
           <div className='flex flex-col justify-center items-center m-10 gap-x-4 md:mt-[-30px]'>
-            <h1 className='text-center text-black normal-case'>
-              Levers for <br />
-              Progress
+            <h1 className='text-center text-black normal-case tracking-tight'>
+          Levers for <br />
+              <em>Progress</em>
             </h1>
 
             <div className='flex  justify-center px-5 md:px-10 lg:px-20 w-full md:w-2/3 lg:w-[50vw] flex flex-col  pt-10 lg:pt-5'>
@@ -61,7 +79,7 @@ export default function Home() {
                 <Sidenote id={2} right={true}>
                   Not siblings or married
                 </Sidenote>
-                <p className='text-center '>
+                <p className='text-center tracking-normal'>
                   <em>
                     A Living Database of Methods to Advance Science and
                     Technology
