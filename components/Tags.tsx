@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Filter({ lever }: { lever?: { stage: string[] } }) {
+export default function Filter({ lever }: { lever?: { stage: string } }) {
   return (
     <>
       {lever.stage.map((i) => {
