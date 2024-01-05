@@ -145,40 +145,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
           </div>
           <div className="inline w-full h-30 md:h-full flex flex-col md:flex-row ">
             <div className="md:w-[12vw] md:border-r-[1px] border-b-[1px] md:border-b-[0px] border-black p-8 flex flex-row md:flex-col gap-x-4 ">
-              {/* <div className=" text-gray-500 text-sm">
-                <p className="text-base">Stage</p>
-                <label className="sr-only">Underline select</label>
-                <select
-                  value={selectedStage.stage}
-                  onChange={handleStageChange}
-                  id="underline_select"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none focus:outline-none focus:ring-0 focus:border-gray-200 "
-                >
-                  <option selected>Select</option>
-                  <option value="Correction">Correction</option>
-                  <option value="Funding">Funding</option>
-                  <option value="Catalytic">Catalytic</option>
-                  <option value="Growth">Growth</option>
-                  <option value="Procurement">Procurement</option>
-                </select> 
-
-                <div className="w-full text-gray-500 text-sm">
-                  <p className="text-base">Domain</p>
-                  <label className="sr-only">Underline select</label>
-                  <select
-                    value={selectedDomain.stage}
-                    onChange={handleDomainChange}
-                    id="underline_select"
-                    className="w-[40vw] md:w-[10vw] block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none focus:outline-none focus:ring-0 focus:border-gray-200 peer"
-                  >
-                    <option selected>Select</option>
-                    <option value="Industry">Industry</option>
-                    <option value="Philanthropy">Philanthropy</option>
-                    <option value="Policy">Policy</option>
-                    <option value="Academia">Academia</option>
-                  </select>
-                </div>
-              </div> */}
+            
 
               <div className="text-gray-500">
               <p className=" text-xs ">
@@ -242,9 +209,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
                               {lever.oneliner}
                             </p>
                           </div>
-                          {/* <div className="w-1/4 flex flex-row space-x-2 justify-end">
-                            <Tags lever={lever} />
-                          </div> */}
+                
                         </div>
                       </div>
                     </div>
@@ -258,9 +223,9 @@ export default function Home({ levers }: { levers: Lever[] }) {
           <div className="p-8">
             <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
-            <div className="flex flex-row mm-3 gap-2">
-              <Tags levers={selectedLever} />
-            </div>
+            {/* <div className="flex flex-row mm-3 gap-2">
+              <Tags lever={selectedLever} />
+            </div> */}
 
             <div
               className={styles.markdown}
