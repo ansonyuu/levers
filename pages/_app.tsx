@@ -1,9 +1,8 @@
-import { motion, AnimatePresence } from "framer-motion";
-import "../styles/globals.css";
-import { useRouter } from "next/router";
 import React, { useEffect } from 'react';
-import Background from '../components/Background';
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/router";
 
+import "../styles/globals.css";
 
 function Footer() {
   const path = useRouter().route;
@@ -21,7 +20,6 @@ function Footer() {
 }
 
 function MyApp({ Component, pageProps }) {
-
 
   const router = useRouter();
   useEffect(() => {

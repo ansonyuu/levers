@@ -2,7 +2,7 @@ import React from "react";
 import Button from '../components/Button';
 import Sidenote from './Sidenote';
 
-function Text({ children }) {
+function Text({ children }: { children: React.ReactNode }) {
   return (
     <div className=' px-5 md:px-10 lg:px-20 w-full md:w-2/3 lg:w-1/2 py-10 flex flex-col gap-4'>
       {children}
@@ -349,7 +349,7 @@ export default function Letter() {
           security. They also expanded the National Institutes of Health to push
           the limits of biology and created programs that would later meld into
           the Department of Energy. The invention of the peer review system
-          streamlined scientists' ability to wade through the “growing mountain
+          streamlined scientists&apos; ability to wade through the “growing mountain
           of research” and match funds to the most qualified ones. The word
           “innovation” itself{' '}
           <a
@@ -447,7 +447,8 @@ export default function Letter() {
           <br />
           <br />
           <em>
-            "Spending for the SSC had become a target for a new class of
+            &quot;Spending for the SSC had become a target for a new class of
+            Spending for the SSC had become a target for a new class of
             Congressmen elected in 1992…they didn’t feel that much was at stake.
             <b>
               The Cold War was over, and discoveries at the SSC were not going
@@ -459,7 +460,7 @@ export default function Letter() {
           </em>{' '}
           <Sidenote id={10} right={true}>
             The F-35 fighter plane suffers from a similar incentive problem. The
-            $1 trillion jet—the DoD's most expensive weapons program ever—has
+            $1 trillion jet—the DoD&apos;s most expensive weapons program ever—has
             more than{' '}
             <a href='https://www.nytimes.com/2019/08/21/magazine/f35-joint-strike-fighter-program.html#:~:text=It%E2%80%99s%20no%20accident,criticize%20this%20program'>
               1,500
@@ -474,7 +475,7 @@ export default function Letter() {
               times more than the SSC,{' '}
             </b>{' '}
             so NASA could spread contracts for its development over many states.
-            Perhaps if the SSC had cost more, it would not have been canceled."
+            Perhaps if the SSC had cost more, it would not have been canceled.&quot;
           </em>
         </p>
       </Text>
@@ -511,7 +512,7 @@ export default function Letter() {
             other; either one dominating the other leads to poor outcomes.
           </Sidenote>{' '}
           technological inventions (and their supply chains) to the private
-          sector and global markets. As H.W. Bush's economic advisor famously{' '}
+          sector and global markets. As H.W. Bush&apos;s economic advisor famously{' '}
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -1162,7 +1163,7 @@ export default function Letter() {
           .
           <br />
           <br />
-          Let's get to work!
+          Let&apos;s get to work!
         </p>
         <blockquote className=''>
           <em>Where there is no vision, the people perish. —</em> Proverbs
@@ -1213,7 +1214,7 @@ export default function Letter() {
         </p>
       </Text>
 </section>
-      <Button className=' mb-32' />
+      <Button className='mb-32' />
     </div>
   );
 }

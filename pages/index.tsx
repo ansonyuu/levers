@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SEO from '../components/SEO';
 import Button from '../components/Button';
 import Letter from '../components/Letter';
 import Sidenote from '../components/Sidenote';
 import Sidebar from '../components/Sidebar';
 
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { useScroll } from 'framer-motion';
 
 const navList = [
   { name: 'Credits', link: '#credits' },
@@ -39,7 +39,7 @@ export default function Home() {
           <div className='flex flex-row justify-end m-10 gap-x-4 md:mt-[-80px]'>
             {navList.map((navItem) => {
               return (
-                <a className='no-underline' href={navItem.link}>
+                <a key={navItem.name} className='no-underline' href={navItem.link}>
                  
                   <p className='text-right text-black '> {navItem.name}</p>
                   <hr className='border-t-0.5 border-black' />

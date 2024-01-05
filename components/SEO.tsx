@@ -1,9 +1,9 @@
+import React from "react";
 import { NextSeo } from 'next-seo';
 
 export default function SEO({
   title,
   description,
-  imgUrl,
   noSuffix,
 }: {
   title: string;
