@@ -259,7 +259,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
             <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
             <div className="flex flex-row mm-3 gap-2">
-              <Tags lever={selectedLever} />
+              <Tags levers={selectedLever} />
             </div>
 
             <div
