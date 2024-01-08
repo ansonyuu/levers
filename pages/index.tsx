@@ -23,8 +23,7 @@ export default function Home() {
   return (
     <div className='overflow-y-auto'>
       <SEO title='Home' />
-      <Sidebar/>
-        
+      <Sidebar />
 
       <div className='flex flex-col relative w-full'>
         <img
@@ -33,25 +32,24 @@ export default function Home() {
           alt='decorational photo'
         />
 
-
-
         <div className='md:px-10 lg:px-20 w-full h-auto relative flex flex-col '>
           <div className='flex flex-row justify-end m-10 gap-x-4 md:mt-[-80px]'>
             {navList.map((navItem) => {
               return (
-                <a key={navItem.name} className='no-underline' href={navItem.link}>
-                 
+                <a
+                  key={navItem.name}
+                  className='no-underline'
+                  href={navItem.link}
+                >
                   <p className='text-right text-black '> {navItem.name}</p>
                   <hr className='border-t-0.5 border-black' />
-                
-               
                 </a>
               );
             })}
           </div>
           <div className='flex flex-col justify-center items-center m-10 gap-x-4 md:mt-[-30px]'>
             <h1 className='text-center text-black normal-case tracking-tight'>
-          Levers for <br />
+              Levers For <br />
               <em>Progress</em>
             </h1>
 
