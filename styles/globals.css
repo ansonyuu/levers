@@ -633,5 +633,5 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .gradient {
-  background: radial-gradient(43.72% 41.02% at 10.78% 98.08%, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(97.29% 19.98% at 0% 100%, #FFF 0%, rgba(255, 255, 255, 0.73) 60.5%, rgba(255, 255, 255, 0.00) 100%);
 }      
