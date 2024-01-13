@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property='og:image'
-            content='/index-topbanner.png'
+            content='https://www.leversforprogress.com/index-topbanner.png'
             key='og_image'
           />
           <meta property='og:image:type' content='image/png' />
@@ -54,6 +54,7 @@ export default class MyDocument extends Document {
             content='/index-topbanner.png'
             key='twitter_image_alt'
           />
+
           <meta
             name='twitter:description'
             content=' A Living Database of Methods to Advance Science and Technology. By Kelvin Yu and Anson Yu'

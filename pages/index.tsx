@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col justify-center items-center m-10 gap-x-4 md:mt-[-30px]'>
             <h1 className='text-center text-black normal-case tracking-tight'>
-              Levers For <br />
+              Levers for <br />
               <em>Progress</em>
             </h1>
 

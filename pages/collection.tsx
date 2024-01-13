@@ -251,9 +251,9 @@ export default function Home({ levers }: { levers: Lever[] }) {
             <div className="p-8">
               <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
 
-              <div className="flex flex-row gap-2">
+              {/* <div className="flex flex-row gap-2">
                 <Tags lever={selectedLever} />
-              </div>
+              </div> */}
 
               <div
                 className={styles.markdown}

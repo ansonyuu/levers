@@ -11,7 +11,7 @@ export default function SEO({
   imgUrl?: string;
   noSuffix?: boolean;
 }) {
-  const fullTitle = `${title}${noSuffix ? '' : ' | Levers For Progress'}`;
+  const fullTitle = `${title}${noSuffix ? '' : ' | Levers for Progress'}`;
 
   return (
     <NextSeo
