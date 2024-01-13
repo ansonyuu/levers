@@ -1,10 +1,10 @@
 ---
 title: Non-Traditional Acquisition Authorities
-oneliner: "Buy things better"
-image: "cover-market.png"
+oneliner: 'Buy things better'
+image: 'cover-market.png'
 authors:
   - name: Anonymous,
-    link: ""
+    link: ''
 stage: [Growth]
 domain: [Industry, Policy]
 type: [Procurement]
@@ -12,7 +12,7 @@ type: [Procurement]
 
 ## Contributors
 
-Anonymous researcher at a national security and technology
+Anonymous researcher at a national security and technology think tank
 
 ## Key things to know
 

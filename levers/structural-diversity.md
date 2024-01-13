@@ -1,6 +1,6 @@
 ---
 title: Structural Diversity
-oneliner: 'Upfront commitment to underwrite a market'
+oneliner: 'Diversify the types of scientific institutions'
 image: 'cover-market.png'
 authors:
   - name: Corin Wagen,
