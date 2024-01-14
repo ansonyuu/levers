@@ -324,8 +324,8 @@ export default function Letter() {
             >
               1.86%
             </a>{' '}
-            of GDP into R&amp;D by 1964 (3x higher than today’s federal R&amp;D
-            budget).{' '}
+            of GDP into R&amp;D by 1964 (3x higher than today’s federal
+            R&&amp;D:GDP ratio).{' '}
             <Sidenote id={5} right={false}>
               Much of the US R&D budget has shifted to the private sector, hence
               partially why federal R&D spending has gone down. Free markets are
