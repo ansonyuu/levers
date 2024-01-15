@@ -463,7 +463,7 @@ export default function Letter() {
             <br />
             <br />
             <em>
-              &quot;Spending for the SSC had become a target for a new class of
+              &quot;
               Spending for the SSC had become a target for a new class of
               Congressmen elected in 1992…they didn’t feel that much was at
               stake.
