@@ -927,8 +927,8 @@ export default function Letter() {
             >
               distributing
             </a>{' '}
-            distributing grants for scientists to take their research out of the
-            lab. A slew of publications including{' '}
+            grants for scientists to take their research out of the lab. A slew
+            of publications including{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'
