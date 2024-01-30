@@ -931,6 +931,14 @@ export default function Letter() {
             <a
               target='_blank'
               rel='noopener noreferrer'
+              href='https://americanaffairsjournal.org/'
+            >
+              American Affairs
+            </a>
+            ,{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
               href='https://www.freaktakes.com/'
             >
               FreakTakes
@@ -983,7 +991,16 @@ export default function Letter() {
               href='https://progress.institute/'
             >
               Institute for Progress
-            </a>{' '}
+            </a>
+            ,{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://americancompass.org/'
+            >
+              American Compass
+            </a>
+            ,{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'
