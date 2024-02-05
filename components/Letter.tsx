@@ -463,8 +463,7 @@ export default function Letter() {
             <br />
             <br />
             <em>
-              &quot;
-              Spending for the SSC had become a target for a new class of
+              &quot; Spending for the SSC had become a target for a new class of
               Congressmen elected in 1992…they didn’t feel that much was at
               stake.
               <b>
@@ -927,8 +926,16 @@ export default function Letter() {
             >
               distributing
             </a>{' '}
-            distributing grants for scientists to take their research out of the
-            lab. A slew of publications including{' '}
+            grants for scientists to take their research out of the lab. A slew
+            of publications including{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://americanaffairsjournal.org/'
+            >
+              American Affairs
+            </a>
+            ,{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -984,7 +991,16 @@ export default function Letter() {
               href='https://progress.institute/'
             >
               Institute for Progress
-            </a>{' '}
+            </a>
+            ,{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://americancompass.org/'
+            >
+              American Compass
+            </a>
+            ,{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'

@@ -45,6 +45,7 @@ export default function Home({ levers }: { levers: Lever[] }) {
   const [selectedStage, setSelectedStage] = useState(levers[0]);
   const [selectedDomain, setSelectedDomain] = useState(levers[0]);
   const [searchTerm, setSearchTerm] = useState("");
+  const selectedLeverPane = React.useRef<HTMLDivElement>(null);
   const router = useRouter();
   const size = useWindowSize();
   const md = markdown({ html: true });
@@ -66,6 +67,13 @@ export default function Home({ levers }: { levers: Lever[] }) {
       setSelectedLever(levers[0]);
     }
   }, [router.query.lever, levers, size.width]);
+
+  useEffect(() => {
+    if (!selectedLeverPane.current) {
+      return;
+    }
+    selectedLeverPane.current.scrollTop = 0;
+  }, [selectedLever]);
   
   const handleClick = (lever: Lever) => {
     setSelectedLever(lever);
@@ -219,7 +227,10 @@ export default function Home({ levers }: { levers: Lever[] }) {
             </div>
           </div>
         </div>
-        <div className="w-1/2 hidden md:inline-block overflow-y-scroll">
+        <div
+          ref={selectedLeverPane}
+          className="w-1/2 hidden md:inline-block overflow-y-scroll"
+        >
           <img alt="" src={`/${selectedLever?.image}`} className="" />
           <div className="p-8">
             <h2 className="mt-3 my-3">{selectedLever?.title} </h2>
