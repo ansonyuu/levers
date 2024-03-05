@@ -37,7 +37,9 @@ The government-wide environment today is one of tight budgets and intensified ov
 
 ## Potential pitfalls
 
-Like any government funding mechanism, there are implicit and explicit strings attached to cooperative agreements that can derail program implementation, or disincentivize entities from applying in the first place.
+Federal agencies often default to cooperative agreements (instead of more flexible arrangements, like Other Transactions Authority), because it is [viewed](https://www.statecraft.pub/p/how-to-buy-stuff-like-darpa-does#:~:text=Actually%20a%20lot%20of%20these%20agencies%20had%20OT%20authority%2C%20if%20they%E2%80%99d%20actually%20read%20their%20enabling%20statutes.%20They%20didn%27t%20know%20what%20the%20language%20meant.%C2%A0) as a more politically-safe option.
+
+In addition, like any government funding mechanism, there are implicit and explicit strings attached to cooperative agreements that can derail program implementation, or disincentivize entities from applying in the first place.
 
 As one case study into public health cooperative agreements [highlighted](https://www.naccho.org/uploads/downloadable-resources/Co-Ag-Case-Studies-Case-Study-1.pdf):
 
