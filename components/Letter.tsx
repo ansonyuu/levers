@@ -194,7 +194,7 @@ export default function Letter() {
               rel='noopener noreferrer'
               href='https://www.youtube.com/watch?v=GhljHahCick&ab_channel=MotivationStrikes'
             >
-              “just happens.”
+              “just happens”
             </a>
             . Some assume the universe has a{' '}
             <a
