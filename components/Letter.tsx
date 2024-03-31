@@ -207,10 +207,10 @@ export default function Letter() {
             that trends toward some technological singularity. Others believe
             innovation marches along a singular path whereby discoveries occur
             when they are destined to. Most just assume it is nothing more than
-            a stochastic procedure. Determinism, indeterminism, and apathy are
-            all equally destructive; history is neither inevitable nor random.
-            To believe either is to remove human agency to act, to change, to
-            mold the future.
+            a stochastic procedure. Predeterminism, indeterminism, and apathy
+            are all equally destructive; history is neither inevitable nor
+            random. To believe either is to remove human agency to act, to
+            change, to mold the future.
           </p>
           <p>
             We used to understand that{' '}
