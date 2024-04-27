@@ -1,6 +1,6 @@
 ---
 title: Standardize Pragmatic Tools
-oneliner: 'deduplicate, focus on the leading edge'
+oneliner: 'Deduplicate and focus on the leading edge'
 image: 'cover-market.png'
 authors:
   - name: Shihao Cao,
@@ -20,14 +20,17 @@ type: [Execution]
 
 ## Key things to know
 
-- Standardization is the process of deploying and developing technical standards based on the consensus of different parties (i.e. firms, users, interest groups, regulatory bodies, and governments)
+Standardization is the process of deploying and developing technical standards based on the consensus of different parties (i.e. firms, users, interest groups, regulatory bodies, and governments)
+
+Standardization also:
 - Bridges adoption gaps
 - Eliminates redundant research and development
 - Reduces friction for users (i.e. consumers, contractors, corporations)
-- There are varied ways of standardizing:
-  - government legislation
-  - establishing regulatory bodies
-  - consortiums
+
+There are varied ways of standardizing:
+- Government legislation
+- Establishing regulatory bodies
+- Consortiums
 
 ## Case study
 
@@ -54,18 +57,10 @@ Here are some example pitfalls along with examples of the FHWA being mindful of 
   > “Recognizing the need for flexibility to accommodate the evolving technological needs of charging in the future, FHWA modified the language of this final rule to allow DCFC charging ports to have other non-proprietary connectors (specifically identifying NACS and CHAdeMO)”
 
 ## Further readings
-- Federal Register link to the NEVI rule
-  - https://www.federalregister.gov/documents/2023/02/28/2023-03500/national-electric-vehicle-infrastructure-standards-and-requirements
-- White House Breifing Regarding NEVI
-  - https://www.whitehouse.gov/briefing-room/statements-releases/2023/06/27/fact-sheet-biden-harris-administration-driving-forward-on-convenient-reliable-made-in-america-national-network-of-electric-vehicle-chargers/
-- Upcoming NACS
-  - https://driveelectric.gov/charging-connector
-- x86 vs ARM vs RISCV
-  - https://jolt.law.harvard.edu/digest/intel-and-the-x86-architecture-a-legal-perspective
-- Type C vs Lightning Cable
-  - https://www.washingtonpost.com/technology/2023/09/12/iphone-usb-c-cable-charger/ 
-- V-type 3-point Seatbelt
-  - https://www.forbes.com/sites/douglasbell/2019/08/13/60-years-of-seatbelts-volvos-great-gift-to-the-world/?sh=11a5f40c22bc 
-- HD-DVD vs blue-ray
+- [National Electric Vehicle Infrastructure Standards and Requirements](https://www.federalregister.gov/documents/2023/02/28/2023-03500/national-electric-vehicle-infrastructure-standards-and-requirements)
+- [Convenient, Reliable, Made-in-America National Network of Electric Vehicle Chargers](https://www.whitehouse.gov/briefing-room/statements-releases/2023/06/27/fact-sheet-biden-harris-administration-driving-forward-on-convenient-reliable-made-in-america-national-network-of-electric-vehicle-chargers/)
+- [SAE J3400 Charging Connector](https://driveelectric.gov/charging-connector)
+- [Type C vs Lightning](https://www.europarl.europa.eu/news/en/press-room/20220930IPR41928/long-awaited-common-charger-for-mobile-devices-will-be-a-reality-in-2024)
+- [3-point Seatbelt](https://www.forbes.com/sites/douglasbell/2019/08/13/60-years-of-seatbelts-volvos-great-gift-to-the-world/?sh=11a5f40c22bc )
+- [HD Disc Format War](https://en.wikipedia.org/wiki/High-definition_optical_disc_format_war#:~:text=The%20high%2Ddefinition%20optical%20disc%20format%20war%20was%20a%20market,won%20by%20Blu%2Dray%20Disc.)
   - This is an example where standardization should have happened but no standardization happened.
-  - https://en.wikipedia.org/wiki/High-definition_optical_disc_format_war#:~:text=The%20high%2Ddefinition%20optical%20disc%20format%20war%20was%20a%20market,won%20by%20Blu%2Dray%20Disc.
