@@ -7,11 +7,9 @@ authors:
     link: https://www.shihaocao.com/
   - name: Jerry Sun,
     link: https://jsun14.github.io/
-    # ???
-stage: [Catalytic, Growth]
-# ???
+stage: [Correction, Growth]
 domain: [Industry, Policy]
-type: [Procurement]
+type: [Execution]
 ---
 
 ## Contributors
@@ -22,18 +20,18 @@ type: [Procurement]
 
 ## Key things to know
 
-- Standardization is the process of deploying and developing technical standards based on the consensus of different parties (i.e. firms, users, interest groups, regulatory bodies and governments)
-- Standardization helps bridge adoption gaps
+- Standardization is the process of deploying and developing technical standards based on the consensus of different parties (i.e. firms, users, interest groups, regulatory bodies, and governments)
+- Bridges adoption gaps
 - Eliminates redundant research and development
 - Reduces friction for users (i.e. consumers, contractors, corporations)
-- There are varied ways of Standardizing
+- There are varied ways of standardizing:
   - government legislation
   - establishing regulatory bodies
   - consortiums
 
 ## Case study
 
-The National Electric Vehicle Infrastructure Formula Program (NEVI) published by the Federal Highway Administration and Department of Transportation in 2023, seeks to encourage EV charging infrastructure development and standardization. It navigates which elements should or should not be legislated for the most public good.
+The [National Electric Vehicle Infrastructure Formula Program (NEVI)](https://www.federalregister.gov/documents/2023/02/28/2023-03500/national-electric-vehicle-infrastructure-standards-and-requirements) published by the Federal Highway Administration and Department of Transportation in 2023, seeks to encourage EV charging infrastructure development and standardization. It navigates which elements should or should not be legislated for the most public good.
 
 ### Key Points They Considered
 
@@ -46,19 +44,22 @@ The National Electric Vehicle Infrastructure Formula Program (NEVI) published by
 
 ### Pitfalls
 
-Here are some example pitfalls along with examples of the FHWA being mindful of the pitfalls.
+Here are some example pitfalls along with examples of the FHWA being mindful of them.
 
-- Don’t standardize specific implementations that are still developing.
-  - Regulation/regulators mustn't try to provision standardization in fields that have not yet explored the design space fully.
+- Refrain from standardize specific implementations that are still developing.
+  - Regulation/regulators should not standardize in fields that have not yet explored the design space fully.
   > "FHWA has not modified the language in this final rule to specifically accommodate MD/HD needs so as not to preempt the pace of technological innovation."
 - Considering future advancements or changes in consumer behavior is critical to avoiding pitfalls that may render standardizations obsolete shortly
-  - Regulators wanted to continue incentivizing the Combined Charging System (CCS) since it was widely supported. However, Tesla had openly released its charging standard known as NACS. The EV industry saw the opportunity to adopt a standard that would interoperate with Tesla Supercharging, and work was active in adopting the new standard [cite]. In order to account for future interoperability, regulators provisioned for more than just CCS in the program.
+  - Regulators wanted to continue incentivizing the Combined Charging System (CCS) since it was widely supported. However, Tesla had openly released its charging standard known as NACS. The EV industry saw the opportunity to adopt a standard that would interoperate with Tesla Supercharging, and work was [still actively adopting the newer NACS](https://driveelectric.gov/charging-connector). In order to account for future interoperability, regulators provisioned for CCS and the upcoming NACS.
   > “Recognizing the need for flexibility to accommodate the evolving technological needs of charging in the future, FHWA modified the language of this final rule to allow DCFC charging ports to have other non-proprietary connectors (specifically identifying NACS and CHAdeMO)”
 
 ## Further readings
-
+- Federal Register link to the NEVI rule
+  - https://www.federalregister.gov/documents/2023/02/28/2023-03500/national-electric-vehicle-infrastructure-standards-and-requirements
 - White House Breifing Regarding NEVI
   - https://www.whitehouse.gov/briefing-room/statements-releases/2023/06/27/fact-sheet-biden-harris-administration-driving-forward-on-convenient-reliable-made-in-america-national-network-of-electric-vehicle-chargers/
+- Upcoming NACS
+  - https://driveelectric.gov/charging-connector
 - x86 vs ARM vs RISCV
   - https://jolt.law.harvard.edu/digest/intel-and-the-x86-architecture-a-legal-perspective
 - Type C vs Lightning Cable
