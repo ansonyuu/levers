@@ -901,7 +901,7 @@ export default function Letter() {
             >
               Arcadia Science
             </a>
-            , and{' '}
+            ,{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -909,7 +909,15 @@ export default function Letter() {
             >
               Speculative Technologies
             </a>
-            . <br />
+            ,{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://abundance.institute/'
+            >
+              Abundance Institute
+            </a>
+            , and more. <br />
             <br />
             Deeptech venture funds have{' '}
             <a

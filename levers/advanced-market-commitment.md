@@ -57,6 +57,7 @@ In [Advance Market Commitment: Some Issues and a Remedy](https://www.cairn.info/
 
 ## Further readings
 
+- [How to Shape a Market | Statecraft](https://www.statecraft.pub/p/how-to-shape-a-market)
 - [Frontier: A $925M carbon removal AMC by Stripe, Alphabet, and others](https://frontierclimate.com/)
 - [“Demand Commitment Mechanisms” Can Jumpstart Long-Duration Energy Storage | Institute for Progress](https://progress.institute/demand-commitment-mechanisms-can-jumpstart-long-term-energy-storage/)
 - [Advance Market Commitments: Insights from Theory and Experience | American Economic Association](https://www.aeaweb.org/articles?id=10.1257/pandp.20201017)
